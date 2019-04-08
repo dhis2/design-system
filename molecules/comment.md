@@ -18,7 +18,7 @@ There are several states a comment can be in:
 
 #### Composition
 
-![](images/comment-empty.jpg)
+![](../images/comment-empty.jpg)
 
 An empty comment is made up of multiple elements, some of which are optional:
 
