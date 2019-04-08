@@ -11,22 +11,23 @@ This is the temporary home for the DHIS2 Design System while it is under develop
 ## Components
 The DHIS2 ui component system is based on atomic design principles, reducing components into reusable atoms and molecules. Each component has recommended usages.
 ### Atoms
-[Button](atoms/button.md)
-[Card](atoms/card.md)
-[Checkbox](atoms/checkbox.md)
-[Chip](atoms/chip.md)
-Input field
-Menu
-Progress
-[Radio button](atoms/radio.md)
-Select
-Switch
-[Tooltip](atoms/tooltip.md)
+* [Button](atoms/button.md)
+* [Card](atoms/card.md)
+* [Checkbox](atoms/checkbox.md)
+* [Chip](atoms/chip.md)
+* Input field
+* Menu
+* Progress
+* [Radio button](atoms/radio.md)
+* Select
+* Switch
+* [Tooltip](atoms/tooltip.md)
 
 ### Molecules
-[Comment](molecules/comment.md)
-[Modal](molecules/modal.md)
-Tree
+* [Comment](molecules/comment.md)
+* [Modal](molecules/modal.md)
+* [Popover](molecules/popover.md)
+* Tree
 
 ### Organisms
-[Header Bar](organisms/header-bar.md)
+* [Header Bar](organisms/header-bar.md)
