@@ -1,7 +1,7 @@
 # Popover
 A popover displays extra content to a user. Popovers are useful to give a user more information or possible actions without disrupting a page or flow.
 
-![](../images/popover.jpg)
+![](../images/popover-.jpg)
 
 ## Usage
 Popovers are similar to [tooltips](../atoms/tooltip.md), they are for displaying extra information, but popovers are intended for richer information and actions.
