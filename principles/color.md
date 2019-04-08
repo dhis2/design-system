@@ -1,4 +1,4 @@
-#Color
+# Color
 Use of color in dhis2 is used almost exclusively to communicate, rather than decoration. It is therefore important to maintain a consistent meaning for each color used. Color meaning is of course relative, 'red = danger' is not a global standard. However, with the use a of a consistent color palette we are to create a sense for the user that 'red **in dhis2** = danger'. 
 
 In general, the color principles used in dhis2 are:

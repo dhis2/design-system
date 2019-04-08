@@ -1,8 +1,8 @@
-#Button
+# Button
 
 Buttons are used for triggering actions. There are different types of buttons in the design system which are intended for different types of actions.
 
-##Usage
+## Usage
 
 Type | View | Usage
 --- | --- | ---
@@ -14,16 +14,16 @@ Type | View | Usage
 `Split` | ![](../images/btn-split.jpg) | Similar to the dropdown button, but can be triggered independently of opening the contained action list. The main action may be 'Save' and the contained actions may be "Save and add another" and "Save and open".
 `Link` | ![](../images/btn-link.jpg) | Not technically a button, but sometimes may be used in place of a button. Use when space is very limited. Links should mostly be used for navigation, not for triggering actions.
 
-###Using icons inside buttons
+### Using icons inside buttons
 Icons can be included in Basic, Primary, Secondary and Destructive buttons. Use an icon to supplement the text label. Remember that the user may not be fluent in the working language, so an accompanying icon on an important action can be a welcome addition. Buttons with icons only should be used for supplementary actions that are 
 
-###Button label
+### Button label
 Make sure the button's action is a clear verb. "Save" is clear, it could be even clearer if what is being saved is specified, "Save data", for example. Remember that some languages can be 3x longer than english, so specifying a fixed width will not work.
 
 Avoid ambiguious labels like 'Ok', using an action verb will make it clearer to the user what action will come from clicking the button.
 
-###Button size
+### Button size
 Buttons are availabl in three sizes: `small`, `medium`, `large`. Medium is usually the correct choice. Use small button in an information dense ui. Large buttons can be use on very simple, single action pages.
 
-###Disabled buttons
+### Disabled buttons
 Use disabled buttons when an action is being prevented for some reason. Always communicate to the user why the button can't be clicked. This can be done through a tooltip on hover, or with supplementary text underneath the button. Do not change the button label between disabled/enabled states.

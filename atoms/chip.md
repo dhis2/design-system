@@ -1,4 +1,4 @@
-#Chip
+# Chip
 Chips are useful for displaying defined choices and filters to the user. When clicked chips become active, and the related content will be 'filtered' by that chip choice. Chips are always a secondary content to a main element, for example a data table or a dashboard. 
 
 ## Usage

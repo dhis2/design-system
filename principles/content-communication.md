@@ -1,4 +1,4 @@
-#Content & Communication
+# Content & Communication
 ### Talking to the user
 
 It's important when communicating with the user to keep a consistent, understandable tone of voice. We do not want to talk down to our users, on the other hand we do not want to confuse them unnecessarily. 
@@ -56,14 +56,14 @@ Practicially this means, but is not limited to:
 ![example ui communicating filtered state](../images/filtered-information.jpg)
 *Without a simple explanation text, how would the user know why all units wern't in the list?*
 
-###Tone of voice
+### Tone of voice
 It is important to adopt the right tone of voice when communicating with the user. DHIS2 applications should keep the following principles in mind:
 * Simple. Information should be communicated in a simple way, don't overcomplicate sentences or give the user more information that they need. Remember that all content must be translated into many languages, so don't use unecessary words.
 * Honest. Always be open with application capabilities and status.
 * Friendly, but focused. It's ok to adopt a casual tone, but don't write jokes or light-hearted content. DHIS2 applications are used in sensitive conditions and the user interface should adopt a detached tone.
 
-####Examples
-#####Introducing the user to the available features in a modal view:
+#### Examples
+##### Introducing the user to the available features in a modal view:
 
 ❌ Too technical and formal:
 > Here you have the capability to edit all available data items, modify legend styles and add data filtering.
@@ -74,7 +74,7 @@ It is important to adopt the right tone of voice when communicating with the use
 ✅ A well-balanced, informative message:
 > Edit data, change legend styling and add filters below.
 
-#####Letting the user know there was an error:
+##### Letting the user know there was an error:
 
 ❌ Too technical and formal:
 > Unexpected end of dataset before loop finished, cannot render processed array.

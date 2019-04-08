@@ -1,4 +1,4 @@
-#Icons
+# Icons
 ## Icon Library
 
 The open source [Material Design Icons](https://material.io/tools/icons/) are available for use in d2. This large library gives access to icons across varied subject matter. The 'outlined' style of icon is used by default. Custom icons can be used where necessary, these should be made specifically for purpose by a designer.

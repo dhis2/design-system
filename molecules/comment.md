@@ -2,11 +2,11 @@
 
 A comment is used for inputting and displaying user generated information.
 
-##Usage
+## Usage
 <!-- todo usage section. when and where should a comment be used? -->
 WIP
 
-##States
+## States
 
 There are several states a comment can be in:
 

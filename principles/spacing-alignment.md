@@ -1,4 +1,4 @@
-#Spacing & Alignment
+# Spacing & Alignment
 
 ## Spacing between elements
 
