@@ -2,11 +2,11 @@
 This is the temporary home for the DHIS2 Design System while it is under development. The design system consists of principles to guide design of DHIS2 applications, as well as a library of flexible, reusable ui components.
 
 ## Design Principles
-[Typography](principles/typography.md)
-[Color](principles/color.md)
-[Spacing & Alignment](principles/spacing-alignment.md)
-[Content & Communication](principles/content-communication.md)
-[Icons](principles/icons.md)
+* [Typography](principles/typography.md)
+* [Color](principles/color.md)
+* [Spacing & Alignment](principles/spacing-alignment.md)
+* [Content & Communication](principles/content-communication.md)
+* [Icons](principles/icons.md)
 
 ## Components
 The DHIS2 ui component system is based on atomic design principles, reducing components into reusable atoms and molecules. Each component has recommended usages.
