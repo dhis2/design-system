@@ -15,6 +15,7 @@ The DHIS2 ui component system is based on atomic design principles, reducing com
 * [Card](atoms/card.md)
 * [Checkbox](atoms/checkbox.md)
 * [Chip](atoms/chip.md)
+* [Elevation](atoms/elevation.md)
 * Input field
 * Menu
 * Progress
@@ -31,3 +32,4 @@ The DHIS2 ui component system is based on atomic design principles, reducing com
 
 ### Organisms
 * [Header Bar](organisms/header-bar.md)
+* [Table](organisms/table.md)

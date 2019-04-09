@@ -3,6 +3,8 @@ A popover displays extra content to a user. Popovers are useful to give a user m
 
 ![](../images/popover-.jpg)
 
+[Design specs for building](https://sketch.cloud/s/DwkDk/eKeoaxx)
+
 ## Usage
 Popovers are similar to [tooltips](../atoms/tooltip.md), they are for displaying extra information, but popovers are intended for richer information and actions.
 
