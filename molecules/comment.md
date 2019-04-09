@@ -2,6 +2,8 @@
 
 A comment is used for inputting and displaying user generated information.
 
+[Design specs for building available here](https://sketch.cloud/s/DwkDk/1KDx0z8)
+
 ## Usage
 <!-- todo usage section. when and where should a comment be used? -->
 WIP

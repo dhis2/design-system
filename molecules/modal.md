@@ -2,6 +2,8 @@
 
 A modal is used for displaying information to the user in a focused environment. Modals are well suited when an application requires user input for high-intensity, contained actions.
 
+[Design specs for building available here](https://sketch.cloud/s/DwkDk/jgarwyW)
+
 ## Usage
 WIP
 
@@ -40,8 +42,11 @@ Modals can be set to different sizes. All sizes use the same padding for content
 
 Choose the appropriate modal size for your content. If no size is defined, a medium modal will be used. Modal views are always displayed vertically centered in the viewport.
 
-## Scrolling
+### Scrolling
 
 A Modals height is defined by its content. All modal sizes are vertically scrollable. When scrolling content inside a modal the header (title, if using) and footer (actions) should always remain fixed and on screen. A modal should have a maxium height of (viewport height - 48px margin top and bottom). Scrollable modals always display a scrollbar.
 
 ![](../images/modal-scroll.jpg)
+
+## Examples in use
+WIP
