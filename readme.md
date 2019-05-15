@@ -29,6 +29,7 @@ The DHIS2 ui component system is based on atomic design principles, reducing com
 * [Modal](molecules/modal.md)
 * [Popover](molecules/popover.md)
 * [Tabs](molecules/tab.md)
+* [Alert bar](molecules/alertbar.md)
 * Tree
 
 ### Organisms
