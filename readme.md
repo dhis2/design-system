@@ -4,7 +4,7 @@ This is the temporary home for the DHIS2 Design System while it is under develop
 ## Design Principles
 * [Typography](principles/typography.md)
 * [Color](principles/color.md)
-* [Spacing & Alignment](principles/spacing-alignment.md)
+* [Spacing, Alignment, Stacking](principles/spacing-alignment.md)
 * [Content & Communication](principles/content-communication.md)
 * [Icons](principles/icons.md)
 
