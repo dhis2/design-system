@@ -85,9 +85,10 @@ Alert bars can have up to two actions. An action can control something on the cu
 ### Icons
 Alert bar icons support the content and give the user a way of quickly understanding the context of the information. Example uses of icons:
 
-- Wifi/Network icon when informin the user about their network connection.
+- Wifi/Network icon when informing the user about their network connection.
 - Tick/checkmark when successfully adding a user.
 - ! icon when an error has occured.
 
-<!-- ## Examples in use -->
-
+## Examples in use
+![](../images/alertbar-example.png)
+*An alert bar confirms to the user that their dashboard was saved after they carried out changes. The changes might not be immediately visible, so it is useful to inform the user with an alert bar.*
