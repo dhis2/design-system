@@ -34,15 +34,15 @@ If in doubt, try to strike a balance between compact and 'spaced out'. Don't art
 ## Stacking
 It's important to maintain an understandable and consistent stacking system across all DHIS2 apps. "Stacking" refers to the concept of layering components on top of one another. For example, a modal window is stacked on top of regular application content. This communicates that a modal window interrupts the app flow for a different type of content.  The DHIS2 Design System defines 5 layers in the stack:
 
-![example of stacking layers](../images/stacking.png) 
+![example of stacking layers](../images/stacking.png)
 
 Layer | Description
 ------------ | -------------
 Base Application Layer (0–1999) | Contains all components, controls and data for the main application. The application can define it's own layering from 0 to 1999.
 Application Top Layer (2000) | Protected components that always layer over the top of the base application layer. This layer is reserved for controls such as dropdowns and popovers that functionally must always display above the application content.
-Blocking Layer (3000) | Blocks the application and its controls, so is only use for actions that are intentionally interrupting. This layer is reserved for all modal windows.
-Loading Layer (4000) | Blocks all application interaction. Reserved for displaying the loading state of an entire application. 
-Alert Layer (5000) | The top layer is reserved for displaying alert bars. Alert bars can contain critical information and so must always be displayed above all other content.
+Blocking Layer (3000) | Blocks the application and its controls, so is only use for actions that are intentionally interrupting. This layer contains a sceen cover which blocks the layers beneath. Child elements, such as [modals](../molecules/modal.md) or loaders, can be added to this layer.
+Reserved (4000–9998) | Reserved for future development.
+Alert Layer (9999) | The top layer is reserved for displaying [alert bars](../molecules/alertbar.md). Alert bars can contain critical information and so must always be displayed above all other content.
 
 ### Using stacking
 All layers above 1999 are protected and should not be used for application components and controls. When building your application it may be necessary to define your own system between 0–1999. Keep in mind how users perceive different layers. Layers at the 'top' of a stack will always seem most important. Placing content on different layers may obscure information in some cases, always be aware of the consequences of stacking. If in doubt it is safer to place content on the same layer than risk overlapping, unclear layouts.
