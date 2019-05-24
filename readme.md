@@ -17,11 +17,11 @@ The DHIS2 ui component system is based on atomic design principles, reducing com
 * [Chip](atoms/chip.md)
 * [Elevation](atoms/elevation.md)
 * Input field
-* Menu
-* Progress
+* [Menu](atoms/menu.md)
+* [Loading indicators](atoms/loading.md)
 * [Radio button](atoms/radio.md)
 * Select
-* Switch
+* [Switch](atoms/switch.md)
 * [Tooltip](atoms/tooltip.md)
 
 ### Molecules
