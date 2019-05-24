@@ -21,18 +21,21 @@ A circular loader is used when the loading time is uncertain and cannot be displ
 A circular loader can be used to indicate loading of an entire application. A circular loader is always combined with a ScreenCover which prevents the user from interacting with the application. Page loaders are always centered in the viewport. Use a 'Large' size loader for page loaders. If some components have loaded but not others, display Component Loaders instead (see below), and let the user interact with the available components.
 
 ![Page loader example](../images/pageloader.png)
+
 This page loader covers the whole screen while the application loads.
 
 ##### Circular Component Loader
 Component loaders are used to indicate a loading state for an individual component, for example a dashboard item. Components loaders are useful to inform the user that while the application/page has loaded, not all the elements are ready yet. Without a component loader a user can mistakenly think that data is missing or an error has occured. Circular component loaders should always be centered in the component and include a ComponentCover element to block the content beneath. Use 'Small' size loader for Component Loaders.
 
 ![Component loader example](../images/componentloader.png)
+
 An example of a dashboard item that has not loaded yet, so displays a component loader inside.
 
 #### Linear
 Linear loaders are used when the percentage loaded is known and be shown to the user. They can be used in the same page/component variations as circular loaders.
 
 ![Component Linear loader example](../images/componentloaderlinear.png)
+
 A dashboard item with a linear loader, which shows the user the approxmiate progress of the loading.
 
 <!-- ## Examples in use -->

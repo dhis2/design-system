@@ -37,4 +37,5 @@ Menu items can be grouped together/split with the use of dividers. This makes se
 ## Examples in use
 
 ![](../images/menu-example.png)
+
 *Complex actions and options for this embedded analytical object are availble in a menu. If all of these options were available and visible all the time it would be difficult to parse the information on screen.*
