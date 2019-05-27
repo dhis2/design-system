@@ -8,7 +8,7 @@ A popover displays extra content to a user. Popovers are useful to give a user m
 ## Usage
 Popovers are similar to [tooltips](../atoms/tooltip.md), they are for displaying extra information, but popovers are intended for richer information and actions.
 
-Popovers are triggered by hovering or tapping on an element. Clicking on a element keeps the popover open until the user clicks or interacts elsewhere on the page. 
+Popovers are triggered by hovering or tapping on an element. Clicking on a element keeps the popover open until the user clicks or interacts elsewhere on the page.
 
 Popovers can contain information in the form of rich markup, as well as actions. Critical actions, or the only action on a page, should not be hidden behind inside a popover.
 
@@ -19,4 +19,5 @@ By default popovers are displayed above the target element. Where space, or wher
 
 ## Examples in use
 ![](../images/popover-example.jpg)
+
 *This popover displays useful information about a data element in a form. A user might not need this information daily, but it is useful to be able to access for new users or those that need a reminder. A popover serves this purpose well.*

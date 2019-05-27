@@ -4,11 +4,19 @@ A comment is used for inputting and displaying user generated information.
 
 [Design specs for building available here](https://sketch.cloud/s/DwkDk/1KDx0z8)
 
-## Usage
-<!-- todo usage section. when and where should a comment be used? -->
-WIP
+## General Usage
 
-## States
+### Input
+Comments should be used wherever a user can input text that is saved and attributed to them. Comments are common in web applications, many users understand the concept. The concept of ownership is key, it is important that a user realises the comment will be associated to them.
+
+Make sure to use an informative, helpful placeholder text that informs the user of what the input box is for. For example, in an area for writing comments about a chart, the placeholder text could be 'Comment on this chart'. This helps the user to understand what the input box is there for. The user should never be confused about what writing in this input will do.
+
+Comments include functionality for rich text editing, as well as a secondary action area for including additional actions for the active comment, such as sharing settings. Read more about this below in the 'Editing' comment state.
+
+### Display
+Comments are also used to display previous user input. Comments are displayed with associated users name/photo. Comments displayed in a chronological list can communicate a complex discussion. Replies can be enabled, which allow for threaded, focused discussion.
+
+## State-specific Usage
 
 There are several states a comment can be in:
 
@@ -67,14 +75,16 @@ An editing comment is made up of multiple elements, some of which are optional.
 1. **User profile photo, optional**
 2. **Text field, required**
 3. **Rich text toolbar, optional**
-4. **Additional options, optional**
+4. **Secondary action area, optional**
 5. **Confirm/cancel actions, required**
 
 #### Interaction
 
 The main interaction with an Editing comment is writing text into the input field. This behaves as expected for a text input field. The Save and Cancel buttons are used to save or discard content.
-Typing the @ character launches the popover for mentioning a user. This is discussed in more detail below. This functionality is optional and can be disabled.
-A secondary action area is available to enable the use of comments in a wider range of situations. Many apps require extended functionality for comments, this is where this can be displayed. An example is the ‘Manage sharing’ information displayed with Interpretations in Editing mode in Analytics apps. 
+<!-- Typing the @ character launches the popover for mentioning a user. This is discussed in more detail below. This functionality is optional and can be disabled. -->
+
+A secondary action area is available to enable the use of comments in a wider range of situations. Many apps require extended functionality for comments, the secondary action area is where this can be displayed. An example is the ‘Manage sharing’ information displayed with Interpretations in Editing mode in Analytics apps.
+
 The ‘rich text toolbar’ provides UI access to  the rich text/linking capabilities available for comments. Rich text uses markdown (need dev confirmation). The following rich text interactions are possible:
 
 - Bold text
