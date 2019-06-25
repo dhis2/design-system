@@ -4,7 +4,7 @@ A tooltip is a container for displaying information about an element, it is disp
 ![](../images/tooltip.jpg)
 
 ## Usage
-Tooltips only display when a user hovers over an element. Therefore it is important not to use tooltips for critical or important information. Information provided in tooltips should be supplementary or provide helpful context. Icon buttons can use tooltips to inform the user of their action. Never put important information or actions inside a tooltip.
+Tooltips only display when a user hovers over an element. Do not use tooltips for critical or important information, users may not find the information or it may completely unavailable to mobile users. Information provided in tooltips should be supplementary or provide helpful context. Icon buttons can use tooltips to inform the user of their action. Never put important information or actions inside a tooltip.
 
 * Common usage of a tooltip is to expand on the displayed information when the user hovers over the element.
 * Do not place actions inside a tooltip, they would be hidden from the user and difficult to click.
