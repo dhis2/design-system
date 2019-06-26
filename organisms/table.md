@@ -1,7 +1,7 @@
-# Table
-Tables are used to display data in a standard, effective way.
+# Data Table
+Data Tables are used to display data in a standard, effective way.
 
-![](../images/table.jpg) 
+![](../images/table.jpg)
 
 
 [Basic CSS example](https://codepen.io/j_cpr/pen/ROozMB)
