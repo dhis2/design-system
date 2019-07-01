@@ -4,7 +4,7 @@ A radio button is a control that allows a user to select a single option from a 
 ![](../images/radio-buttons.jpg)
 
 ## Usage
-Radio buttons are used where a user has the choice of several options but must select only one. Radio buttons should be used where the user has to make a choice, there is no default or 'off' state. Radio buttons should be used when there are 5 or less options available. With more than five a dropdown/select menu should be used instead.
+Radio buttons are used where a user has the choice of several options but must select only one. Radio buttons should be used where the user has to make a choice, there is no 'off' or 'none' state unless explicitly defined. Radio buttons should be used when there are 5 or less options available. With more than five a dropdown/select menu should be used instead.
 
 Do not use a radio button if only a single option is available, use a [checkbox](checkbox.md) here instead.
 
