@@ -1,25 +1,26 @@
 # Input field
-An input field is used to input all kinds of information.
+An input field is used to input text.
 
 ![](../images/text-input.png)
 
 ## Usage
-There are two different types of input field available: outlined and filled. Outlined input fields are the default choice. Both styles are functionally the same, they differ only in visual style.
+There are two different types of input field available: regular and filled. Regular input fields are the default choice. Both styles are functionally the same, they differ only in visual style. Regular input fields separate the label and the text field, filled fields combine them.
 
-Outlined input fields are more suited to forms with multiple inputs. Filled input fields work best when used alone or in small groups. Filled input fields also blend into a background more, so they will be less visible to the user. This can be useful for secondary actions like search or filter.
+Regular input fields are more suited to forms with multiple inputs. Filled input fields work best when used alone for a single selection, especially in compact UIs. Filled input fields also blend into a background more, so they will be less visible to the user. This can be useful for secondary actions like search or filter.
 
 ### Labels
-The input field label/placeholder text will move to the top of the input field when the user inputs information. This helps the user remember what the input field is used for, without taking up space above the input itself.
-
 Make sure to provide useful label text that is short, concise and describes the intended input.
+
+### Placeholder text
+Placeholder text can give the user some guidance on how the field should be used or what kind of information is expected. Do not include critical information in placeholder text, it will not be visible once a user inputs text.
 
 ### Sizes
 Input fields are available in Regular and Dense sizes. Regular sizes are best for applications with plenty of space and few controls. Dense sizes work well in data-heavy, complex layouts.
 
-![example of text input sizes](../images/text-input-sizes.png)
+![example of text input sizes](../images/text-input-dense.png)
 
 ### Help text
-Input fields can include helper text below. This helper text provides guideance to the user. Do not use helper text on every form field, this will be overwhelming to the user. Only include help text for difficult to learn, or one-off inputs.
+Input fields can include helper text below. This helper text provides guidance to the user. Do not use helper text on every form field, this will be overwhelming to the user. Only include help text for difficult to learn, or one-off inputs.
 
 ![example of text input help](../images/text-input-help.png)
 
