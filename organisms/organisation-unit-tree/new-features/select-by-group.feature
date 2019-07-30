@@ -22,6 +22,10 @@ Feature: Selection of descendant groups inside an org unit
     Then the selection should be removed
     And the visual indication should be removed
 
+  Scenario: Define selection logic
+    Given multiple group selections have been applied to 'Sierra Leone'
+    Then the user can toggle between an 'AND' or 'OR' selection logic
+
   #UX/Design focused scenario, mostly to remind Joe not to forget it
   Scenario: Toggle the group selection between types AND and OR
     Given the user has made a group selection

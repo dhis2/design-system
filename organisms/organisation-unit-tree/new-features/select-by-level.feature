@@ -20,6 +20,10 @@ Feature: Selection of descendant levels inside an org unit
     Then the selection should be removed
     And the visual indication should be removed
 
+  Scenario: Define selection logic
+    Given multiple level selections have been applied to 'Sierra Leone'
+    Then the user can toggle between an 'AND' or 'OR' selection logic
+
   #UX/Design focused scenario, mostly to remind Joe not to forget it
   Scenario: Toggle the level selection between types AND and OR
     Given the user has made a level selection
