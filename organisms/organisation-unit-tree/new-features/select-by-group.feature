@@ -1,31 +1,30 @@
 # Generic
 
-Feature: Selection of descendant levels and/or groups inside an org unit
+Feature: Selection of descendant groups inside an org unit
 
   Background:
     Given an org unit tree with root org unit 'Sierra Leone'
-    And descendants inside 'Sierra Leone' with multiple groups and levels
+    And descendants inside 'Sierra Leone' with multiple groups
 
-  Scenario: Selection of a level or group inside an org unit
-    Given the user has opened the context menu 'Sierra Leone'
-    When the user selects a level or group type from the 'Select by >' menu
-    Then all org units of that level or group are selected as a single selection
+  Scenario: Selection of a group inside an org unit
+    When the user selects a group type from the 'Select by group' option
+    Then all org units of that group are selected as a single selection
     And 'Sierra Leone' org unit visually indicates the selection made
 
-  Scenario: Hide non-available groups and levels in 'Select by' menus
-    Given the user has opened the context menu for 'Sierra Leone'
-    Then only groups that are present in descendants should appear in 'Select by group >' sub-menu
-    And only levels that are present in descendants should appear in 'Select by level >' sub-menu
+  Scenario: Hide non-available groups
+    Given the user is making a group selection
+    Then only groups that are present in descendants should be available to 'Select by group'
+    And only groups that the user is authorized to select should be available to 'Select by group'
 
-  Scenario: Deselection of a level or group inside an org unit
-    Given a group or level selection has been applied to 'Sierra Leone'
-    When the user removes the group or level selection
+  Scenario: Deselection of a group inside an org unit
+    Given a group selection has been applied to 'Sierra Leone'
+    When the user removes the group selection
     Then the selection should be removed
     And the visual indication should be removed
 
   #UX/Design focused scenario, mostly to remind Joe not to forget it
-  Scenario: Toggle the group/level selection between types AND and OR
-    Given the user has made a group and/or level selections
+  Scenario: Toggle the group selection between types AND and OR
+    Given the user has made a group selection
     Then a UI control is available to change between selection modes: AND, OR
 
 # Specific

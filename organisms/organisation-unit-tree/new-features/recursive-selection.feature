@@ -1,10 +1,10 @@
 Feature: Recursive selection of org units
 
   Background:
-    Given an org unit tree with recursive selection mode enabled
+    Given an org unit tree has recursive selection enabled
 
   Scenario:
-    Given an org unit tree with a root unit with descendants
+    Given an org unit tree has root and descendant nodes
     When the user selects the root unit
     Then the root unit is selected
     And the descendants of the root unit are indeterminately selected

@@ -9,6 +9,5 @@ Feature: Org unit node context menu
     And the context menu icon displays in an active state
 
   Scenario: The context menu icon is hidden by default
-    Given an org unit is displayed
-    When the org unit is not hovered
+    Given the user does not hover an org unit
     Then the context menu icon is hidden

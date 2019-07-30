@@ -9,8 +9,8 @@ Feature: Select units relative to the user's org unit, 'relative units'
     Then a visual indication of the selection type is presented
     And the org unit tree is disabled
 
-  Scenario: Non-relative selections persist after a relative selection is made and cleared
-    Given the user has made several regular selections in the org unit tree
+  Scenario: Non-relative selections previous to relative selection are restored when relative selection is cleared
+    Given the user has made several non-relative selections in the org unit tree
     And the user has made a relative selection
     When the user removes/clears the relative selection
     Then the org unit tree is enabled

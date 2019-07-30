@@ -16,7 +16,6 @@ Feature: Search the organisation unit matching the search term
     Given the user searches the organisation unit tree
     When the result contains a unit in the sub tree
     Then then all units in the path will be shown
-    And the units in the path that do not match the search term will be visually different from matched units
 
   Scenario: Tree contains units not in the result or a result's path
     Given the user searches the organisation unit tree
