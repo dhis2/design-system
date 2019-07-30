@@ -5,8 +5,8 @@ Background:
   And descendants inside 'Sierra Leone' with multiple groups and levels
 
   Scenario: Selecting all org units of a certain group or level inside another org unit
-    When the user select a group or level inside the root org unit
-    Then all org units of that group or level inside 'Sierra Leone' are explicitly selected
+    When the user selects a group or level inside the root org unit
+    Then all org units of the chosen group or level inside 'Sierra Leone' are selected individually
     And a visual indication of the number of selections made is temporarily displayed
 
   Scenario: Hide non-available groups and levels
