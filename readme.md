@@ -11,6 +11,7 @@ This is the temporary home for the DHIS2 Design System while it is under develop
 ## Components
 The DHIS2 ui component system is based on atomic design principles, reducing components into reusable atoms and molecules. Each component has recommended usages.
 ### Atoms
+* [Avatar](atoms/avatar.md)
 * [Button](atoms/button.md)
 * [Card](atoms/card.md)
 * [Checkbox](atoms/checkbox.md)
