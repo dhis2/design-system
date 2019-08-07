@@ -19,6 +19,7 @@ Avatars are available in five sizes. The default size is 'medium'. Use the size 
 ## Examples in use
 
 ![](../images/avatar-example-1.png)
+
 *Avatars are used in comments to quickly understand that these comments belong to different users, without needing to read the username. The users own avatar is used to show that they can input data here too.*
 
 ---
