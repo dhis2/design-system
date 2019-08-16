@@ -1,7 +1,7 @@
 # Checkbox
 A checkbox is a control that allows a user to toggle an option.
 
-![](../images/checkbox.jpg)
+![](../images/checkbox.png)
 
 ## Usage
 Checkboxes are used when an option can be toggled on or off. Toggling a checkbox on (true) is always considered a positive action and should reflect a positive/true/on state. Multiple checkboxes can be used in a list where a user can toggle multiple elements.
@@ -15,5 +15,5 @@ The checked/unchecked/disabled states of a checkbox are self-explanatory. An ind
 
 ## Examples in use
 
-![](../images/checkbox-example.png) 
+![](../images/checkbox-example.png)
 *Checkboxes are used for toggling on/off the display of certain elements. Checkbox status True/On indicates that this element will display*
