@@ -16,6 +16,7 @@ The pagination component is made up of several elements, some of which are optio
 1. **Previous & Next buttons, required**
 2. **Page control dropdown, optional**
 3. **Context information, optional**
+4. **Result count selector, optional**
 
 ### Types
 Different types of pagination are available by including different elements:
@@ -30,7 +31,10 @@ All elements are included, the user can page using the previous and next buttons
 
 Smaller datasets might not need full pagination controls. By only including the previous and next buttons a much simpler, compact component is available.
 
+#### Full pagination
+![](../images/pagination-full.png)
 
+Including all of the pagination elements results in a full-featured pagination control.
 ## Examples in use
 
 ![](../images/pagination-example.png)
