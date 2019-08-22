@@ -35,6 +35,6 @@ The DHIS2 ui component system is based on atomic design principles, reducing com
 * Tree
 
 ### Organisms
+* [Data Table](organisms/data-table.md)
 * [Header Bar](organisms/header-bar.md)
-* [Data Table](organisms/table.md)
 * [Organisation Unit Tree](organisms/organisation-unit-tree/org-unit-tree.md)
