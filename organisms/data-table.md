@@ -23,9 +23,10 @@ The data table component is made up of several elements, some of which are optio
 
 ## Functionality
 
-### Title
+### Table title
 ![](../images/datatable-title.png)
 
+##### When to use a table title?
 A title provides context to a table that might appear in a complex interface. Titles are most useful if there are multiple tables on one page. Titles are not necessary if the table comes directly after a header or other title. Titles should be short and informative. Use a title that will make sense even if the data displayed changes drastically.
 
 ### Filters
