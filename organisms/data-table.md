@@ -41,6 +41,8 @@ Include filters in a data table when a user needs to find specific data in large
 
 Filtering works best when a user wants to return multiple results that fit some criteria. If a user is looking for a single result, especially where they know a name/title/attribute, then provide search functionality outside of the table.
 
+---
+
 ### Table actions
 ![](../images/datatable-actions.png)
 ##### What are table actions?
@@ -53,6 +55,8 @@ Actions are presented as buttons in a 'table actions' area. Primary actions can 
 Only include actions here that apply directly to the data in the data table, not to the rest of the interface.
 
 Primary actions will be very visible to the user, so only include actions here that will apply to most use cases. Edge case or rarely used options should be accessed through the overflow menu to avoid overwhelming users with options.
+
+---
 
 ### Row actions
 ![](../images/datatable-row-actions.png)
@@ -68,6 +72,8 @@ A click action can be also be set per row that will be activated by clicking on 
 ##### When to use row actions?
 Primary row actions add a lot of potential action points to a page, so use them with care. Only use primary actions where that action needs to be available for all rows at all times. Secondary actions available through the overflow menu can be included anytime it is useful for users to take action when viewing the data table.
 
+---
+
 ### Sorting/Ordering
 ![](../images/datatable-sorting.png)
 
@@ -80,6 +86,8 @@ Column headings can be clicked to enable sorting by that column. The direction o
 ##### When to use sorting/ordering?
 Sorting is enabled by default. Only disable sorting if the order of the displayed data is intentional/meaningful and therefore should not be changed by a user.
 
+---
+
 ### Fixed header
 ![](../images/datatable-fixed-header.png)
 
@@ -89,6 +97,8 @@ A table header that remains in view when vertically scrolling a data table. If a
 ##### When to use a fixed header?
 Fixed headers are useful for browsing data in limited space where the header would otherwise be hidden and users may not remember the content of each column. A fixed header ensures users always have context for the table data.
 
+---
+
 ### Fixed columns
 ![](../images/datatable-fixed-column.png)
 
@@ -97,6 +107,8 @@ Columns in a data table that remain in view when a table horizontally scrolls. I
 
 ##### When to use fixed columns?
 Use fixed columns where space is limited and a user may need to scroll the table horizontally. Keeping a column(s) fixed helps the user to understand which row they are viewing/editing when scrolling.
+
+---
 
 ### Inline editing
 ![](../images/datatable-inline-edit.png)
@@ -111,6 +123,8 @@ Clicking an editable cell opens a popover with the input controls for editing th
 
 ##### When to use inline editing?
 Inline editing should be used with restraint. It can be useful for power users, they can quickly edit values without leaving the data table. However, it can be overwhelming for some users, and can be particularly difficult when working with large data sets. Also consider network conditions, an unreliable network can make inline editing less clear, as the distinction between saved/failed is not always clear to a user.
+
+---
 
 ### Selectable rows
 ![](../images/datatable-selectable-rows.png)
@@ -130,6 +144,8 @@ Use selectable rows with checkboxes to allow users to perform an action on one o
 
 Use a single selectable row (radio button) when a user needs to choose an option from a data table. Think carefully if a data table is the right way to display the options, would a dropdown or a simpler list work? Only use a single selectable row if the user needs to see/manipulate all of the data when making a choice.
 
+---
+
 ### Reordering rows
 ![](../images/datatable-reorder.png)
 
@@ -141,6 +157,8 @@ When row reordering is enabled the primary action (e.g. clicking the row) will a
 
 ##### When to use row reordering?
 Row reordering should only be used where it will have a lasting, meaningful effect on the data in the data table. Do not use row reordering for temporarily sorting data in a table.
+
+---
 
 ### Editable columns
 ![](../images/datatable-edit-columns.png)
@@ -168,15 +186,21 @@ The empty state is flexible and accepts any elements, but by default it is recom
 
 Column headers can be displayed in an empty state if they are available, this can help the user to understand the data that would be there if the table was not empty.
 
+---
+
 ### Bordered cells
 ![](../images/datatable-bordered.png)
 
 Bordered cells are useful when displaying very complex data that may have similar values. For example, a table that displays only number values is best shown with borders to help visually seperate the values. Tables where rows represent one 'record' that has different value types (name, address, age, etc.) do not need borders.
 
+---
+
 ### Built-in formatting
 ![](../images/datatable-cell-formatting.png)
 
 Several built-in text styles are available for cells. Technically any type of content can be input into a table cell, but using these styles where possible helps to build a consistent DHIS2 platform.
+
+---
 
 ### Status badges
 ![](../images/datatable-status-badge.png)
@@ -192,6 +216,8 @@ Type  |  Usage
 ![](../images/datatable-status-neutral.png)  |  Useful for data is that is completed or finished, but not necessarily valid. So, it is a step beyond the 'starting' status above.
 ![](../images/datatable-status-valid.png)  |  Indicates the data in the row is valid. Only use where the data has been properly checked and validated, use a neutral status if the validation is unknown.
 ![](../images/datatable-status-error.png)  |  There is an error or problem with the data row. Only use where this status has been properly checked/confirmed.
+
+---
 
 ### Large cells
 ![](../images/datatable-large.png)
