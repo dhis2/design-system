@@ -21,27 +21,27 @@ The data table component is made up of several elements, some of which are optio
 4. **Data rows and header, required**
 5. **Pagination, required**
 
-### Functionality
+## Functionality
 
-#### Title
+### Title
 ![](../images/datatable-title.png)
 
 A title provides context to a table that might appear in a complex interface. Titles are most useful if there are multiple tables on one page. Titles are not necessary if the table comes directly after a header or other title. Titles should be short and informative. Use a title that will make sense even if the data displayed changes drastically.
 
-#### Filters
+### Filters
 ![](../images/datatable-filter.png)
 ##### What are filters?
 Filter controls allow a user to view a precise, focused set of data. If filtering is enabled the user will be able to filter each column in the table. The type of filter depends on the data type. Text can be filtered with text, numbers can be filtered by min/max and so on.
 
 ##### How are filters used?
-By default the first 5 columns are displayed as filter buttons. Additional columns are available from the 'More' button. Clicking a filter button opens a popover with input controls. An actively filtered column is highlighted with an active button and text indicating the applied filter. Never filter data in a table without informing the user, it is important a user knows they are viewing a filtered set of data.
+By default the first 3 columns are displayed as filter buttons, this can be set to a custom value. Additional columns are available from the 'More' button. Specific columns can also be set to always display in the visible filters. Clicking a filter button opens a popover with input controls. An actively filtered column is highlighted with an active button and text indicating the applied filter. Never filter data in a table without informing the user, it is important a user knows they are viewing a filtered set of data.
 
 ##### When to use filters?
 Include filters in a data table when a user needs to find specific data in large data sets. Filtering is a very effective way of finding the right data. Enabling filtering on a data table means that a single data table can fulfill several different functions for varying users and use cases.
 
 Filtering works best when a user wants to return multiple results that fit some criteria. If a user is looking for a single result, especially where they know a name/title/attribute, then provide search functionality outside of the table.
 
-#### Table actions
+### Table actions
 ![](../images/datatable-actions.png)
 ##### What are table actions?
 Actions that can be applied to the entire data table, or the currently selected data rows.
@@ -54,7 +54,7 @@ Only include actions here that apply directly to the data in the data table, not
 
 Primary actions will be very visible to the user, so only include actions here that will apply to most use cases. Edge case or rarely used options should be accessed through the overflow menu to avoid overwhelming users with options.
 
-#### Row actions
+### Row actions
 ![](../images/datatable-row-actions.png)
 
 ##### What are row actions?
@@ -68,7 +68,7 @@ A click action can be also be set per row that will be activated by clicking on 
 ##### When to use row actions?
 Primary row actions add a lot of potential action points to a page, so use them with care. Only use primary actions where that action needs to be available for all rows at all times. Secondary actions available through the overflow menu can be included anytime it is useful for users to take action when viewing the data table.
 
-#### Sorting/Ordering
+### Sorting/Ordering
 ![](../images/datatable-sorting.png)
 
 ##### What is sorting/ordering?
@@ -80,7 +80,7 @@ Column headings can be clicked to enable sorting by that column. The direction o
 ##### When to use sorting/ordering?
 Sorting is enabled by default. Only disable sorting if the order of the displayed data is intentional/meaningful and therefore should not be changed by a user.
 
-#### Fixed header
+### Fixed header
 ![](../images/datatable-fixed-header.png)
 
 ##### What is a fixed header?
@@ -89,7 +89,7 @@ A table header that remains in view when vertically scrolling a data table. If a
 ##### When to use a fixed header?
 Fixed headers are useful for browsing data in limited space where the header would otherwise be hidden and users may not remember the content of each column. A fixed header ensures users always have context for the table data.
 
-#### Fixed columns
+### Fixed columns
 ![](../images/datatable-fixed-column.png)
 
 ##### What are fixed columns?
@@ -98,7 +98,7 @@ Columns in a data table that remain in view when a table horizontally scrolls. I
 ##### When to use fixed columns?
 Use fixed columns where space is limited and a user may need to scroll the table horizontally. Keeping a column(s) fixed helps the user to understand which row they are viewing/editing when scrolling.
 
-#### Inline editing
+### Inline editing
 ![](../images/datatable-inline-edit.png)
 
 ##### What is inline editing?
@@ -112,7 +112,7 @@ Clicking an editable cell opens a popover with the input controls for editing th
 ##### When to use inline editing?
 Inline editing should be used with restraint. It can be useful for power users, they can quickly edit values without leaving the data table. However, it can be overwhelming for some users, and can be particularly difficult when working with large data sets. Also consider network conditions, an unreliable network can make inline editing less clear, as the distinction between saved/failed is not always clear to a user.
 
-#### Selectable rows
+### Selectable rows
 ![](../images/datatable-selectable-rows.png)
 
 ##### What are selectable rows?
@@ -130,7 +130,7 @@ Use selectable rows with checkboxes to allow users to perform an action on one o
 
 Use a single selectable row (radio button) when a user needs to choose an option from a data table. Think carefully if a data table is the right way to display the options, would a dropdown or a simpler list work? Only use a single selectable row if the user needs to see/manipulate all of the data when making a choice.
 
-#### Reordering rows
+### Reordering rows
 ![](../images/datatable-reorder.png)
 
 ##### What is row reordering?
@@ -142,7 +142,7 @@ When row reordering is enabled the primary action (e.g. clicking the row) will a
 ##### When to use row reordering?
 Row reordering should only be used where it will have a lasting, meaningful effect on the data in the data table. Do not use row reordering for temporarily sorting data in a table.
 
-#### Editable columns
+### Editable columns
 ![](../images/datatable-edit-columns.png)
 
 ##### What are editable columns?
@@ -156,10 +156,10 @@ Allowing users to edit column visibility and ordering can be useful for creating
 
 However, do not include editable column by default. There must be an identified use case. Editing columns is advanced functionality and can be intimidating for some users, so it should be used with care.
 
-### Options
+## Options
 Data tables have various options and styles for displaying data:
 
-#### Empty state
+### Empty state
 ![](../images/datatable-empty.png)
 
 An empty data table should be still communicate helpful information to a user. If there is no data to display do not simply show an empty table. Sometimes it may make sense to hide an empty table, but keep in mind that users will be unaware why the table is hidden and may be confused. In most situations it is best to show a data table with a useful empty state.
@@ -168,17 +168,17 @@ The empty state is flexible and accepts any elements, but by default it is recom
 
 Column headers can be displayed in an empty state if they are available, this can help the user to understand the data that would be there if the table was not empty.
 
-#### Bordered cells
+### Bordered cells
 ![](../images/datatable-bordered.png)
 
 Bordered cells are useful when displaying very complex data that may have similar values. For example, a table that displays only number values is best shown with borders to help visually seperate the values. Tables where rows represent one 'record' that has different value types (name, address, age, etc.) do not need borders.
 
-#### Built-in formatting
+### Built-in formatting
 ![](../images/datatable-cell-formatting.png)
 
 Several built-in text styles are available for cells. Technically any type of content can be input into a table cell, but using these styles where possible helps to build a consistent DHIS2 platform.
 
-#### Status badges
+### Status badges
 ![](../images/datatable-status-badge.png)
 Status badges are a useful component to include in data tables that need to display a status for each displayed row. The 'status badge' component provides consistent styles that can be combined with custom text and icons. Use status badges where each table row has a state from a few possible shared states. Do not use status badges for unique values.
 
@@ -193,7 +193,7 @@ Type  |  Usage
 ![](../images/datatable-status-valid.png)  |  Indicates the data in the row is valid. Only use where the data has been properly checked and validated, use a neutral status if the validation is unknown.
 ![](../images/datatable-status-error.png)  |  There is an error or problem with the data row. Only use where this status has been properly checked/confirmed.
 
-#### Large cells
+### Large cells
 ![](../images/datatable-large.png)
 
 Large cells use a larger font-size and cell height. Use large cells where users will rarely see large amounts of data, or where users may be intimidated by compact data.
