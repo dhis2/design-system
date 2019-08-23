@@ -68,7 +68,7 @@ Actions that can be applied to a single row in a data table.
 ##### How are row actions used?
 Row actions are always displayed as the last column in a row. Primary row actions are displayed as text links in the row. A maximum of 2 primary row actions can be shown.  Other secondary actions are available through the 'three-dots' overflow menu.
 
-A click action can be also be set per row that will be activated by clicking on that row. For example, clicking on a row may activate 'View' action and navigate to that row on a new page.
+A click action can be also be set for all rows that will be activated by clicking on that row. For example, clicking on a row may activate 'View' action and navigate to that row on a new page.
 
 ##### When to use row actions?
 Primary row actions add a lot of potential action points to a page, so use them with care. Only use primary actions where that action needs to be available for all rows at all times. Secondary actions available through the overflow menu can be included anytime it is useful for users to take action when viewing the data table.
