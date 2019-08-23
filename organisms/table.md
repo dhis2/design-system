@@ -1,5 +1,5 @@
-# Data Table
-Data Tables are used to display data in a standard, effective way.
+# Table
+Tables are used to display data in a standard, effective way.
 
 ![](../images/table.jpg)
 
