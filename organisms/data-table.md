@@ -35,7 +35,7 @@ A title provides context to a table that might appear in a complex interface. Ti
 Filter controls allow a user to view a precise, focused set of data. If filtering is enabled the user will be able to filter each column in the table. The type of filter depends on the data type. Text can be filtered with text, numbers can be filtered by min/max and so on.
 
 ##### How are filters used?
-By default the first 3 columns are displayed as filter buttons, this can be set to a custom value. Additional columns are available from the 'More' button. Specific columns can also be set to always display in the visible filters. Clicking a filter button opens a popover with input controls. An actively filtered column is highlighted with an active button and text indicating the applied filter. Never filter data in a table without informing the user, it is important a user knows they are viewing a filtered set of data.
+By default the first 3 columns are displayed as filter buttons, this can be set to a custom value. Additional columns are available from the 'More' button. Clicking a filter button opens a popover with input controls. An actively filtered column is highlighted with an active button and text indicating the applied filter. Never filter data in a table without informing the user, it is important a user knows they are viewing a filtered set of data.
 
 ##### When to use filters?
 Include filters in a data table when a user needs to find specific data in large data sets. Filtering is a very effective way of finding the right data. Enabling filtering on a data table means that a single data table can fulfill several different functions for varying users and use cases.
