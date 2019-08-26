@@ -31,6 +31,9 @@ A title provides context to a table that might appear in a complex interface. Ti
 
 ### Filters
 ![](../images/datatable-filter.png)
+
+![](../images/datatable-filter-display.png)
+
 ##### What are filters?
 Filter controls allow a user to view a precise, focused set of data. If filtering is enabled the user will be able to filter each column in the table. The type of filter depends on the data type. Text can be filtered with text, numbers can be filtered by min/max and so on.
 
