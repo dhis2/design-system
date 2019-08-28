@@ -48,6 +48,10 @@ Where multiple files can be uploaded by a single file upload component, those fi
 If a file upload is set to accept one file only, the upload button will be disabled when a file has been uploaded.
 
 
+### Button text
+
+The button text and icon can be customised. Ensure the text makes sense and is an action verb. For example 'Upload a file', 'Add patient records', 'Upload a photo' and so on.
+
 ## Examples in use
 
 WIP
