@@ -19,7 +19,7 @@ It is important to include help text to inform the user what files are acceptabl
 ### File list
 ![](../images/file-upload-full.png)
 
-The filename of successfully uploaded files is displayed in the file list. Each file in the list has a control to remove that file.
+The filename of successfully uploaded files, or files queued for upload, are displayed in the file list. Each file in the list has a control to remove that file.
 
 ### File list placeholder text
 ![](../images/file-upload-placeholder.png)
