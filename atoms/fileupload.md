@@ -3,6 +3,8 @@ The file upload component allows users to upload files from their local machine.
 
 ![](../images/file-upload.png)
 
+[Design specs for building file upload](https://sketch.cloud/s/DwkDk/a/jWp5Oz)
+
 ## Usage
 Use a file upload component in forms and interfaces wherever a user needs to be able to upload a file from their local machine.
 
