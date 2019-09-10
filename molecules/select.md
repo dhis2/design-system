@@ -3,6 +3,8 @@ The select component allows selection of one or more options from a list.
 
 ![](../images/select.png)
 
+[Specs for building select component](https://sketch.cloud/s/DwkDk/a/Q5EqdY)
+
 
 ## Usage
 Use a select component wherever the user needs to make a selection of one or more options from a list of 6 or more options. If there are less than 6 options to choose from and space permits, use [checkboxes](../atoms/checkbox.md) for multiple selection and [radio buttons](../atoms/radio.md) for single selection. If the user needs to make a complex selection with a specific ordering, use a transfer(WIP) instead.
