@@ -12,13 +12,14 @@ There are use-cases that are particularly suitable for a transfer component:
 - when a user needs to select some options from several different groups at the same time
 - if the selection needs to have a defined order
 - when the user will be interacting with and editing the selection often
-
+- if a user needs to easily compare non-selected and selected options
+- if a user is making selections as part of a complex flow, especially where there are many options to choose from
 
 ## Composition
 
 A transfer is made up of three parts, all of which are required:
 
-![](../images/transfer-composition.png) 
+![](../images/transfer-composition.png)
 
 1. **Options list, required:** displays the available options the user can select from
 2. **Transfer controls, required:** provides controls for the user to transfer options to and from each list
@@ -32,7 +33,7 @@ There are different features and functionality available to the transfer compone
 ### Basic
 ![](../images/transfer.png)
 
-The basic transfer feature set. The available options are displayed in a list on the left. The selected options are displayed in a list on the right. The transfer controls have buttons for moving one or all of the options to and from each list.
+The basic transfer feature set. The available options are displayed in a list on the left. The selected options are displayed in a list on the right. The transfer controls have buttons for moving one or all of the options to and from each list. Options can also be double clicked to move them back/forth between the lists.
 
 Use a basic transfer if no more additional functionality, detailed below, is required. If the simplest component works for the use case, use the simplest component.
 
