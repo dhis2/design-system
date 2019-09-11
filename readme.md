@@ -21,7 +21,6 @@ The DHIS2 ui component system is based on atomic design principles, reducing com
 * [Input field](atoms/inputfield.md)
 * [Loading indicators](atoms/loading.md)
 * [Radio button](atoms/radio.md)
-* Select
 * [Switch](atoms/switch.md)
 * [Tooltip](atoms/tooltip.md)
 
@@ -31,6 +30,7 @@ The DHIS2 ui component system is based on atomic design principles, reducing com
 * [Menu](atoms/menu.md)
 * [Pagination](molecules/pagination.md)
 * [Popover](molecules/popover.md)
+* [Select](molecules/select.md)
 * [Tabs](molecules/tab.md)
 * [Alert bar](molecules/alertbar.md)
 * Tree
