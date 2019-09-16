@@ -11,7 +11,14 @@ Do not use checkboxes in a list of several options where only a single option ca
 #### States
 The checked/unchecked/disabled states of a checkbox are self-explanatory. An indeterminate state is used when some, but not all, of the child elements are selected. This state represents a middle ground between checked/unchecked.
 
-`todo - add example of indeterminate checkbox`
+An example of an indeterminate checkbox:
+
+![](../images/checkbox-indeterminate.png)
+
+#### Sizes
+
+Checkboxes are available in Regular and Dense sizes. Regular size is usually used in forms and whenever a checkbox, or checkboxes, are used standalone. Dense size checkboxes are used inside other complex components, not as main elements of a UI.
+
 
 ## Examples in use
 
