@@ -8,6 +8,10 @@ Radio buttons are used where a user has the choice of several options but must s
 
 Do not use a radio button if only a single option is available, use a [checkbox](checkbox.md) here instead.
 
+### Sizes
+
+Radio buttons are available in Regular and Dense sizes. Regular size is usually used in forms and whenever radio buttons are used standalone. Dense size radio buttons are used inside other complex components, not as main elements of a UI.
+
 ## Examples in use
 
 ![](../images/radio-example.jpg)
