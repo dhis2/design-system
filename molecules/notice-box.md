@@ -3,11 +3,11 @@ The notice box component highlights useful information that is directly relevant
 
 ![](../images/notice-box-information.png)
 
-<!-- [Specs for building notice bar](https://sketch.cloud/s/DwkDk/a/Q5EqdY) -->
+[Specs for building notice bar](https://sketch.cloud/s/DwkDk/a/nzvzrk)
 
 
 ## Usage
-Use a notice box wherever there is important information about a page or situation that the user needs to be aware of.
+Use a notice box wherever there is important, temporary information about a page or situation that the user needs to be aware of.
 
 Notice boxes are different from [alert bars](alertbar.md) in several ways. Notice boxes cannot be dismissed, so they will always display until the situation is resolved. Notice boxes are for highlighting static information or information that is ongoing. Alert bars are suited to alerting a user about something that has just happened.
 
@@ -17,6 +17,8 @@ Another way to decide which component to use:
 - an alert bar will usually display in response to an action/event
 
 Notice boxes cannot be dismissed, so it is important to provide guidance on how to fix the problem/condition that is causing the notice box to display.
+
+Do not use a notice box to display permanent information. If there is information that always will be displayed on a page it should be designed as part of the page itself. Notice boxes are for temporary information.
 
 ## Composition
 
