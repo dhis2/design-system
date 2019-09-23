@@ -4,7 +4,7 @@
 | **Type** | ~type~ ([?](http://atomicdesign.bradfrost.com/chapter-2/))|
 | **Design Spec** | *pending* |
 | **Working Examples** | *pending* |
-| **Status** | `Work in progress` |
+| **Status** | `Work in progress`, `Waiting for build`, `Ready to use` |
 
 ---
 
