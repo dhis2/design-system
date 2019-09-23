@@ -1,7 +1,27 @@
+| |  |
+|-------------|------------------|
+| **Component** | Input |
+| **Type** | Molecule ([?](http://atomicdesign.bradfrost.com/chapter-2/))|
+| **Design Spec** | *pending* |
+| **Working Examples** | *pending* |
+| **Status** | `Work in progress` |
+
+---
+
 # Input
+
 An input allows a user to enter data, usually text.
 
 ![](../images/input.png)
+
+##### Contents
+
+- [Usage](#usage)
+- [Composition](#composition)
+- [Options](#options)
+- [Types](#types)
+- [States](#states)
+- [Examples in use](#examples-in-use)
 
 ## Usage
 Inputs are used wherever a user needs to input standard text information. Inputs are often used as part of forms. An input can also be used to capture information outside of a form, perhaps as a 'Filter' or 'Search' field.
@@ -15,6 +35,8 @@ An input is made up of multiple elements, some of which are optional:
 1. **Label, optional**
 2. **Input element, required**
 3. **Help text, optional**
+
+---
 
 ## Options
 Inputs have several options, each detailed below. All of the options listed below are available for all types of input. Specific options for each type of input are listed in the Types section.
@@ -146,6 +168,8 @@ A valid value can be communcated using the 'valid' input field state. This state
 ![example of text input loading](../images/input-loading.png)
 
 The loading state is useful for communcating to the user that the application is checking the user entered value and another state will follow, either valid or error. Only use loading states where loading is actually taking place.
+
+---
 
 ## Examples in use
 
