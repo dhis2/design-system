@@ -18,7 +18,7 @@ The DHIS2 ui component system is based on atomic design principles, reducing com
 * [Chip](atoms/chip.md)
 * [Elevation](atoms/elevation.md)
 * [File Input](atoms/fileinput.md)
-* [Input field](atoms/inputfield.md)
+* [Input](atoms/inputfield.md)
 * [Loading indicators](atoms/loading.md)
 * [Radio button](atoms/radio.md)
 * [Switch](atoms/switch.md)
