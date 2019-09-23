@@ -1,26 +1,12 @@
-| |  |
-|-------------|------------------|
-| **Component** | Notice Box |
-| **Type** | Molecule ([?](http://atomicdesign.bradfrost.com/chapter-2/))|
-| **Design Spec** | [Link](https://sketch.cloud/s/DwkDk/a/nzvzrk) |
-| **Working Examples** | *pending* |
-| **Status** | `Waiting for build` |
 
----
 
 # Notice Box
+The notice box component highlights useful information that is directly relevant to the page the user is viewing.
 
-A notice box component highlights useful information that is directly relevant to the page the user is viewing.
+![](../images/notice-box-information.png)
 
-![](../images/notice-box-information@2x.png)
+[Specs for building notice bar](https://sketch.cloud/s/DwkDk/a/nzvzrk)
 
-##### Contents
-
-- [Usage](#usage)
-- [Composition](#composition)
-- [Options](#options)
-- [Types](#types)
-- [Examples in use](#examples-in-use)
 
 ## Usage
 Use a notice box wherever there is important, temporary information about a page or situation that the user needs to be aware of.
@@ -46,18 +32,12 @@ A notice box is made up of multiple elements, some of which are optional:
 2. **Body text, required**
 3. **Actions (maximum 2), optional**
 
----
-
-## Options
-
-### Actions
+## Actions
 Notice boxes can contain up to two actions, displayed as text links.
 
 Actions should always relate to the content of the notice box and should help to find out more information or resolve the problem that triggered the notice box.
 
 For help writing effective action text, check out the [content and communication principles](../principles/content-communication.md).
-
----
 
 ## Types
 
@@ -83,8 +63,6 @@ Where possible, include an action to help the user resolve the problem.
 Use a critical notice box to alert the user to a critical problem on the page/in the current context. Reserve critical notice boxes only for situations where the users path forward is blocked, or there is a problem that needs to be solved immediately.
 
 A critical notice box should contain an action, it is important to help the user resolve a critical problem.
-
----
 
 ## Examples in use
 
