@@ -57,7 +57,7 @@ Placeholder text can give the user some guidance on how the field should be used
 
 ![](../images/input-sizes.png)
 
-All input types, except for multi-line, are available in Regular and Dense sizes. Regular sizes are best for applications with plenty of space and few controls, or in forms. Dense sizes work well in data-heavy, complex layouts, especially when using an input as a filter or search field as part of another component.
+All input types are available in Regular and Dense sizes. Regular sizes are best for applications with plenty of space and few controls, or in forms. Dense sizes work well in data-heavy, complex layouts, especially when using an input as a filter or search field as part of another component.
 
 ### Disabled
 
@@ -95,7 +95,6 @@ Options for textarea inputs are:
 * **Minimum length**: the minimum number of characters that are valid.
 * **Resizable**: whether the textarea can be resized by the user or not. Can be set for both width and height.
 * **Autoheight**: if enabled, the texarea will grow in height to adapt to the content.
-* **Toolbar**: if enabled, the textarea will display a toolbar. The toolbar is defined as a separate component (wip).
 
 ### Number
 
