@@ -23,10 +23,13 @@
 - [States](#states)
 - [Examples in use](#examples-in-use)
 
+---
+
 ## Usage
-Inputs are used wherever a user needs to input standard text information. Inputs are often used as part of forms. An input can also be used to capture information outside of a form, perhaps as a 'Filter' or 'Search' field.
 
 ~Short paragraph describing when this component is used. Useful to open with "componentName is used wherever a user will..."~
+
+---
 
 ## Composition
 
@@ -41,6 +44,7 @@ Inputs are used wherever a user needs to input standard text information. Inputs
 ---
 
 ## Options
+
 ~componentName~ have several options, each detailed below. All of the options listed below are available for all types of ~componentName~. Specific options for each type of input are listed in the Types section.
 
 
