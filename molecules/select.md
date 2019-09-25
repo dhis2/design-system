@@ -18,7 +18,6 @@ The select component allows selection of one or more options from a list.
 
 - [Usage](#usage)
 - [Options](#options)
-- [Types](#types)
 - [States](#states)
 - [Examples in use](#examples-in-use)
 
