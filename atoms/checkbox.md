@@ -29,7 +29,7 @@ Checkboxes are used when an option can be toggled on or off. Toggling a checkbox
 
 Do not use checkboxes in a list of several options where only a single option can be toggled, use [radio buttons](radio.md) here instead.
 
-If there are many options that need to selected from, consider using a [select](../molecules/select.md) instead.
+If there are many options that need to select from, consider using a [select](../molecules/select.md) instead.
 
 ---
 
