@@ -18,7 +18,6 @@ Tabs act as containers for content. Tabs are used to divide content into categor
 
 - [Usage](#usage)
 - [Types](#types)
-- [States](#states)
 - [Examples in use](#examples-in-use)
 
 ---
