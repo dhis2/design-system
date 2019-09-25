@@ -154,19 +154,19 @@ Telephone number formats vary around the world. It can be difficult to set defin
 ## States
 An input can display a state to communicate some information to the user about it's current status. There are several different types of state:
 
-#### Error
+### Error
 
 ![example of text input errors](../images/input-error.png)
 
 An error is indicated with a change of color and inclusion of an ! icon and an optional error message underneath the input. For guidance on writing error messages, see [Content and Communication](../principles/content-communication.md). This error state should only be triggered on inputs that contain an error. Do not apply to the entire form unless all inputs happen to contain an error.
 
-#### Valid
+### Valid
 
 ![example of text input validity](../images/input-valid.png)
 
 A valid value can be communcated using the 'valid' input field state. This state shows a check icon and adjusts the element color to communicate to the user that the inputted value is value. Only use this field if there are rules/criteria the input must fulfill. Do not use valid inputs for all inputs, and never use a valid input without actually checking for validity.
 
-#### Loading
+### Loading
 
 ![example of text input loading](../images/input-loading.png)
 
