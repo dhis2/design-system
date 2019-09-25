@@ -27,7 +27,7 @@
 
 ## Usage
 
-~Short paragraph describing when this component is used. Useful to open with "componentName is used wherever a user will..."~
+~Section describing when this component is used. Useful to open with "componentName is used wherever a user will..."~
 
 ---
 
@@ -37,16 +37,13 @@
 
 ~componentName~ is made up of multiple elements, some of which are optional:
 
-1. **, optional**
-2. **, required**
-3. **, optional**
+1. **, optional:**
+2. **, required:**
+3. **, optional:**
 
 ---
 
 ## Options
-
-~componentName~ have several options, each detailed below. All of the options listed below are available for all types of ~componentName~. Specific options for each type of input are listed in the Types section.
-
 
 ### ~option~
 
