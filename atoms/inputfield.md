@@ -23,8 +23,12 @@ An input allows a user to enter data, usually text.
 - [States](#states)
 - [Examples in use](#examples-in-use)
 
+---
+
 ## Usage
 Inputs are used wherever a user needs to input standard text information. Inputs are often used as part of forms. An input can also be used to capture information outside of a form, perhaps as a 'Filter' or 'Search' field.
+
+---
 
 ## Composition
 
