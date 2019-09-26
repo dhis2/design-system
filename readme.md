@@ -3,8 +3,8 @@ The DHIS2 Design System is a collection of design principles and a library of UI
 
 The design system consists of two sections:
 
-- **Design Principles**: These principles are the guidelines that inform how DHIS2 apps should work and look. All designers and developers working on DHIS2 apps should be familiar with these guidelines.
-- **Components**: A collection of UI elements that can be, and should be, reused across all DHIS2 apps. The components have been designed with DHIS2 use cases in mind. Using these components means more time spent focusing on building a great user experience and less time redesigning and rebuilding common components. Each component has it's own guidelines for use.
+- [Design Principles](#design-principles): These principles are the guidelines that inform how DHIS2 apps should work and look. All designers and developers working on DHIS2 apps should be familiar with these guidelines.
+- [Components](#components): A collection of UI elements that can be, and should be, reused across all DHIS2 apps. The components have been designed with DHIS2 use cases in mind. Using these components means more time spent focusing on building a great user experience and less time redesigning and rebuilding common components. Each component has it's own guidelines for use.
 
 ---
 
@@ -21,11 +21,11 @@ The design system consists of two sections:
 ---
 
 ## Design Principles
-- Design for use
-- [Typography](principles/typography.md)
-- [Color](principles/color.md)
-- [Spacing, Alignment, Stacking](principles/spacing-alignment.md)
+<!-- - Design for use -->
 - [Content & Communication](principles/content-communication.md)
+- [Spacing, Alignment, Stacking](principles/spacing-alignment.md)
+- [Color](principles/color.md)
+- [Typography](principles/typography.md)
 - [Icons](principles/icons.md)
 
 ## Components
@@ -41,8 +41,8 @@ Each component has guidelines for use, explanations of the different options and
 - [Popover](molecules/popover.md)
 - [Table](organisms/table.md)
 - [Tooltip](atoms/tooltip.md)
-- data table
-- conversation
+<!-- - data table -->
+<!-- - conversation -->
 #### Data entry
 - [Checkbox](atoms/checkbox.md)
 - [Comment](molecules/comment.md)
@@ -52,7 +52,7 @@ Each component has guidelines for use, explanations of the different options and
 - [Radio button](atoms/radio.md)
 - [Select](molecules/select.md)
 - [Switch](atoms/switch.md)
-- transfer
+<!-- - transfer -->
 #### Feedback
 - [Alert bar](molecules/alertbar.md)
 - [Loading indicators](atoms/loading.md)
@@ -65,8 +65,8 @@ Each component has guidelines for use, explanations of the different options and
 #### Utilities
 - [Elevation](atoms/elevation.md)
 - [Header Bar](organisms/header-bar.md)
-- spacing
-- typography
+<!-- - spacing -->
+<!-- - typography -->
 
 ---
 
@@ -81,26 +81,25 @@ Before starting on the design of a DHIS2 app it is important that you research a
 
 Understanding the use case before starting on the design and building will save time later. It is much easier to make changes to draft ideas than finished apps.
 
-Find out more by reading the principle: Design for use.
-
-//Design for use
-design with the end user in mind. gather their requirements and build for them, not for the tech.
-Read more about Designing for use (link)
+<!-- Find out more by reading the principle: Design for use. -->
 
 #### 3. Design with components
 When the use cases are clear and all the requirements are understood it is time to start designing mockups/prototypes of the app. Building prototypes and mockups first means you can test these with potential users, finding out what works and what needs to be revised.
 
 Where possible, always use components available from the design system component library. These components have been designed and built with DHIS2 in mind. The pages for each component below have guidelines for use and explanations of the options and types available. Reading through the component pages will help to understand which components should be used where, and why.
 
-Check out the [resources](#resources) section to find the UI component library available for different design tools.
+<!-- Check out the [resources](#resources) section to find the UI component library available for different design tools. -->
 
 ---
 
 ## Resources
-All components included in the design system are available as a Sketch library that can be imported and reused across your designs. The Sketch library will be constantly updated, be sure to check back to grab the latest version.
+All components included in the design system will soon be available as a Sketch library that can be imported and reused across your designs.
 
-TODO Sketch library image
-TODO Sketch library download link
+<!-- The Sketch library will be constantly updated, be sure to check back to grab the latest version. -->
+
+<!-- TODO Sketch library image -->
+<!-- TODO Sketch library download link -->
+`Downloadable library coming soon!`
 
 ---
 
