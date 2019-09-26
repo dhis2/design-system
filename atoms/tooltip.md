@@ -2,7 +2,7 @@
 |-------------|------------------|
 | **Component** | Tooltip |
 | **Type** | Atom ([?](http://atomicdesign.bradfrost.com/chapter-2/))|
-| **Design Spec** | *pending* |
+| **Design Spec** | [Link](https://sketch.cloud/s/DwkDk/a/zY21gy) |
 | **Working Examples** | *pending* |
 | **Status** |  `Waiting for build`  |
 
