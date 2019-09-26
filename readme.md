@@ -3,7 +3,7 @@ The DHIS2 Design System is a collection of design principles and a library of UI
 
 The design system consists of two sections:
 
-- [Design Principles](#design-principles): These principles are the guidelines that inform how DHIS2 apps should work and look. All designers and developers working on DHIS2 apps should be familiar with these guidelines.
+- [Principles](#design-principles): These principles are the guidelines that inform how DHIS2 apps should work and look. All designers and developers working on DHIS2 apps should be familiar with these guidelines.
 - [Components](#components): A collection of UI elements that can be, and should be, reused across all DHIS2 apps. The components have been designed with DHIS2 use cases in mind. Using these components means more time spent focusing on building a great user experience and less time redesigning and rebuilding common components. Each component has it's own guidelines for use.
 
 ---
@@ -74,7 +74,7 @@ Each component has guidelines for use, explanations of the different options and
 Want to get started designing and building DHIS2 apps? Follow these steps:
 
 #### 1. Get to know the Design System principles
-It is important to be familiar with the principles of the design system. These principles cover how apps should work and look. It is important that all apps are built with the principles in mind, when all DHIS2 apps follow the same principles it becomes easier for all users to work across multiple apps without needing to relearn patterns or meanings.
+It is important to be familiar with the [principles](#design-principles) of the design system. These principles cover how apps should work and look. It is important that all apps are built with the principles in mind, when all DHIS2 apps follow the same principles it becomes easier for all users to work across multiple apps without needing to relearn patterns or meanings.
 
 #### 2. Understand the use case
 Before starting on the design of a DHIS2 app it is important that you research and understand the use case. What will this app enable users to do? Why is this app useful? What will the app **not** do? It is important that DHIS2 apps solve real use cases in a simple, manageable way. The most useful apps are the ones that do few things very well. Make sure apps are focused on these use cases.
@@ -86,7 +86,7 @@ Understanding the use case before starting on the design and building will save 
 #### 3. Design with components
 When the use cases are clear and all the requirements are understood it is time to start designing mockups/prototypes of the app. Building prototypes and mockups first means you can test these with potential users, finding out what works and what needs to be revised.
 
-Where possible, always use components available from the design system component library. These components have been designed and built with DHIS2 in mind. The pages for each component below have guidelines for use and explanations of the options and types available. Reading through the component pages will help to understand which components should be used where, and why.
+Where possible, always use components available from the design system [component library](#components). These components have been designed and built with DHIS2 in mind. The pages for each component below have guidelines for use and explanations of the options and types available. Reading through the component pages will help to understand which components should be used where, and why.
 
 <!-- Check out the [resources](#resources) section to find the UI component library available for different design tools. -->
 
