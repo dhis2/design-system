@@ -58,6 +58,11 @@ Input fields can include helper text below. This helper text provides guidance t
 
 Placeholder text can give the user some guidance on how the field should be used or what kind of information is expected. Do not include critical information in placeholder text, it will not be visible once a user inputs text.
 
+### Width
+All input fields are set to 100% width by default, so they will fill the width of their parent container. Alternatively, a custom width can be defined.
+
+It is important that the width of an input reflects the expected content. If an input will be used to enter numbers between 1-1000, the width of the input can be relatively narrow. If an input will be used to enter a long dashboard description, allow for a wider input. The width of an input is a subtle hint to a user that "this input expects this type of content", so use the width to aid the user to enter the right type of content.
+
 ### Sizes
 
 ![](../images/input-sizes.png)
@@ -80,12 +85,7 @@ There are several different types of input, each targeting specific functionalit
 
 ![](../images/input.png)
 
-Text is the default input type and will be used if no other type is specified. Text inputs, by default, accept all content and perform no automatic validation.
-
-Options for text inputs are:
-
-* **Maximum length**: the maximum number of characters that are valid.
-* **Minimum length**: the minimum number of characters that are valid.
+Text is the default input type and will be used if no other type is specified. Text inputs, by default, accept all textual characters. Remember to perform any necessary validation on the user input.
 
 ### Textarea
 
@@ -96,8 +96,6 @@ A textarea allows multiple lines of text input. Use a textarea wherever a user n
 Options for textarea inputs are:
 
 * **Rows**: the height of the input, defined by the number of rows of text
-* **Maximum length**: the maximum number of characters that are valid.
-* **Minimum length**: the minimum number of characters that are valid.
 * **Resizable**: whether the textarea can be resized by the user or not. Can be set for both width and height.
 * **Autoheight**: if enabled, the texarea will grow in height to adapt to the content.
 
@@ -119,11 +117,6 @@ Options for number inputs are:
 
 A password input is used only when the user is inputting a password. The users browser may provide additional controls for this input. Make sure to inform the user of any password rules, such as required length or characters, upfront. Do not wait for the user to enter an invalid password before you tell them the rules.
 
-Options for password inputs are:
-
-* **Maximum length**: the maximum number of characters that are valid.
-* **Minimum length**: the minimum number of characters that are valid.
-
 ### Email
 
 ![](../images/input-email.png)
@@ -133,8 +126,6 @@ An email input that provides validation, only accepting valid email addresses. O
 Options for email inputs are:
 
 * **Multiple**: if enabled, the input will accept multiple email addresses.
-* **Maximum length**: the maximum number of characters that are valid.
-* **Minimum length**: the minimum number of characters that are valid.
 
 ### URL
 
