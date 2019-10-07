@@ -35,7 +35,7 @@ Type | View | Usage
 `Destructive` | ![](../images/btn-destructive.jpg) | Used instead of a primary button when the main action is destructive in nature. Used to highlight to the user the seriousness of the action. **Destructive buttons must only be used for destructive actions.**
 `Dropdown` | ![](../images/btn-dropdown.jpg) | Presents several actions to a user in a small space. Can replace single, individual buttons. Should only be used for actions that are related to one another. Ensure the button has a useful level that communicates that actions are contained within. Dropdown buttons do not have an explicit action, only expanding the list of contained actions.
 `Split` | ![](../images/btn-split.jpg) | Similar to the dropdown button, but can be triggered independently of opening the contained action list. The main action may be 'Save' and the contained actions may be "Save and add another" and "Save and open".
-`Link` | ![](../images/btn-link.jpg) | Not technically a button, but sometimes may be used in place of a button. Use when space is very limited. Links should mostly be used for navigation, not for triggering actions.
+`Text` | ![](../images/btn-link.png) | Text only button. This style of button should only be used for auxiliary actions, for example clearing the content of an input. Text only buttons should not be used for main actions.
 
 ### Button label
 Make sure the button's action is a clear verb. "Save" is clear, it could be even clearer if what is being saved is specified, "Save data", for example. Remember that some languages can be 3x longer than english, so specifying a fixed width will not work.
