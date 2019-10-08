@@ -40,6 +40,7 @@ An input is made up of multiple elements, some of which are optional:
 1. **Label, optional**
 2. **Input element, required**
 3. **Help text, optional**
+4. **Validation text, optional**
 
 ---
 
