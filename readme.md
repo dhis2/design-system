@@ -34,7 +34,7 @@ Each component has guidelines for use, explanations of the different options and
 #### Action
 - [Button](atoms/button.md)
 - [Chip](atoms/chip.md)
-- [Menu](atoms/menu.md)
+- [Menu](molecules/menu.md)
 #### Data display
 - [Avatar](atoms/avatar.md)
 - [Notice box](molecules/notice-box.md)
