@@ -1,8 +1,8 @@
 | |  |
 |-------------|------------------|
 | **Component** | Button |
-| **Type** | Atom ([?](http://atomicdesign.bradfrost.com/chapter-2/))|
-| **Design Spec** | *pending* |
+| **Type** | Atom ([?](http://atomicdesign.bradfrost.com/chapter-2/)) |
+| **Design Spec** | [Link](https://sketch.cloud/s/DwkDk/a/ll8Arx) |
 | **Working Examples** | [Link](https://d2-ci.github.io/ui-core/?path=/story/button-basic--default) |
 | **Status** | `Ready to use` |
 
