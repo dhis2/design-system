@@ -1,19 +1,45 @@
+| |  |
+|-------------|------------------|
+| **Component** | Data table |
+| **Type** | Organism ([?](http://atomicdesign.bradfrost.com/chapter-2/))|
+| **Design Spec** | *pending* |
+| **Working Examples** | *pending* |
+| **Status** | `Work in progress` |
+
+---
+
 # Data table
+
 A data table is used to display data in a structured way. Data tables have functionality for viewing and manipulating data.
 
 ![](../images/data-table.png)
 
-[Design specs for building data table](https://sketch.cloud/s/DwkDk/a/pmVrZo)
+##### Contents
+
+- [Usage](#usage)
+- [Composition](#composition)
+- [Options](#options)
+- [Types](#types)
+- [States](#states)
+- [Examples in use](#examples-in-use)
+
+---
 
 ## Usage
+
 Displaying data in a structured way aids understanding and highlights relationships in data sets. Data tables allow the user to see detailed information about data sets. Each individual record in a data table can be viewed, interacted with and manipulated.
+
+Data tables should only be presented to the user when needed. A data table full of complex data can be overwhelming. Before using a data table, consider whether an application could parse and display the information in a more user friendly, understandable way. In cases where the user wants to see all of the data available, a data table is perfect.
 
 There are several different types of functionality and options available in the data table component. The correct data table to use will depend on the use case and type of data being displayed. The functionality and options available in the data table component are highlighted and discussed below.
 
+---
+
 ## Composition
+
 ![](../images/datatable-composition.png)
 
-The data table component is made up of several elements, some of which are optional:
+A data table is made up of multiple elements, some of which are optional:
 
 1. **Title, optional**
 2. **Filters, optional**
@@ -21,13 +47,17 @@ The data table component is made up of several elements, some of which are optio
 4. **Data rows and header, required**
 5. **Pagination, required**
 
-## Functionality
+---
+
+## Options
 
 ### Table title
 ![](../images/datatable-title.png)
 
 ##### When to use a table title?
 A title provides context to a table that might appear in a complex interface. Titles are most useful if there are multiple tables on one page. Titles are not necessary if the table comes directly after a header or other title. Titles should be short and informative. Use a title that will make sense even if the data displayed changes drastically.
+
+---
 
 ### Filters
 ![](../images/datatable-filter.png)
@@ -130,6 +160,20 @@ Inline editing should be used with restraint. It can be useful for power users, 
 
 ---
 
+### Expandable rows
+![](../images/datatable-expandable.png)
+
+##### What are expandable rows?
+Expandable rows are table rows that can be expanded inline, without leaving the page, to reveal more information and actions.
+
+##### How are expandable rows used?
+The user can expand a row by clicking on the arrow in the left most area of the row. Alternatively, the default click action on a row could be overridden to expand the row.
+
+##### When to use expandable rows?
+Expandable rows are useful when there is a lot of useful information to display, more than would fit in a table row on a normal sized screen. A row that can expand can show this useful information to a user without leaving the page, so this pattern works well for reference screens where a user might be checking many pieces of information. Expandable rows also work well for displaying information that cannot easily be shown inside a table row: paragraphs of text or videos, for example.
+
+---
+
 ### Selectable rows
 ![](../images/datatable-selectable-rows.png)
 
@@ -178,18 +222,6 @@ Allowing users to edit column visibility and ordering can be useful for creating
 
 However, do not include editable column by default. There must be an identified use case. Editing columns is advanced functionality and can be intimidating for some users, so it should be used with care.
 
-## Options
-Data tables have various options and styles for displaying data:
-
-### Empty state
-![](../images/datatable-empty.png)
-
-An empty data table should be still communicate helpful information to a user. If there is no data to display do not simply show an empty table. Sometimes it may make sense to hide an empty table, but keep in mind that users will be unaware why the table is hidden and may be confused. In most situations it is best to show a data table with a useful empty state.
-
-The empty state is flexible and accepts any elements, but by default it is recommended to present some informative text and an optional action. Without an action it can be difficult for the user to fix the cause of the empty data. For example, if there are no patients registered in a program, the data table is empty, the action could be 'Register a patient'.
-
-Column headers can be displayed in an empty state if they are available, this can help the user to understand the data that would be there if the table was not empty.
-
 ---
 
 ### Bordered cells
@@ -227,3 +259,25 @@ Type  |  Usage
 ![](../images/datatable-large.png)
 
 Large cells use a larger font-size and cell height. Use large cells where users will rarely see large amounts of data, or where users may be intimidated by compact data.
+
+---
+
+## States
+
+### Empty state
+![](../images/datatable-empty.png)
+
+An empty data table should be still communicate helpful information to a user. If there is no data to display do not simply show an empty table. Sometimes it may make sense to hide an empty table, but keep in mind that users will be unaware why the table is hidden and may be confused. In most situations it is best to show a data table with a useful empty state.
+
+The empty state is flexible and accepts any elements, but by default it is recommended to present some informative text and an optional action. Without an action it can be difficult for the user to fix the cause of the empty data. For example, if there are no patients registered in a program, the data table is empty, the action could be 'Register a patient'.
+
+Column headers can be displayed in an empty state if they are available, this can help the user to understand the data that would be there if the table was not empty.
+
+
+---
+
+## Examples in use
+
+![](../images/-example.png)
+
+*~explain why this was the right component to use in this use case~*
