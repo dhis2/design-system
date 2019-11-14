@@ -89,7 +89,7 @@ Use reordering wherever the order of the selected options is important or meanin
 
 ![](../images/transfer-filter.png)
 
-Filtering allows the user to filter the options displayed in a list. It is most often used to filter the list of available options, although it is valid to use a filter on the selection list too. The filter is not contained in a header, rather it is a part of the list itself.
+Filtering allows the user to filter the options displayed in a list. It is most often used to filter the list of available options, although it is valid to use a filter on the selection list too. The filter is always the last item in the header.
 
 Use filtering if there are many options in the list, or if the options are complex.
 
