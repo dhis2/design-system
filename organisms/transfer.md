@@ -127,7 +127,11 @@ Both empty states can be cutomised. The available options empty state is more us
 
 ### Error
 
-`todo: error state`
+![](../images/transfer-error.png)
+
+Transfers display both a general error indicator, displayed below the transfer, and item specific error icons. The general error indicator always displays when there is a problem with the transfer. Item specific errors are optional, but can be useful to help guide users to fix item specific problems.
+
+Make sure to write clear, concise and actionable error messages. Check out the [Content and communication](../principles/content-communication.md) principle to learn more.
 
 ---
 
