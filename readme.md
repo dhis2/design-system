@@ -45,13 +45,13 @@ Each component has guidelines for use, explanations of the different options and
 <!-- - conversation -->
 #### Data entry
 - [Checkbox](atoms/checkbox.md)
-<!-- - [Comment](molecules/comment.md) -->
 - [File Input](atoms/fileinput.md)
 - [Input field](atoms/inputfield.md)
 - [Organisation Unit Tree](organisms/organisation-unit-tree/org-unit-tree.md)
 - [Radio button](atoms/radio.md)
 - [Select](molecules/select.md)
 - [Switch](atoms/switch.md)
+<!-- - [Comment](molecules/comment.md) -->
 <!-- - transfer -->
 #### Feedback
 - [Alert bar](molecules/alertbar.md)
