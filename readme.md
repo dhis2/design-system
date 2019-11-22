@@ -45,7 +45,6 @@ Each component has guidelines for use, explanations of the different options and
 <!-- - conversation -->
 #### Data entry
 - [Checkbox](atoms/checkbox.md)
-- [Comment](molecules/comment.md)
 - [File Input](atoms/fileinput.md)
 - [Input field](atoms/inputfield.md)
 - [Organisation Unit Tree](organisms/organisation-unit-tree/org-unit-tree.md)
@@ -53,6 +52,8 @@ Each component has guidelines for use, explanations of the different options and
 - [Select](molecules/select.md)
 - [Switch](atoms/switch.md)
 - [Transfer](organisms/transfer.md)
+<!-- - [Comment](molecules/comment.md) -->
+
 #### Feedback
 - [Alert bar](molecules/alertbar.md)
 - [Loading indicators](atoms/loading.md)
