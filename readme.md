@@ -45,7 +45,7 @@ Each component has guidelines for use, explanations of the different options and
 <!-- - conversation -->
 #### Data entry
 - [Checkbox](atoms/checkbox.md)
-- [Comment](molecules/comment.md)
+<!-- - [Comment](molecules/comment.md) -->
 - [File Input](atoms/fileinput.md)
 - [Input field](atoms/inputfield.md)
 - [Organisation Unit Tree](organisms/organisation-unit-tree/org-unit-tree.md)
