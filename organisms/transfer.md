@@ -135,8 +135,8 @@ Make sure to write clear, concise and actionable error messages. Check out the [
 
 ---
 
-## Examples in use
+<!-- ## Examples in use
 
-![](../images/-example.png)
+![](../images/-example.png) -->
 
-*~explain why this was the right component to use in this use case~*
+<!-- *~explain why this was the right component to use in this use case~* -->
