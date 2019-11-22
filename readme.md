@@ -51,8 +51,9 @@ Each component has guidelines for use, explanations of the different options and
 - [Radio button](atoms/radio.md)
 - [Select](molecules/select.md)
 - [Switch](atoms/switch.md)
+- [Transfer](organisms/transfer.md)
 <!-- - [Comment](molecules/comment.md) -->
-<!-- - transfer -->
+
 #### Feedback
 - [Alert bar](molecules/alertbar.md)
 - [Loading indicators](atoms/loading.md)
