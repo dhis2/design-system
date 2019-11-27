@@ -135,8 +135,8 @@ Make sure to write clear, concise and actionable error messages. Check out the [
 
 ---
 
-<!-- ## Examples in use
+## Examples in use
 
-![](../images/-example.png) -->
+![](../images/transfer-example.png) -->
 
-<!-- *~explain why this was the right component to use in this use case~* -->
+*A transfer helps make complex data selection simpler in Data Visualizer. In this example the user could select from many different types of option, so additional filter controls are used in the header of the options list. Custom items are used to match the usage in the rest of the app.*
