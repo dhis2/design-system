@@ -49,7 +49,7 @@ Use a basic transfer if no more additional functionality, detailed below in [opt
 
 ## Composition
 
-![](../images/composition.png)
+![](../images/transfer-composition.png)
 
 A transfer is made up of three parts, all of which are required:
 
