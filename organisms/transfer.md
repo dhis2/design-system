@@ -2,7 +2,7 @@
 |-------------|------------------|
 | **Component** | Transfer |
 | **Type** | Organism ([?](http://atomicdesign.bradfrost.com/chapter-2/))|
-| **Design Spec** | [Pixel spec](https://sketch.cloud/s/DwkDk/a/jvobL7) |
+| **Design Spec** | [Pixel spec](https://sketch.cloud/s/DwkDk/a/jvobL7), [HTML&CSS spec](https://codesandbox.io/s/transfer-mmqwu) |
 | **Working Examples** | *pending* |
 | **Status** | `Work in progress` |
 
