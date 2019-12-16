@@ -34,7 +34,7 @@ A modal is powerful, taking over the entire screen will break the user's flow. A
 
 ### Actions
 
-Modals must always contain one or more actions. These take the form of buttons at the bottom of the modal. If there are multiple actions available there should always be a main action as a primary button. For guidance on writing clear, concise actions, see [Content and Communication guidelines](../principles/content-communication.md).
+Modals must always contain one or more actions. Multiple actions can be contained in an Action bar, displayed at the bottom of the modal. Alternatively an action can be inside the modal content, but make sure the action/button is obvious and easy to find. For guidance on writing clear, concise actions, see [Content and Communication guidelines](../principles/content-communication.md).
 
 ---
 
@@ -48,10 +48,10 @@ A modal is made up of multiple elements, some of which are optional:
 2. **Screen cover, required:** covers the screen behind the modal view
 3. **Title, optional:** concise, informative title. Should give the user a quick, understandable snapshot of the content in a few words.
 4. **Content, required:** the modal content itself. This can be anything, but it must be present. Empty modals are not valid.
-5. **Actions, required:** A modal can have a primary action, secondary action, or a destructive action
+5. **Action bar, optional:** An action bar can have a primary action or a destructive action and multiple secondary actions.
     1. **Primary action, optional:** A primary action is an affirmative button that confirms or performs an action. Examples “Confirm”, “Send email”, “Add to chart”. Primary actions always use a ‘Primary Button’
     2. **Destructive action, optional:** Similar to a primary action, but negative in nature. Destructive actions always use a ‘Destructive Button’. Examples include ‘Delete data’, ‘Remove from database’.
-    3. **Secondary action, required:** All modals must have a secondary action, which is shown in a ‘Secondary Button’. An example of a modal that includes only a ‘Secondary Button’ is a simple, informative modal that requires only an ‘Dismiss’ action.
+    3. **Secondary action, optional:**  An example of a modal that includes only a ‘Secondary Button’ is a simple, informative modal that requires only an ‘Dismiss’ action.
 
 ---
 
@@ -83,4 +83,4 @@ Modals can be set to different sizes. Choose the appropriate modal size for your
 
 ![modal example 2](../images/modal-example-2.png)
 
-*Deleting a dashboard displays a confirmation modal. To delete a dashboard is a critical action that could have very serious consequences. The delete confirmation is presented in a modal to focus the users attention on the question: do you really want to delete this dashboard? Notice that the message text is concise and the actions are clear, there is no space for uncertainty with actions like this.* 
+*Deleting a dashboard displays a confirmation modal. To delete a dashboard is a critical action that could have very serious consequences. The delete confirmation is presented in a modal to focus the users attention on the question: do you really want to delete this dashboard? Notice that the message text is concise and the actions are clear, there is no space for uncertainty with actions like this.*
