@@ -1,94 +1,123 @@
+| |  |
+|-------------|------------------|
+| **Component** | ~Comment~ |
+| **Type** | Molecule ([?](http://atomicdesign.bradfrost.com/chapter-2/))|
+| **Design Spec** | *pending* |
+| **Working Examples** | *pending* |
+| **Status** | `Waiting for build` |
+
+---
+
 # Comment
 
-A comment is used for inputting and displaying user generated information.
+A comment is used to display and write user generated input. A comment is always attached to an item and must have an author.
 
-[Design specs for building available here](https://sketch.cloud/s/DwkDk/1KDx0z8)
+![](../images/)
 
-## General Usage
+##### Contents
 
-### Input
-Comments should be used wherever a user can input text that is saved and attributed to them. Comments are common in web applications, many users understand the concept. The concept of ownership is key, it is important that a user realises the comment will be associated to them.
+- [Usage](#usage)
+- [Composition](#composition)
+- [Options](#options)
+- [Types](#types)
+- [States](#states)
+- [Examples in use](#examples-in-use)
 
-Make sure to use an informative, helpful placeholder text that informs the user of what the input box is for. For example, in an area for writing comments about a chart, the placeholder text could be 'Comment on this chart'. This helps the user to understand what the input box is there for. The user should never be confused about what writing in this input will do.
+---
 
-Comments include functionality for rich text editing, as well as a secondary action area for including additional actions for the active comment, such as sharing settings. Read more about this below in the 'Editing' comment state.
+## Usage
+
+A comment is used wherever a user can add textual information to something. A comment is attached to another element: a user can comment on a bar chart or comment on a validation result.
+
+A comment must have an author: the user that wrote the comment. Do not use comments for unattributed information such as generic notes on an item that have no author and can be edited by any user. A comment is owned by its author and cannot be edited by another user, so only use comments for user inputted content. Never automatically create comments on a users behalf.
+
+Comments can be displayed together in a Conversation, allowing users to communicate directly on an item (e.g. bar chart or validation result).
+
+---
+
+## Composition
+
+The composition of a comment depends on its [state](#states).
+
+### Empty, idle 
+
+![](../images/composition.png)
+
+1. **Avatar, required:** the [avatar](../atoms/avatar.md) of the current user.
+2. **Input, required:** where the user inputs content.
+
+### Active
+
+![](../images/composition.png)
+
+1. **Avatar, required:** the [avatar](../atoms/avatar.md) of the current user.
+2. **Input, required:** where the user inputs content.
+3. **Extras, optional:** a flexible space that can display any content to help the user or provide extra functionality such as sharing settings.
+4. **Actions, required:** action buttons for saving and dismissing the current active comment.
 
 ### Display
-Comments are also used to display previous user input. Comments are displayed with associated users name/photo. Comments displayed in a chronological list can communicate a complex discussion. Replies can be enabled, which allow for threaded, focused discussion.
 
-## State-specific Usage
+![](../images/composition.png)
 
-There are several states a comment can be in:
+1. **Avatar, required:** the [avatar](../atoms/avatar.md) of the current user.
+2. **Metadata, required:** the comment author, timestamp and a flag to indicate if the comment has been edited.
+3. **Content, required:** the content of the comment.
+4. **Actions, optional:** actions for the comment. Some actions are only available for the current user. All actions are optional and custom actions can be used.
 
-1. **Empty:** a placeholder text field
-2. **Active:** a text field with additional options, used when a user is actively writing a comment
-3. **Display:** static display of a comment with interactive elements
+---
+
+## Options
+
+### Width
+
+![](../images/.png)
+
+The width of a comment should indicate how much text a user is expected to write. A narrow comment input hints to the user that a short, concise comment is appropriate. Wider comment inputs with more space invite longer content. Consider the intended usage, as well as the rest of the user interface, when defining the size of the comment.
+
+---
+
+## States
+
+A comment has three states: empty, active and display. The empty and active states are used depending on the current user interaction. The display state is used to display comments that have been saved.
 
 ### Empty
 
-#### Composition
+![](../images/.png)
 
-![](../images/comment-empty.jpg)
+The empty state is used when the user has not entered any information or interacted with the comment. The empty state invites the user to add their comment, providing a reminder from the user avatar that this comment belongs to them. 
 
-An empty comment is made up of multiple elements, some of which are optional:
+Empty is the default state of a comment input.
 
-1. **User profile photo, optional**
-2. **Placeholder text field, required**
-3. **Placeholder text, required**
+#### Placeholder text
 
-#### Interaction
+The placeholder text of an empty comment can, and should be, customised to the context. "Write a comment" is a generic way of inviting the user to add their comment. In a more specific context: a patient journal, the placeholder "Add a comment to this journal" could be used.
 
-Before a comment is created it is displayed as an empty text field. The empty comment invites the user to add their input using the visual clue of a text field. Clicking inside the empty comment or focusing the element with the keyboard puts the comment field into editing mode where a user can input content.
+### Active
 
-#### Defaults
+![]()
 
-Due to the flexible nature of this component the default placeholder text is generic. The default text, if not defined when including the component, is ‘Write a comment’.
+The active state is used when the user is interacting with the comment input. The active state shows more information, expands the text input to invite more content and gives the user the ability to save or cancel the current comment.
 
----
+When a user interacts with a comment input by entering information, the comment remains in active state until cancelled or saved.
+
+#### Extras
+The active state can display extra information specific to an app or context. For example, if a user can manage who can see their comment (sharing settings), these sharing settings may be available from the extras area. 
 
 ### Display
 
-#### Composition
+![]()
 
-![](../images/comment-display.jpg)
+The display state is used to display a saved comment. Display comments display metadata about the comment, the comment content and additional actions. 
 
-A display comment is made up of multiple elements, some of which are optional:
+#### Actions
+Default actions are provided, such as like, edit, delete. Some actions are only available to the owner of the comment: edit and delete.
 
-1. **User profile photo, optional**
-2. **User display name, required**
-3. **Content, required**
-4. **Details, optional:** Technically optional, but included in the majority of cases. Details can present additional information about the comment, such as when it was created.
-5. **Actions, optional:** A comment can have optional actions attached, presented in the form of icons with tooltips on hover.
-
-#### Interaction
-
-Generic interaction with a comment is done using the included action icons. Custom interaction with a comment (for example, clicking on the comment itself to trigger an action) must be handled by the application itself.
+Custom actions can be included in display comments. Ensure that actions relate directly to the comment. Do not place actions inside a display comment that relate to the whole page or another component.
 
 ---
 
-### Editing
+## Examples in use
 
-![](../images/comment-editing.jpg)
+![](../images/-example.png)
 
-An editing comment is made up of multiple elements, some of which are optional.
-
-1. **User profile photo, optional**
-2. **Text field, required**
-3. **Rich text toolbar, optional**
-4. **Secondary action area, optional**
-5. **Confirm/cancel actions, required**
-
-#### Interaction
-
-The main interaction with an Editing comment is writing text into the input field. This behaves as expected for a text input field. The Save and Cancel buttons are used to save or discard content.
-<!-- Typing the @ character launches the popover for mentioning a user. This is discussed in more detail below. This functionality is optional and can be disabled. -->
-
-A secondary action area is available to enable the use of comments in a wider range of situations. Many apps require extended functionality for comments, the secondary action area is where this can be displayed. An example is the ‘Manage sharing’ information displayed with Interpretations in Editing mode in Analytics apps.
-
-The ‘rich text toolbar’ provides UI access to  the rich text/linking capabilities available for comments. Rich text uses markdown (need dev confirmation). The following rich text interactions are possible:
-
-- Bold text
-- Italic text
-- Emoticon
-- URL link
-- User mention
+*~explain why this was the right component to use in this use case~*
