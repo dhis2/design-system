@@ -12,14 +12,13 @@
 
 A comment is used to display and write user generated input. A comment is always attached to an item and must have an author.
 
-![](../images/)
+![](../images/comment.png)
 
 ##### Contents
 
 - [Usage](#usage)
 - [Composition](#composition)
 - [Options](#options)
-- [Types](#types)
 - [States](#states)
 - [Examples in use](#examples-in-use)
 
@@ -39,16 +38,16 @@ Comments can be displayed together in a Conversation, allowing users to communic
 
 The composition of a comment depends on its [state](#states).
 
-### Empty, idle 
+### Empty 
 
-![](../images/composition.png)
+![](../images/comment-composition-empty.png)
 
 1. **Avatar, required:** the [avatar](../atoms/avatar.md) of the current user.
 2. **Input, required:** where the user inputs content.
 
 ### Active
 
-![](../images/composition.png)
+![](../images/comment-composition-active.png)
 
 1. **Avatar, required:** the [avatar](../atoms/avatar.md) of the current user.
 2. **Input, required:** where the user inputs content.
@@ -57,7 +56,7 @@ The composition of a comment depends on its [state](#states).
 
 ### Display
 
-![](../images/composition.png)
+![](../images/comment-composition-display.png)
 
 1. **Avatar, required:** the [avatar](../atoms/avatar.md) of the current user.
 2. **Metadata, required:** the comment author, timestamp and a flag to indicate if the comment has been edited.
@@ -70,7 +69,7 @@ The composition of a comment depends on its [state](#states).
 
 ### Width
 
-![](../images/.png)
+![](../images/comment-width.png)
 
 The width of a comment should indicate how much text a user is expected to write. A narrow comment input hints to the user that a short, concise comment is appropriate. Wider comment inputs with more space invite longer content. Consider the intended usage, as well as the rest of the user interface, when defining the size of the comment.
 
@@ -82,7 +81,7 @@ A comment has three states: empty, active and display. The empty and active stat
 
 ### Empty
 
-![](../images/.png)
+![](../images/comment-empty.png)
 
 The empty state is used when the user has not entered any information or interacted with the comment. The empty state invites the user to add their comment, providing a reminder from the user avatar that this comment belongs to them. 
 
@@ -94,7 +93,7 @@ The placeholder text of an empty comment can, and should be, customised to the c
 
 ### Active
 
-![]()
+![](../images/comment-active.png)
 
 The active state is used when the user is interacting with the comment input. The active state shows more information, expands the text input to invite more content and gives the user the ability to save or cancel the current comment.
 
@@ -103,9 +102,11 @@ When a user interacts with a comment input by entering information, the comment 
 #### Extras
 The active state can display extra information specific to an app or context. For example, if a user can manage who can see their comment (sharing settings), these sharing settings may be available from the extras area. 
 
+The extras area should be used for information or functionality that the user should read before they save the comment. The extras are between the comment input and the action buttons to support this.
+
 ### Display
 
-![]()
+![](../images/comment-display.png)
 
 The display state is used to display a saved comment. Display comments display metadata about the comment, the comment content and additional actions. 
 
