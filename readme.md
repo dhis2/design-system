@@ -37,6 +37,7 @@ Each component has guidelines for use, explanations of the different options and
 - [Menu](molecules/menu.md)
 #### Data display
 - [Avatar](atoms/avatar.md)
+- [Comment](molecules/comment.md)
 - [Notice box](molecules/notice-box.md)
 - [Popover](molecules/popover.md)
 - [Table](organisms/table.md)
@@ -45,6 +46,7 @@ Each component has guidelines for use, explanations of the different options and
 <!-- - conversation -->
 #### Data entry
 - [Checkbox](atoms/checkbox.md)
+- [Comment](molecules/comment.md)
 - [File Input](atoms/fileinput.md)
 - [Input field](atoms/inputfield.md)
 - [Organisation Unit Tree](organisms/organisation-unit-tree/org-unit-tree.md)
