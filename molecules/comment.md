@@ -102,7 +102,7 @@ When a user interacts with a comment input by entering information, the comment 
 #### Extras
 The active state can display extra information specific to an app or context. For example, if a user can manage who can see their comment (sharing settings), these sharing settings may be available from the extras area. 
 
-The extras area should be used for information or functionality that the user should read before they save the comment. The extras are between the comment input and the action buttons to support this.
+The extras area should be used for information that the user should read before they save the comment. Extras are displayed between the comment input and the action buttons to support this.
 
 ### Display
 
@@ -111,7 +111,7 @@ The extras area should be used for information or functionality that the user sh
 The display state is used to display a saved comment. Display comments display metadata about the comment, the comment content and additional actions. 
 
 #### Actions
-Default actions are provided, such as like, edit, delete. Some actions are only available to the owner of the comment: edit and delete.
+Default actions are provided, such as like, reply, edit and delete. Some actions are only available to the owner of the comment: edit and delete.
 
 Custom actions can be included in display comments. Ensure that actions relate directly to the comment. Do not place actions inside a display comment that relate to the whole page or another component.
 
