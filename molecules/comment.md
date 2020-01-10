@@ -119,6 +119,4 @@ Custom actions can be included in display comments. Ensure that actions relate d
 
 ## Examples in use
 
-![](../images/-example.png)
-
-*~explain why this was the right component to use in this use case~*
+*Coming soon*
