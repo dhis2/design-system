@@ -1,6 +1,6 @@
 | |  |
 |-------------|------------------|
-| **Component** | ~Comment~ |
+| **Component** | Comment |
 | **Type** | Molecule ([?](http://atomicdesign.bradfrost.com/chapter-2/))|
 | **Design Spec** | *pending* |
 | **Working Examples** | *pending* |
