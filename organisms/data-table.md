@@ -21,7 +21,7 @@ A data table is used to display data in a structured way. Data tables have funct
 - [Options](#options)
 - [Types](#types)
 - [States](#states)
-- [Examples in use](#examples-in-use)
+  <!-- - [Examples in use](#examples-in-use) -->
 
 ---
 
@@ -179,7 +179,7 @@ If enabled, cells in table rows can be edited directly in the data table without
 
 ##### How is inline editing used?
 
-If a cell is editable it will display an edit icon when the user hovers the cell/value.
+If a cell is editable it will display an edit icon inside the cell, after the value.
 
 Clicking an editable cell opens a popover where editing controls can be presented. No default controls are present here, so use the relevant inputs for the type of data being editing. Always make it clear to the user how they save their data: is their data saved automatically or do they have to click a 'Save' button. Providing a 'Save' button is a straightforward and easily understandable pattern to follow.
 
@@ -325,8 +325,8 @@ Column headers can be displayed in an empty state if they are available, this ca
 
 ---
 
-## Examples in use
+<!-- ## Examples in use -->
 
-![](../images/-example.png)
+<!-- ![](../images/-example.png)
 
-_~explain why this was the right component to use in this use case~_
+_~explain why this was the right component to use in this use case~_ -->
