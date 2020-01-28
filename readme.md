@@ -1,4 +1,5 @@
 # DHIS2 Design System
+
 The DHIS2 Design System is a collection of design principles and a library of UI components for designing apps for the DHIS2 platform. Using this system you can design and build apps that are usable, powerful and consistent with other DHIS2 apps.
 
 The design system consists of two sections:
@@ -9,11 +10,12 @@ The design system consists of two sections:
 ---
 
 ##### Design System Contents
+
 - [Principles](#design-principles)
 - [Components](#components)
 
-
 ##### Using the system
+
 - [Designing DHIS2 apps](#designing-dhis2-apps)
 - [Resources](#resources)
 - [Contributing and Feedback](#contribting-and-feedback)
@@ -21,7 +23,9 @@ The design system consists of two sections:
 ---
 
 ## Design Principles
+
 <!-- - Design for use -->
+
 - [Content & Communication](principles/content-communication.md)
 - [Spacing, Alignment, Stacking](principles/spacing-alignment.md)
 - [Color](principles/color.md)
@@ -29,22 +33,29 @@ The design system consists of two sections:
 - [Icons](principles/icons.md)
 
 ## Components
+
 Each component has guidelines for use, explanations of the different options and types available and examples of how the component is used in real DHIS2 apps. Components are organised by usage.
 
 #### Action
+
 - [Button](atoms/button.md)
 - [Chip](atoms/chip.md)
 - [Menu](molecules/menu.md)
+
 #### Data display
+
 - [Avatar](atoms/avatar.md)
 - [Comment](molecules/comment.md)
+- [Data table](organisms/data-table.md)
 - [Notice box](molecules/notice-box.md)
 - [Popover](molecules/popover.md)
 - [Table](organisms/table.md)
 - [Tooltip](atoms/tooltip.md)
-<!-- - data table -->
-<!-- - conversation -->
+  <!-- - data table -->
+  <!-- - conversation -->
+
 #### Data entry
+
 - [Checkbox](atoms/checkbox.md)
 - [Comment](molecules/comment.md)
 - [File Input](atoms/fileinput.md)
@@ -54,32 +65,42 @@ Each component has guidelines for use, explanations of the different options and
 - [Select](molecules/select.md)
 - [Switch](atoms/switch.md)
 - [Transfer](organisms/transfer.md)
-<!-- - [Comment](molecules/comment.md) -->
+  <!-- - [Comment](molecules/comment.md) -->
 
 #### Feedback
+
 - [Alert bar](molecules/alertbar.md)
 - [Loading indicators](atoms/loading.md)
+
 #### Layout
+
 - [Card](atoms/card.md)
 - [Modal](molecules/modal.md)
+
 #### Navigation
+
 - [Pagination](molecules/pagination.md)
 - [Tabs](molecules/tab.md)
+
 #### Utilities
+
 - [Elevation](atoms/elevation.md)
 - [Header Bar](organisms/header-bar.md)
-<!-- - spacing -->
-<!-- - typography -->
+  <!-- - spacing -->
+  <!-- - typography -->
 
 ---
 
 ## Designing DHIS2 apps
+
 Want to get started designing and building DHIS2 apps? Follow these steps:
 
 #### 1. Get to know the Design System principles
+
 It is important to be familiar with the [principles](#design-principles) of the design system. These principles cover how apps should work and look. It is important that all apps are built with the principles in mind, when all DHIS2 apps follow the same principles it becomes easier for all users to work across multiple apps without needing to relearn patterns or meanings.
 
 #### 2. Understand the use case
+
 Before starting on the design of a DHIS2 app it is important that you research and understand the use case. What will this app enable users to do? Why is this app useful? What will the app **not** do? It is important that DHIS2 apps solve real use cases in a simple, manageable way. The most useful apps are the ones that do few things very well. Make sure apps are focused on these use cases.
 
 Understanding the use case before starting on the design and building will save time later. It is much easier to make changes to draft ideas than finished apps.
@@ -87,6 +108,7 @@ Understanding the use case before starting on the design and building will save 
 <!-- Find out more by reading the principle: Design for use. -->
 
 #### 3. Design with components
+
 When the use cases are clear and all the requirements are understood it is time to start designing mockups/prototypes of the app. Building prototypes and mockups first means you can test these with potential users, finding out what works and what needs to be revised.
 
 Where possible, always use components available from the design system [component library](#components). These components have been designed and built with DHIS2 in mind. The pages for each component below have guidelines for use and explanations of the options and types available. Reading through the component pages will help to understand which components should be used where, and why.
@@ -96,12 +118,14 @@ Where possible, always use components available from the design system [componen
 ---
 
 ## Resources
+
 All components included in the design system will soon be available as a Sketch library that can be imported and reused across your designs.
 
 <!-- The Sketch library will be constantly updated, be sure to check back to grab the latest version. -->
 
 <!-- TODO Sketch library image -->
 <!-- TODO Sketch library download link -->
+
 `Downloadable library coming soon!`
 
 ---
