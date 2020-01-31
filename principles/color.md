@@ -16,7 +16,23 @@ Color in DHIS2 uses a scale system. This gives us enough flexibility to handle a
 
 ![example of color scale](../images/color-scale.jpg)
 
-<table><tr><td>hello</td></tr><tr><td>there</td></tr></table>
+<table width="100%">
+  <tr>
+    <td><div style="width:50px; height:50px; border-radius:10px; background-color:coral;"></div></td>
+    <td>`grey100`</td>
+    <td>#101000</td>
+  </tr>
+  <tr>
+    <td><div style="width:50px; height:50px; border-radius:10px; background-color:coral;"></div></td>
+    <td>`grey100`</td>
+    <td>#101000</td>
+  </tr>
+  <tr>
+    <td><div style="width:50px; height:50px; border-radius:10px; background-color:coral;"></div></td>
+    <td>`grey100`</td>
+    <td>#101000</td>
+  </tr>
+</table>
 
 ### Using the color scale
 
