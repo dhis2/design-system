@@ -1,5 +1,5 @@
 # Color
-Use of color in dhis2 is used almost exclusively to communicate, rather than decoration. It is therefore important to maintain a consistent meaning for each color used. Color meaning is of course relative, 'red = danger' is not a global standard. However, with the use a of a consistent color palette we are to create a sense for the user that 'red **in dhis2** = danger'. 
+Use of color in dhis2 is used almost exclusively to communicate, rather than decoration. It is therefore important to maintain a consistent meaning for each color used. Color meaning is of course relative, 'red = danger' is not a global standard. However, with the use a of a consistent color palette we are to create a sense for the user that 'red **in dhis2** = danger'.
 
 In general, the color principles used in dhis2 are:
 
@@ -16,6 +16,8 @@ Color in DHIS2 uses a scale system. This gives us enough flexibility to handle a
 
 ![example of color scale](../images/color-scale.jpg)
 
+<table><tr><td>hello</td></tr><tr><td>there</td></tr></table>
+
 ### Using the color scale
 
 There are not many strict rules for using the color scale, it mostly depends on context. The principles of the color system defined above can decide what color to choose, but choosing a tint from the scale can be more difficult. General guidelines are:
@@ -30,10 +32,10 @@ In theory, a theme file could redefine the scale for Blue and Teal. No other col
 
 ### Contrast and accessibility
 
-Contrast is important for creating an interface that all can use, regardless of the screen, environment (sun on screen!), or physical sight capabilities. If in doubt, always make it more contrast/divided than you think it needs to be. Some additional guidelines: 
+Contrast is important for creating an interface that all can use, regardless of the screen, environment (sun on screen!), or physical sight capabilities. If in doubt, always make it more contrast/divided than you think it needs to be. Some additional guidelines:
 
 - Anything below grey700 should not be used for any text that needs to be seen, read and understood.
 - Placeholder text does not technically need to pass contrast checks, but if it is important for the user to see and understand then it should be easily readable. Placeholder text should not be used for critical information, as it will disappear when content is entered.
 - If in doubt, check the contrast of background/foreground color using an [accessibility checker](http://accessible-colors.com/) that uses the WCAG2.0 standard. We want to achieve AAA rating for all essential elements.
 
-![example of acceptable and unacceptable contrast](../images/color-contrast.jpg) 
+![example of acceptable and unacceptable contrast](../images/color-contrast.jpg)
