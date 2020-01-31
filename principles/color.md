@@ -38,6 +38,10 @@ Color in DHIS2 uses a scale system. This gives us enough flexibility to handle a
 | -- | -- | -- |
 | ![grey100](../images/test-color.png) | `grey100` | `#234987` |
 
+|  |  |  |  |  |  |  |  |  |  |
+| -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
+| ![grey100](../images/test-color.png) <br>`grey100`<br>`#423998` | ![grey100](../images/test-color.png) <br>`grey100`<br>`#423998` | ![grey100](../images/test-color.png) <br>`grey100`<br>`#423998` | ![grey100](../images/test-color.png) <br>`grey100`<br>`#423998` | ![grey100](../images/test-color.png) <br>`grey100`<br>`#423998` | ![grey100](../images/test-color.png) <br>`grey100`<br>`#423998` | ![grey100](../images/test-color.png) <br>`grey100`<br>`#423998` | ![grey100](../images/test-color.png) <br>`grey100`<br>`#423998` | ![grey100](../images/test-color.png) <br>`grey100`<br>`#423998` | ![grey100](../images/test-color.png) <br>`grey100`<br>`#423998` |
+
 ### Using the color scale
 
 There are not many strict rules for using the color scale, it mostly depends on context. The principles of the color system defined above can decide what color to choose, but choosing a tint from the scale can be more difficult. General guidelines are:
