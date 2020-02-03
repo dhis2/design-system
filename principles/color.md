@@ -1,21 +1,67 @@
 # Color
 
-Use of color in dhis2 is used almost exclusively to communicate, rather than decoration. It is therefore important to maintain a consistent meaning for each color used. Color meaning is of course relative, 'red = danger' is not a global standard. However, with the use a of a consistent color palette we are to create a sense for the user that 'red **in dhis2** = danger'.
+Color is used in DHIS2 to support effective communication. DHIS2 applications use color to help the user understand information, feedback and more. The colors used in an application should not be chosen based primarily on how they look, but how they convey information and aid understanding.
 
-In general, the color principles used in dhis2 are:
+It is important to maintain consistent usage of colors throughout the DHIS2 platform. Globally, color meanings are relative. It is not possible to say "red = danger". However, using a consistent color palette we can establish that "red **in DHIS2** = danger".
 
-- Grey/Black/White: general UI elements, default information
-- Blue (themeable, previously 'Primary'): confirmation, positive action, important neutral information
-- Teal (themeable, previously 'Secondary'): selection, active element
-- Red: danger, destructive, error
-- Yellow: warning, non-blocking error
-- Green: positive feedback, valid
+Color alone should not be relied upon to communicate effectively. Read more about [color accessibility](#accessibility).
 
-### Color scale
+## DHIS2 Color Scale
 
-Color in DHIS2 uses a scale system. This gives us enough flexibility to handle any kind of interface or use case that comes up. Those with good memories may remember that v.01 of the color system used a 3 step scale, that proved to be not enough at all, so now we use a 10 step color scale. That should be enough for all eventualities.
+The DHIS2 color scale contains 7 colors. Each color has 10 shades. This color system provides enough colors for all situations.
 
-![example of color scale](../images/color-scale.jpg)
+Reference: [Color codes and variable names for the DHIS2 color scale](#color-scale-reference).
+
+## General, simplified principles
+
+Each color in the DHIS2 color scale has a purpose. Put simply:
+
+- **Grey**: general interface elements, neutral information
+- **Blue**: important neutral information, primary actions
+- **Teal**: selected or active elements
+- **Red**: danger, error, destructive action
+- **Yellow**: warning, non-blocking error
+- **Green**: positive feedback, valid, success
+
+Generally speaking, for all colors, the values also have a purpose:
+
+- **900–700**: text, information, active or highlighted content
+- **600–300**: icons, states (inactive, disabled, etc.)
+- **200–050**: backgrounds, tints, accents
+
+## Using color
+
+Color usage in DHIS2 applications should be subtle. Reserve colors for when they need to communicate effectively. For example:
+
+- using neutral colors example yes vs. no
+
+- using red for errors yes vs. No
+
+- consistent use of color, yes vs. No
+
+## Accessibility
+
+Do not rely on color alone to communicate. Not everyone sees color the same. Relying on color to communicate will restrict access for partially sighted, color blind and users with low quality display hardware.
+
+**Always use color with another method, such as text formatting or icon usage, to communicate.**
+
+Relying on color alone to signal an error to a user is problematic. For example:
+
+- color red, color blind example and how it should be done
+
+Pay attention to contrast too. Readable text needs to satisfy a minimum contrast ratio of 4.5:1 to be accessible to all users:
+
+- contrast example
+
+Use an [WCAG2.0 standard accessibility checker](http://accessible-colors.com/) to check contrast. Aim for AAA rating for all essential interface elements.
+
+<!-- ### Theming
+
+A DHIS2 instance can be themed. Adjusting theme colors will overwrite the `blue` and `teal` colors of the scale.
+
+When selecting theme colors, make sure they do not clash with the colors established in the DHIS2 color scale. Using red for the main header bar will result in confusion: is the header bar in an error state?  -->
+
+## Color Scale Reference
 
 |                                                | Name      | Hex       |
 | ---------------------------------------------- | --------- | --------- |
@@ -94,25 +140,3 @@ Color in DHIS2 uses a scale system. This gives us enough flexibility to handle a
 | ![green700](../images/color/color-green-700.png) | `green700` | `#HEX` |
 | ![green800](../images/color/color-green-800.png) | `green800` | `#HEX` |
 | ![green900](../images/color/color-green-900.png) | `green900` | `#HEX` |
-
-### Using the color scale
-
-There are not many strict rules for using the color scale, it mostly depends on context. The principles of the color system defined above can decide what color to choose, but choosing a tint from the scale can be more difficult. General guidelines are:
-
-- Use lighter tints for backgrounds
-- Use middle tints for icons
-- Use dark tints for text
-
-### Theming
-
-In theory, a theme file could redefine the scale for Blue and Teal. No other colors should be changed in a theme as these are used for information only.
-
-### Contrast and accessibility
-
-Contrast is important for creating an interface that all can use, regardless of the screen, environment (sun on screen!), or physical sight capabilities. If in doubt, always make it more contrast/divided than you think it needs to be. Some additional guidelines:
-
-- Anything below grey700 should not be used for any text that needs to be seen, read and understood.
-- Placeholder text does not technically need to pass contrast checks, but if it is important for the user to see and understand then it should be easily readable. Placeholder text should not be used for critical information, as it will disappear when content is entered.
-- If in doubt, check the contrast of background/foreground color using an [accessibility checker](http://accessible-colors.com/) that uses the WCAG2.0 standard. We want to achieve AAA rating for all essential elements.
-
-![example of acceptable and unacceptable contrast](../images/color-contrast.jpg)
