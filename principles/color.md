@@ -35,11 +35,14 @@ Generally speaking, for all colors, the values also have a purpose:
 
 Color usage in DHIS2 applications should be subtle. Reserve colors for when they need to communicate effectively. For example:
 
-- using neutral colors example yes vs. no
+![Usage of color](../images/color/ex-color-1.png)
+<br><br>
 
-- using red for errors yes vs. No
+![Error and danger colors](../images/color/ex-color-2.png)
+<br><br>
 
-- consistent use of color, yes vs. No
+![Consistent use of color](../images/color/ex-color-3.png)
+<br><br>
 
 ## Accessibility
 
