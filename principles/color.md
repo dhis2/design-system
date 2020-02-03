@@ -8,9 +8,11 @@ Color alone should not be relied upon to communicate effectively. Read more abou
 
 ## DHIS2 Color Scale
 
+![DHIS2 color scale](../images/color/color-scale.png)
+
 The DHIS2 color scale contains 7 colors. Each color has 10 shades. This color system provides enough colors for all situations.
 
-Reference: [Color codes and variable names for the DHIS2 color scale](#color-scale-reference).
+Reference: [Color codes and #hex values for the DHIS2 color scale](#color-scale-reference).
 
 ## General, simplified principles
 
