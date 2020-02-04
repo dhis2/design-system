@@ -52,13 +52,15 @@ Do not rely on color alone to communicate. Not everyone sees color the same. Rel
 
 Relying on color alone to signal an error to a user is problematic. For example:
 
-- color red, color blind example and how it should be done
+![Colorblind simulation](../images/color/ex-color-4.png)
+<br><br>
 
-Pay attention to contrast too. Readable text needs to satisfy a minimum contrast ratio of 4.5:1 to be accessible to all users:
+Pay attention to contrast too. Information dense text needs to satisfy a minimum contrast ratio of 7:1 to be accessible to all users and headers and secondary text should pass a 4.5:1 ratio:
 
-- contrast example
+![Contrast example](../images/color/ex-color-5.png)
+<br><br>
 
-Use an [WCAG2.0 standard accessibility checker](http://accessible-colors.com/) to check contrast. Aim for AAA rating for all essential interface elements.
+Remember, when dealing with accessibility issues that designs may work or be understandable on your own screen, but not necessarily on others. Make sure to think of all kinds of users with all kinds of hardware when designing with accessibility in mind. Use an [WCAG2.0 standard accessibility checker](http://accessible-colors.com/) to check contrast. Aim for AAA rating for all essential interface elements.
 
 <!-- ### Theming
 
