@@ -1,19 +1,23 @@
 # Content & Communication
+
+--- Introduction ---
+
+
 ### Talking to the user
 
-It's important when communicating with the user to keep a consistent, understandable tone of voice. We do not want to talk down to our users, on the other hand we do not want to confuse them unnecessarily. 
+It's important when communicating with the user to keep a consistent, understandable tone of voice. We do not want to talk down to our users, on the other hand we do not want to confuse them unnecessarily.
 
 Help the user build a logical mental picture of whatever you are trying to communicate. Refer them to the help documentation where necessary to keep things concise.
 
 For example:
 
->"Enable map legend sets for each dimension layer?" 
+>"Enable map legend sets for each dimension layer?"
 
-vs. 
+vs.
 
 >"Apply legend sets to all layers?"
 
-The difference is subtle, but the second example is more human, slightly simplified, but still gives enough detail for the user to understand what will happen. Focus on the intended action when presenting an option. In the first example, what does "enable" really mean? The user doesn't want to "enable" as a final intended action. Their intended final action is to get legend sets applied to all map layers, enabling an option is a proxy to get to that goal. Instead, go direct to that intended action and use that word instead, "apply". 
+The difference is subtle, but the second example is more human, slightly simplified, but still gives enough detail for the user to understand what will happen. Focus on the intended action when presenting an option. In the first example, what does "enable" really mean? The user doesn't want to "enable" as a final intended action. Their intended final action is to get legend sets applied to all map layers, enabling an option is a proxy to get to that goal. Instead, go direct to that intended action and use that word instead, "apply".
 
 ### Building a conceptual model
 
@@ -84,3 +88,14 @@ It is important to adopt the right tone of voice when communicating with the use
 
 ✅ A well-balanced, informative message:
 > There was a problem processing this data and it can't be displayed.
+
+
+### Referring to the user
+
+Sometimes it may be useful to refer to the user. When doing so, always use the second-person, referring to the user as _you_ or _your_. Use these terms sparingly and only where it is important that the user understands that their data is separate from some other type of data. Do not use _me_ or _my_, which can cause confusion: is the user _me_, or is DHIS2 _me_? Using _you_ avoids this problem.
+
+Guidelines for the use of _you_ and _your_ in DHIS2:
+
+- Only use _you_ or _your_ if there is other, similar items that do not belong to the user. For example, when displaying a list of documents, if they all belong to the user simply refer to them as 'Documents'. If there are some documents that belong to the user, and some that belong to a wider community then it makes sense to highlight this. 'Your Documents' could refer to the user's documents and 'Community Documents' could refer to all others.
+- _You_ or _your_ could be replaced by the currently logged in username. This is useful in situations where a single user login is used in many places. However, be aware that usernames can be very long. Only use username labels where data explicitly belongs to that user and no one else.
+- Be aware that _you_ and _your_ may refer to a single user or to the DHIS2 instance. In Data Visualizer we refer to 'Your Dimensions'. These dimensions belong to the DHIS2 instance, not personally to the user, but in this case we are using _you_ to distinguish between the custom, user defined dimensions and system dimensions. Ensure the relationship is clear and the user understands what data belongs to them and what belongs to their shared DHIS2 instance.
