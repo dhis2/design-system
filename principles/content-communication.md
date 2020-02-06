@@ -11,7 +11,7 @@ Communicating in a consistent way helps DHIS2 users understand, use and extend D
 - Use a clear, honest and friendly tone of voice
 - Only refer to a user, using _you/your_ when necessary.
 
-### Talking to the user
+## Communication
 
 Use understandable, consistent language when communicating with a user. Provide information that is relevant and useful. Avoid unnecessary confusion by communicating in clear terms. Do not talk down to users, regardless of their technical ability.
 
@@ -19,17 +19,12 @@ Keep communication concise and to the point. Do not attempt to guide the user th
 
 For example, when prompting a user to confirm an action:
 
-> "Enable map legend sets for each dimension layer?"
-
-vs.
-
-> "Apply legend sets to all layers?"
-
-TODO
+![communication example](../images/communication/ex-comms-1.png)
+<br>
 
 The correct example is clear, still providing enough detail about the consequences. Focusing on the intended action: applying legend sets to layers, makes the text easier to understand. The incorrect example uses several unnecessary words, DHIS2 technical terms and passively states the action. The correct example directly states the action and consequences.
 
-### Building a conceptual model
+## Building a conceptual model
 
 A conceptual model helps the user imagine an abstract concept, e.g. software, in another way. This allows a clearer understanding of complex concepts. A classic example: a computer file system understood as a filing cabinet, the mental model is supported by _files_ and _folders_. **The key to designing usable software is to present a conceptual model that users can understand and relate to.**
 
@@ -41,12 +36,12 @@ Those involved in building applications have a very different idea of how they w
 
 Think about what the user is trying to do, not what the application is doing:
 
-> Do they want to "link two instances", or "Make a relationship"? Same action, but a different way of explaining the model.
-> TODO
+![communication example](../images/communication/ex-comms-2.png)
+<br>
 
 Remember: **always communicate to the user.**
 
-### Error messages
+## Error messages
 
 Always inform the user when an error occurs. Do not leave a page or component blank or forever loading. Critical or fatal application errors need to be shown as soon as they occur.
 
@@ -54,45 +49,49 @@ Clear, understandable language is very helpful in error messages. Error messages
 
 Consider the following error messages, both communicate the same technical error:
 
-TODO
-
-> Error: no series object found for analytical object
-> There's a problem, this chart doesn't have enough data. Try adding some data to the series in the layout.
+![communication example](../images/communication/ex-comms-3.png)
+<br>
 
 A technical error, like the one in the incorrect example, may make sense to a technical user. For an end user this information is rarely useful. Provide the information in a way that communicates _what went wrong_ and _what can be done to fix it_.
 
 Sometimes technical details or logs can be helpful. If so, provide these in an expandable area or as a downloadable file.
 
-#### Generic errors
+### Generic errors
 
 It is not always possible to present specific error messages. In those cases, inform the user that something has gone wrong and that they should contact a relevant administrator.
 
-### Keeping the user informed
+## Keeping the user informed
 
-It is vital to always keep the user informed as to what is happening. If the application is loading a dataset, let the user know. Avoid all situations where a user could be looking at a static screen and thinking "is something happening?". Even if the most that can be said is "Something is happening...", that is better than nothing.
+Always keep the user informed. Avoid all situations where a user could be looking at a static or empty screen thinking: "is something happening?".
 
-Practically this means, but is not limited to:
+Practically, this means:
 
-- displaying loading spinners when waiting on data
-- when no data is returned, display "No data found" instead of a blank screen
-- where possible, displaying loading as a progress bar, so the user understands how much time they will be waiting
-- not just informing the user of errors, but also successes: "Program stage saved." is a simple, effective piece of communication that helps the user feel at ease and trust DHIS2
-- informing the user of intention, but perhaps odd, behaviour. If application behaviour could be interpreted as an error, make sure to let the user know why. For example, when selecting a program some org. units might be filtered away. The user might not understand this link, so to them they are just missing org. units. A simple message: "Some org. units are not being shown for the selected program. Show all org. units" helps communicate that this is intentional behaviour and should be expected.
+- displaying loading indicators
+- communicating 'No data found' instead of blank screens or components
+- displaying loading as a progress bar, helping the user understand approximately how long the loading process might take
+- informing the user of successes as well as errors, for example when an item has saved successfully
+- clearly showing when data or items are being filtered
 
-![example ui communicating filtered state](../images/filtered-information.jpg)
-_Without a simple explanation text, how would the user know why all units wern't in the list?_
+### Examples
 
-### Tone of voice
+TODO
 
-It is important to adopt the right tone of voice when communicating with the user. DHIS2 applications should keep the following principles in mind:
+> displaying loading spinners when waiting on data
+> when no data is returned, display "No data found" instead of a blank screen
 
-- Simple. Information should be communicated in a simple way, don't overcomplicate sentences or give the user more information that they need. Remember that all content must be translated into many languages, so don't use unecessary words.
-- Honest. Always be open with application capabilities and status.
-- Friendly, but focused. It's ok to adopt a casual tone, but don't write jokes or light-hearted content. DHIS2 applications are used in sensitive conditions and the user interface should adopt a detached tone.
+## Tone of voice
 
-#### Examples
+DHIS2 applications should communicate in a clear, honest and friendly tone of voice:
 
-##### Introducing the user to the available features in a modal view:
+- **Clear**: Do not overcomplicate sentences or provide more information than needed. Be concise and straight to the point.
+- **Honest**: Be open and upfront about errors and system information.
+- **Friendly**: Be polite while remaining focused. Communication can be casual but do not joke or be overly forward. DHIS2 applications are used in sensitive conditions. Applications should adopt a detached, professional tone.
+
+### Examples
+
+TODO
+
+Introducing the user to the available features in a modal view:
 
 ❌ Too technical and formal:
 
@@ -106,7 +105,7 @@ It is important to adopt the right tone of voice when communicating with the use
 
 > Edit data, change legend styling and add filters below.
 
-##### Letting the user know there was an error:
+Letting the user know there was an error:
 
 ❌ Too technical and formal:
 
@@ -120,7 +119,7 @@ It is important to adopt the right tone of voice when communicating with the use
 
 > There was a problem processing this data and it can't be displayed.
 
-### Referring to the user
+## Referring to the user
 
 Sometimes it may be useful to refer to the user. When doing so, always use the second-person, referring to the user as _you_ or _your_. Use these terms sparingly and only where it is important that the user understands that their data is separate from some other type of data. Do not use _me_ or _my_, which can cause confusion: is the user _me_, or is DHIS2 _me_? Using _you_ avoids this problem.
 
