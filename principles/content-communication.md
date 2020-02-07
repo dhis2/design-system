@@ -1,7 +1,5 @@
 # Content & Communication
 
---- Introduction ---
-
 Communicating consistently helps DHIS2 users understand, use and extend DHIS2. Follow these principles, each of which is expanded below:
 
 - Use words that are easily understood, consistent and not unnecessarily technical.
