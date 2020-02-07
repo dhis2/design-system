@@ -2,7 +2,7 @@
 
 --- Introduction ---
 
-Communicating in a consistent way helps DHIS2 users understand, use and extend DHIS2. Follow these principles, each of which is expanded below:
+Communicating consistently helps DHIS2 users understand, use and extend DHIS2. Follow these principles, each of which is expanded below:
 
 - Use words that are easily understood, consistent and not unnecessarily technical.
 - Help the user to build a mental model of the DHIS2 platform and applications
@@ -15,7 +15,7 @@ Communicating in a consistent way helps DHIS2 users understand, use and extend D
 
 Use understandable, consistent language when communicating with a user. Provide information that is relevant and useful. Avoid unnecessary confusion by communicating in clear terms. Do not talk down to users, regardless of their technical ability.
 
-Keep communication concise and to the point. Do not attempt to guide the user through all parts of an interface, the interface should speak for itself. A short introductory text for sections within an application is enough to give the user context to explore further. Where more guidance is necessary refer the user to the relevant documentation.
+Keep communication concise and to the point. Do not attempt to guide the user through all parts of an interface, the interface should speak for itself. A short introductory text for sections within an application is enough to give the user context to explore further. Where more guidance is necessary, refer the user to the relevant documentation.
 
 For example, when prompting a user to confirm an action:
 
@@ -52,7 +52,7 @@ Consider the following error messages, both communicate the same technical error
 ![communication example](../images/communication/ex-comms-3.png)
 <br>
 
-A technical error, like the one in the incorrect example, may make sense to a technical user. For an end user this information is rarely useful. Provide the information in a way that communicates _what went wrong_ and _what can be done to fix it_.
+A technical error, like the one in the incorrect example, may make sense to a technical user. For an end-user this information is rarely useful. Provide the information in a way that communicates _what went wrong_ and _what can be done to fix it_.
 
 Sometimes technical details or logs can be helpful. If so, provide these in an expandable area or as a downloadable file.
 
@@ -74,10 +74,11 @@ Practically, this means:
 
 ### Examples
 
-TODO
+![communication example](../images/communication/ex-comms-4.png)
+<br><br>
 
-> displaying loading spinners when waiting on data
-> when no data is returned, display "No data found" instead of a blank screen
+![communication example](../images/communication/ex-comms-5.png)
+<br><br>
 
 ## Tone of voice
 
@@ -89,42 +90,22 @@ DHIS2 applications should communicate in a clear, honest and friendly tone of vo
 
 ### Examples
 
-TODO
+##### Introducing the user to the available features in a modal view
 
-Introducing the user to the available features in a modal view:
+![communication example](../images/communication/ex-comms-6.png)
+<br><br>
 
-❌ Too technical and formal:
+##### Letting the user know there was an error
 
-> Here you have the capability to edit all available data items, modify legend styles and add data filtering.
-
-❌ Too casual and friendly:
-
-> Want to edit data, change up the styling or cut down on the data overload? You can do that right here!
-
-✅ A well-balanced, informative message:
-
-> Edit data, change legend styling and add filters below.
-
-Letting the user know there was an error:
-
-❌ Too technical and formal:
-
-> Unexpected end of dataset before loop finished, cannot render processed array.
-
-❌ Too casual and friendly:
-
-> Yikes! There's a bug in the system, but don't worry, we're on it!
-
-✅ A well-balanced, informative message:
-
-> There was a problem processing this data and it can't be displayed.
+![communication example](../images/communication/ex-comms-6.png)
+<br><br>
 
 ## Referring to the user
 
-Sometimes it may be useful to refer to the user. When doing so, always use the second-person, referring to the user as _you_ or _your_. Use these terms sparingly and only where it is important that the user understands that their data is separate from some other type of data. Do not use _me_ or _my_, which can cause confusion: is the user _me_, or is DHIS2 _me_? Using _you_ avoids this problem.
+Sometimes it may be useful to refer to the user. When doing so, always use the second-person, referring to the user as _you_ or _your_. Use these terms sparingly and only where the user must understand that their data is separate from some other type of data. Do not use _me_ or _my_, which can cause confusion: is the user _me_, or is DHIS2 _me_? Using _you_ avoids this problem.
 
 Guidelines for the use of _you_ and _your_ in DHIS2:
 
-- Only use _you_ or _your_ if there is other, similar items that do not belong to the user. For example, when displaying a list of documents, if they all belong to the user simply refer to them as 'Documents'. If there are some documents that belong to the user, and some that belong to a wider community then it makes sense to highlight this. 'Your Documents' could refer to the user's documents and 'Community Documents' could refer to all others.
+- Only use _you_ or _your_ if other, similar items do not belong to the user. For example, when displaying a list of documents, if they all belong to the user simply refer to them as 'Documents'. If some belong documents to the user, and some belong to a wider community then it makes sense to highlight this. 'Your Documents' could refer to the user's documents and 'Community Documents' could refer to all others.
 - _You_ or _your_ could be replaced by the currently logged in username. This is useful in situations where a single user login is used in many places. However, be aware that usernames can be very long. Only use username labels where data explicitly belongs to that user and no one else.
-- Be aware that _you_ and _your_ may refer to a single user or to the DHIS2 instance. In Data Visualizer we refer to 'Your Dimensions'. These dimensions belong to the DHIS2 instance, not personally to the user, but in this case we are using _you_ to distinguish between the custom, user defined dimensions and system dimensions. Ensure the relationship is clear and the user understands what data belongs to them and what belongs to their shared DHIS2 instance.
+- Be aware that _you_ and _your_ may refer to a single user or the DHIS2 instance. In Data Visualizer we refer to 'Your Dimensions'. These dimensions belong to the DHIS2 instance, not personally to the user. In this case, we are using _you_ to distinguish between the custom, user-defined dimensions and system dimensions. Ensure the relationship is clear and the user understands what data belongs to them and what belongs to their shared DHIS2 instance.
