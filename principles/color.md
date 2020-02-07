@@ -46,7 +46,7 @@ Color usage in DHIS2 applications should be subtle. Reserve colors for when they
 
 ## Accessibility
 
-Do not rely on color alone to communicate. Not everyone sees color the same. Relying on color to communicate will restrict access for partially sighted, color blind and users with low quality display hardware.
+Do not rely on color alone to communicate. Not everyone sees color the same. Relying on color to communicate will restrict access for partially sighted, color blind and users with low-quality display hardware.
 
 **Always use color with another method, such as text formatting or icon usage, to communicate.**
 
@@ -60,13 +60,13 @@ Pay attention to contrast too. Information dense text needs to satisfy a minimum
 ![Contrast example](../images/color/ex-color-5.png)
 <br><br>
 
-Remember, when dealing with accessibility issues that designs may work or be understandable on your own screen, but not necessarily on others. Make sure to think of all kinds of users with all kinds of hardware when designing with accessibility in mind. Use an [WCAG2.0 standard accessibility checker](http://accessible-colors.com/) to check contrast. Aim for AAA rating for all essential interface elements.
+Remember, when dealing with accessibility issues that designs may work or be understandable on your screen, but not necessarily on others. Make sure to think of all kinds of users with all kinds of hardware when designing with accessibility in mind. Use an [WCAG2.0 standard accessibility checker](http://accessible-colors.com/) to check contrast. Aim for AAA rating for all essential interface elements.
 
 <!-- ### Theming
 
 A DHIS2 instance can be themed. Adjusting theme colors will overwrite the `blue` and `teal` colors of the scale.
 
-When selecting theme colors, make sure they do not clash with the colors established in the DHIS2 color scale. Using red for the main header bar will result in confusion: is the header bar in an error state?  -->
+When selecting theme colors, make sure they do not clash with the colors established in the DHIS2 color scale. Using red for the main header bar will confuse: is the header bar in an error state?  -->
 
 ## Color Scale Reference
 
