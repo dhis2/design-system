@@ -50,9 +50,8 @@ Each component has guidelines for use, explanations of the different options and
 - [Notice box](molecules/notice-box.md)
 - [Popover](molecules/popover.md)
 - [Table](organisms/table.md)
+- [Tag](atoms/tag.md)
 - [Tooltip](atoms/tooltip.md)
-  <!-- - data table -->
-  <!-- - conversation -->
 
 #### Data entry
 
