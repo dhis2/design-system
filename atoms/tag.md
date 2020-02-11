@@ -1,6 +1,6 @@
 | |  |
 |-------------|------------------|
-| **Component** | Badge |
+| **Component** | Tag |
 | **Type** | Atom ([?](http://atomicdesign.bradfrost.com/chapter-2/))|
 | **Design Spec** | *pending* |
 | **Working Examples** | *pending* |
@@ -43,7 +43,7 @@ Tags are available in four different colors. The color of a tag depends on its c
 | Tag | Meaning |
 | -- | -- |
 | ![](../images/tag/tag-grey.png) | Default. The grey tag is default and has its color should not imply meaning. |
-| ![](../images/tag/tag-blue.png) | Neutral. Blue is used when a tag could have a status but currently is neutral. |
+| ![](../images/tag/tag-blue.png) | Neutral. Blue is used when a tag could have valid or error status but is currently neutral. |
 | ![](../images/tag/tag-red.png) | Error. Red tags imply an error or a problem.
 | ![](../images/tag/tag-green.png) | Valid. Green tags should be used to indicate validity or success. |
 
