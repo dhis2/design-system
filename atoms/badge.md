@@ -50,7 +50,7 @@ Tags are available in four different colors. The color of a tag depends on its c
 
 ### Icon
 
-![](../images/tag/tag-icon.png)
+![](../images/tag/tag-icons.png)
 
 Tags can contain icons. Use icons where they will help users easily identify the content of the tag. Tags must have a text label and cannot display only an icon.
 
@@ -58,6 +58,6 @@ Tags can contain icons. Use icons where they will help users easily identify the
 
 ## Examples in use
 
-![](../images/-example.png)
+![](../images/tag/tag-ex-2.png)
 
-*~explain why this was the right component to use in this use case~*
+*Tags are used to give an overview of the status of all the patients displayed in a list in Capture app.*
