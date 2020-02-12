@@ -50,9 +50,8 @@ Each component has guidelines for use, explanations of the different options and
 - [Notice box](molecules/notice-box.md)
 - [Popover](molecules/popover.md)
 - [Table](organisms/table.md)
+- [Tag](atoms/tag.md)
 - [Tooltip](atoms/tooltip.md)
-  <!-- - data table -->
-  <!-- - conversation -->
 
 #### Data entry
 
@@ -60,7 +59,7 @@ Each component has guidelines for use, explanations of the different options and
 - [Comment](molecules/comment.md)
 - [File Input](atoms/fileinput.md)
 - [Input field](atoms/inputfield.md)
-- [Organisation Unit Tree](organisms/organisation-unit-tree/org-unit-tree.md)
+- [Organization Unit Tree](organisms/organisation-unit-tree/org-unit-tree.md)
 - [Radio button](atoms/radio.md)
 - [Rich Text Editing](organisms/rich-text.md)
 - [Select](molecules/select.md)
