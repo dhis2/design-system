@@ -1,10 +1,10 @@
-| |  |
-|-------------|------------------|
-| **Component** | Tag |
-| **Type** | Atom ([?](http://atomicdesign.bradfrost.com/chapter-2/))|
-| **Design Spec** | *pending* |
-| **Working Examples** | *pending* |
-| **Status** | `Waiting for build` |
+|                      |                                                          |
+| -------------------- | -------------------------------------------------------- |
+| **Component**        | Tag                                                      |
+| **Type**             | Atom ([?](http://atomicdesign.bradfrost.com/chapter-2/)) |
+| **Design Spec**      | [CSS Spec](https://sleepy-yalow-3c0c76.netlify.com/)     |
+| **Working Examples** | _pending_                                                |
+| **Status**           | `Waiting for build`                                      |
 
 ---
 
@@ -40,13 +40,12 @@ Tags are never used for primary interaction and should not be used as buttons. C
 
 Tags are available in four different colors. The color of a tag depends on its content and the meaning of that tag. The following system is used for tag coloring:
 
-| Tag | Meaning |
-| -- | -- |
-| ![](../images/tag/tag-grey.png) | Default. The grey tag is default and has its color should not imply meaning. |
-| ![](../images/tag/tag-blue.png) | Neutral. Blue is used when a tag could have valid or error status but is currently neutral. |
-| ![](../images/tag/tag-red.png) | Error. Red tags imply an error or a problem.
-| ![](../images/tag/tag-green.png) | Valid. Green tags should be used to indicate validity or success. |
-
+| Tag                              | Meaning                                                                                     |
+| -------------------------------- | ------------------------------------------------------------------------------------------- |
+| ![](../images/tag/tag-grey.png)  | Default. The grey tag is default and has its color should not imply meaning.                |
+| ![](../images/tag/tag-blue.png)  | Neutral. Blue is used when a tag could have valid or error status but is currently neutral. |
+| ![](../images/tag/tag-red.png)   | Error. Red tags imply an error or a problem.                                                |
+| ![](../images/tag/tag-green.png) | Valid. Green tags should be used to indicate validity or success.                           |
 
 ### Icon
 
@@ -54,10 +53,14 @@ Tags are available in four different colors. The color of a tag depends on its c
 
 Tags can contain icons. Use icons where they will help users easily identify the content of the tag. Tags must have a text label and cannot display only an icon.
 
+### Bold
+
+Tags have an optional `bold` property. Use bold tags where it is important that the tag is seen by the user in an information dense interface. Bold tags should be reserved for edge cases and not overused.
+
 ---
 
 ## Examples in use
 
 ![](../images/tag/tag-ex-2.png)
 
-*Tags are used to give an overview of the status of all the patients displayed in a list in Capture app.*
+_Tags are used to give an overview of the status of all the patients displayed in a list in Capture app._

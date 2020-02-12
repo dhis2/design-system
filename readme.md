@@ -59,7 +59,7 @@ Each component has guidelines for use, explanations of the different options and
 - [Comment](molecules/comment.md)
 - [File Input](atoms/fileinput.md)
 - [Input field](atoms/inputfield.md)
-- [Organisation Unit Tree](organisms/organisation-unit-tree/org-unit-tree.md)
+- [Organization Unit Tree](organisms/organisation-unit-tree/org-unit-tree.md)
 - [Radio button](atoms/radio.md)
 - [Rich Text Editing](organisms/rich-text.md)
 - [Select](molecules/select.md)
