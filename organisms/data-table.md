@@ -27,9 +27,9 @@ A data table is used to display data in a structured way. Data tables have funct
 
 ## Usage
 
-Displaying data in a structured way aids understanding and highlights relationships in data sets. Data tables allow the user to see detailed information about data sets. Each individual record in a data table can be viewed, interacted with and manipulated.
+Displaying data in a structured way aids understanding and highlights relationships in data sets. Data tables allow the user to see detailed information about data sets. Each record in a data table can be viewed, interacted with and manipulated.
 
-Data tables should only be presented to the user when needed. A data table full of complex data can be overwhelming. Before using a data table, consider whether an application could parse and display the information in a more user friendly, understandable way. In cases where the user wants to see all of the data available, a data table is perfect.
+Data tables should only be presented to the user when needed. A data table full of complex data can be overwhelming. Before using a data table, consider whether an application could parse and display the information in a more user-friendly, understandable way. In cases where the user wants to see all of the data available, a data table is perfect.
 
 There are several different types of functionality and options available in the data table component. The correct data table to use will depend on the use case and type of data being displayed. The functionality and options available in the data table component are highlighted and discussed below.
 
@@ -61,7 +61,27 @@ A title provides context to a table that might appear in a complex interface. Ti
 
 ---
 
-### Filters
+### Search
+
+![](../images/datatable-search.png)
+
+##### What is search?
+
+Search allows a user to search for a specific term across the entire data table.
+
+##### How is search used?
+
+A search input can be included inside the table toolbar area or made available outside of the table. The location of the search input depends on the importance of search and how it relates to the task. If searching is a logical step performed before looking at the table the input should be shown outside, above the table. If searching is a secondary action it can be included inside the table.
+
+Be sure to inform the user with an [empty state](#empty-state) if there are no results for a search term.
+
+##### When to use search?
+
+Include search whenever a user might need to find a specific data record in the table. Search can be quicker than filtering if the user knows the exact data item they are looking for. Often search and filtering work well in combination.
+
+---
+
+### Filtering
 
 ![](../images/datatable-filter.png)
 
@@ -73,7 +93,7 @@ Filter controls allow a user to view a precise, focused set of data. The type of
 
 ##### How are filters used?
 
-The filters that are available must be defined, none will be provided by default. Clicking a filter button opens a popover with input controls. An actively filtered column is highlighted with an active button and text indicating the applied filter. Never filter data in a table without informing the user, it is important a user knows they are viewing a filtered set of data.
+The available filters must be defined, none will be provided by default. Clicking a filter button opens a popover with input controls. An actively filtered column is highlighted with an active button and text indicating the applied filter. Never filter data in a table without informing the user, the user must know they are viewing a filtered set of data.
 
 ##### When to use filters?
 
@@ -133,7 +153,7 @@ Sorting/ordering allows the user to reorder the rows in a data table based on a 
 
 ##### How is sorting/ordering used?
 
-Column headings can be clicked to enable sorting by that column. The direction of sorting is indicated by a highlighted icon. Clicking a column heading multiple times toggles ascending/descending ordering.
+Column headings can be clicked to enable sorting by that column. The direction of sorting is indicated by a highlighted icon. Clicking a column heading multiple times toggles ascending/descending order.
 
 ##### When to use sorting/ordering?
 
@@ -161,7 +181,7 @@ Fixed headers are useful for browsing data in limited space where the header wou
 
 ##### What are fixed columns?
 
-Columns in a data table that remain in view when a table horizontally scrolls. In the above example the first two columns are fixed and the rest of the table scrolls horizontally.
+Columns in a data table that remain in view when a table horizontally scrolls. In the above example, the first two columns are fixed and the rest of the table scrolls horizontally.
 
 ##### When to use fixed columns?
 
@@ -185,7 +205,7 @@ Clicking an editable cell opens a popover where editing controls can be presente
 
 ##### When to use inline editing?
 
-Inline editing should be used with restraint. It can be useful for power users, they can quickly edit values without leaving the data table. However, it can be overwhelming for some users, and can be particularly difficult when working with large data sets. Also consider network conditions, an unreliable network can make inline editing less clear, as the distinction between saved/failed is not always clear to a user.
+Inline editing should be used with restraint. It can be useful for power users, they can quickly edit values without leaving the data table. However, it can be overwhelming for some users and can be particularly difficult when working with large data sets. Consider network conditions, an unreliable network can make inline editing less clear, as the distinction between saved/failed is not always clear to a user.
 
 ---
 
@@ -199,11 +219,11 @@ Expandable rows are table rows that can be expanded inline, without leaving the 
 
 ##### How are expandable rows used?
 
-The user can expand a row by clicking on the arrow in the left most area of the row. Alternatively, the default click action on a row could be overridden to expand the row.
+The user can expand a row by clicking on the arrow in the left-most area of the row. Alternatively, the default click action on a row could be overridden to expand the row.
 
 ##### When to use expandable rows?
 
-Expandable rows are useful when there is a lot of useful information to display, more than would fit in a table row on a normal sized screen. A row that can expand can show this useful information to a user without leaving the page, so this pattern works well for reference screens where a user might be checking many pieces of information. Expandable rows also work well for displaying information that cannot easily be shown inside a table row: paragraphs of text or videos, for example.
+Expandable rows are useful when there is a lot of useful information to display, more than would fit in a table row on a normal-sized screen. A row that can expand can show this useful information to a user without leaving the page, so this pattern works well for reference screens where a user might be checking many pieces of information. Expandable rows also work well for displaying information that cannot easily be shown inside a table row: paragraphs of text or videos, for example.
 
 ---
 
@@ -225,9 +245,9 @@ If only one row can be selected the rows will have a radio button control. If mu
 
 ##### When to use selectable rows?
 
-Use selectable rows with checkboxes to allow users to perform an action on one or more rows easily. Do not enable selectable rows if there are no actions to perform.
+Use selectable rows with checkboxes to allow users to act on one or more rows easily. Do not enable selectable rows if there are no actions to perform.
 
-Use a single selectable row (radio button) when a user needs to choose an option from a data table. Think carefully if a data table is the right way to display the options, would a dropdown or a simpler list work? Only use a single selectable row if the user needs to see/manipulate all of the data when making a choice.
+Use a single selectable row (radio button) when a user needs to choose an option from a data table. Think carefully if a data table is the correct way to display the options, would a dropdown or a simpler list work? Only use a single selectable row if the user needs to see/manipulate all of the data when making a choice.
 
 ---
 
@@ -255,7 +275,7 @@ Row reordering should only be used where it will have a lasting, meaningful effe
 
 ##### What are editable columns?
 
-Editable columns allows users to change which columns to display, and their ordering, in a data table.
+Editable columns allow users to change which columns to display, and their ordering, in a data table.
 
 ##### How are editable columns used?
 
@@ -265,7 +285,7 @@ If column editing is enabled a button will be shown in the Table Actions. This b
 
 Allowing users to edit column visibility and ordering can be useful for creating flexible data tables that need to show different data to different types of users. A single data table can fulfill many different needs and purposes.
 
-However, do not include editable column by default. There must be an identified use case. Editing columns is advanced functionality and can be intimidating for some users, so it should be used with care.
+However, do not include editable columns by default. There must be an identified use case. Editing columns is advanced functionality and can be intimidating for some users, so it should be used with care.
 
 ---
 
@@ -273,7 +293,7 @@ However, do not include editable column by default. There must be an identified 
 
 ![](../images/datatable-bordered.png)
 
-Bordered cells are useful when displaying very complex data that may have similar values. For example, a table that displays only number values is best shown with borders to help visually seperate the values. Tables where rows represent one 'record' that has different value types (name, address, age, etc.) do not need borders.
+Bordered cells are useful when displaying very complex data that may have similar values. For example, a table that displays only number values is best shown with borders to help visually separate the values. Tables where rows represent one 'record' with different value types (name, address, age, etc.) do not need borders.
 
 ---
 
@@ -290,7 +310,7 @@ Several built-in text styles are available for cells. Technically any type of co
 ![](../images/datatable-status-badge.png)
 Status badges are a useful component to include in data tables that need to display a status for each displayed row. The 'status badge' component provides consistent styles that can be combined with custom text and icons. Use status badges where each table row has a state from a few possible shared states. Do not use status badges for unique values.
 
-Only use status badges where the status is relevant or useful to the user. Do not use status badges unless multiple status' are available, (for example, do not use status badges if the only status ever shown is 'Active').
+Only use status badges where the status is relevant or useful to the user. Do not use status badges unless multiple statuses are available, (for example, do not use status badges if the only status ever shown is 'Active').
 
 Use the appropriate status badge for the value. Guidelines for the different styles are:
 
@@ -317,9 +337,9 @@ Large cells use a larger font-size and cell height. Use large cells where users 
 
 ![](../images/datatable-empty.png)
 
-An empty data table should be still communicate helpful information to a user. If there is no data to display do not simply show an empty table. Sometimes it may make sense to hide an empty table, but keep in mind that users will be unaware why the table is hidden and may be confused. In most situations it is best to show a data table with a useful empty state.
+An empty data table should be communicating helpful information to a user. If there is no data to display do not simply show an empty table. Sometimes it may make sense to hide an empty table, but keep in mind that users will be unaware of why the table is hidden and may be confused. In most situations, it is best to show a data table with a useful empty state.
 
-The empty state is flexible and accepts any elements, but by default it is recommended to present some informative text and an optional action. Without an action it can be difficult for the user to fix the cause of the empty data. For example, if there are no patients registered in a program, the data table is empty, the action could be 'Register a patient'.
+The empty state is flexible and accepts any elements, but by default, it is recommended to present some informative text and an optional action. Without an action, it can be difficult for the user to fix the cause of the empty data. For example, if there are no patients registered in a program, the data table is empty, the action could be 'Register a patient'.
 
 Column headers can be displayed in an empty state if they are available, this can help the user to understand the data that would be there if the table was not empty.
 
