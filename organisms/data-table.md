@@ -305,21 +305,15 @@ Several built-in text styles are available for cells. Technically any type of co
 
 ---
 
-### Status badges
+### Status
 
 ![](../images/datatable-status-badge.png)
-Status badges are a useful component to include in data tables that need to display a status for each displayed row. The 'status badge' component provides consistent styles that can be combined with custom text and icons. Use status badges where each table row has a state from a few possible shared states. Do not use status badges for unique values.
 
-Only use status badges where the status is relevant or useful to the user. Do not use status badges unless multiple statuses are available, (for example, do not use status badges if the only status ever shown is 'Active').
+It is often useful to display the status of an item in a data table. Statuses allow easy comparison between rows of data and can highlight important or notable data items.
 
-Use the appropriate status badge for the value. Guidelines for the different styles are:
+Use the [tag](../atoms/tag.md) component to display status in data tables. Be sure to follow the usage guidelines for tags.
 
-| Type                                        | Usage                                                                                                                                                       |
-| ------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![](../images/datatable-status-default.png) | Empty, or starting status. This could be considered the default status for a row.                                                                           |
-| ![](../images/datatable-status-neutral.png) | Useful for data is that is completed or finished, but not necessarily valid. So, it is a step beyond the 'starting' status above.                           |
-| ![](../images/datatable-status-valid.png)   | Indicates the data in the row is valid. Only use where the data has been properly checked and validated, use a neutral status if the validation is unknown. |
-| ![](../images/datatable-status-error.png)   | There is an error or problem with the data row. Only use where this status has been properly checked/confirmed.                                             |
+Only display status when it is relevant to the user. Do not display the status unless multiple statuses are available. For example, do not display statuses if the only status available is 'Active'.
 
 ---
 
