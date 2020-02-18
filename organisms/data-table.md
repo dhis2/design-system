@@ -1,10 +1,10 @@
-|                      |                                                              |
-| -------------------- | ------------------------------------------------------------ |
-| **Component**        | Data table                                                   |
-| **Type**             | Organism ([?](http://atomicdesign.bradfrost.com/chapter-2/)) |
-| **Design Spec**      | _pending_                                                    |
-| **Working Examples** | _pending_                                                    |
-| **Status**           | `Work in progress`                                           |
+|                      |                                                                     |
+| -------------------- | ------------------------------------------------------------------- |
+| **Component**        | Data table                                                          |
+| **Type**             | Organism ([?](http://atomicdesign.bradfrost.com/chapter-2/))        |
+| **Design Spec**      | [HTML&CSS spec](https://sleepy-yalow-3c0c76.netlify.com/data-table) |
+| **Working Examples** | _pending_                                                           |
+| **Status**           | `Work in progress`                                                  |
 
 ---
 
