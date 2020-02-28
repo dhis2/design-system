@@ -56,6 +56,7 @@ Each component has guidelines for use, explanations of the different options and
 #### Data entry
 
 - [Checkbox](atoms/checkbox.md)
+- [Color Picker](organisms/color-picker.md)
 - [Comment](molecules/comment.md)
 - [File Input](atoms/fileinput.md)
 - [Input field](atoms/inputfield.md)
