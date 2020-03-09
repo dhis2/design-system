@@ -41,29 +41,17 @@ There are several different types of functionality and options available in the 
 
 A data table is made up of multiple elements, some of which are optional:
 
-1. **Title, optional**
-2. **Filters, optional**
-3. **Table actions, optional**
-4. **Data rows and header, required**
-5. **Pagination, required**
+1. **Toolbar, optional**
+3. **Data rows and header, required**
+5. **Footer, optional**
 
 ---
 
 ## Options
 
-### Table title
-
-![](../images/datatable-title.png)
-
-##### When to use a table title?
-
-A title provides context to a table that might appear in a complex interface. Titles are most useful if there are multiple tables on one page. Titles are not necessary if the table comes directly after a header or other title. Titles should be short and informative. Use a title that will make sense even if the data displayed changes drastically.
-
----
-
 ### Search
 
-![](../images/datatable-search.png)
+![](../images/data-table/search.png)
 
 ##### What is search?
 
@@ -83,81 +71,101 @@ Include search whenever a user might need to find a specific data record in the 
 
 ### Filtering
 
-![](../images/datatable-filter.png)
-
-![](../images/datatable-filter-display.png)
-
-##### What are filters?
-
-Filter controls allow a user to view a precise, focused set of data. The type of filter depends on the data type. Text can be filtered with text, numbers can be filtered by min/max and so on.
-
-##### How are filters used?
-
-The available filters must be defined, none will be provided by default. Clicking a filter button opens a popover with input controls. An actively filtered column is highlighted with an active button and text indicating the applied filter. Never filter data in a table without informing the user, the user must know they are viewing a filtered set of data.
-
-##### When to use filters?
-
-Include filters in a data table when a user needs to find specific data in large data sets. Filtering is a very effective way of finding the right data. Enabling filtering on a data table means that a single data table can fulfill several different functions for varying users and use cases. Only provide filters that are useful to the user, as filter buttons add visual noise and potential confusion to a data table.
+Filters allow a user to view a precise, focused set of data. Filtering is a very effective way of finding the right data. Enabling filtering on a data table means that a single data table can fulfill several different functions for varying users and use cases.
 
 Filtering works best when a user wants to return multiple results that fit some criteria. If a user is looking for a single result, especially where they know a name/title/attribute, then provide search functionality outside of the table.
+
+Never filter data in a table without informing the user, the user must know they are viewing a filtered set of data.
+
+There are two ways to filter data in a data table: [standalone](#filtering-standalone) or [inline](#filtering-inline).
+
+### Filtering: Standalone
+
+![](../images/data-table/standalone-filter.png)
+
+##### What are standalone filters?
+
+Standalone filters are buttons that can be used to filter on a column in a data table.
+
+##### How are standalone filters used?
+
+Standalone filter buttons should be displayed inside the table toolbar area. The available filters must be defined, none will be provided by default. Clicking a filter button opens a popover with input controls. An actively filtered column is highlighted with an active button and text indicating the applied filter.
+
+##### When to use standalone filters?
+
+Standalone filters are useful when filtering is one of the main actions available on the page. Standalone filters will draw the user's attention and are easier to use for users with lower tech literacy. Only provide standalone filters that are useful to the user, as filter buttons add visual noise and potential confusion to a data table.
+
+### Filtering: Inline
+
+![](../images/data-table/inline-filter.png)
+
+##### What are inline filters?
+
+Inline filter controls are a compact way to filter data in the data table.
+
+##### How are inline filters used?
+The filter input for a column is displayed by clicking the filter icon in the column header. Multiple columns can be filtered at the same time.
+
+##### When to use inline filters?
+Use inline filters in data-heavy, compact tables where standalone filters would take too much space. Inline filters are useful when filtering is not one of the main actions on a page, but is a tool that will be used occasionally.
 
 ---
 
 ### Table actions
 
-![](../images/datatable-actions.png)
+![](../images/data-table/table-actions.png)
 
 ##### What are table actions?
 
-Actions that can be applied to the entire data table, or the currently selected data rows.
+Actions that can be applied to the entire data table or the currently selected data rows.
 
 ##### How are table actions used?
 
-Actions are presented as buttons in a 'table actions' area. Primary actions can be displayed as individual buttons, 'Export' and 'Print' in the example above. Other secondary options are accessed via the 'three-dot' overflow menu.
+Table actions are presented as buttons in the toolbar area. Important, often used table actions can be displayed as individual buttons: 'Export' and 'Print' in the example above. Other secondary options can be accessed via the 'three-dot' overflow menu.
 
 ##### When to use table actions?
 
-Only include actions here that apply directly to the data in the data table, not to the rest of the interface.
+Only include actions in the toolbar that apply directly to the data in the data table, not to the rest of the interface.
 
-Primary actions will be very visible to the user, so only include actions here that will apply to most use cases. Edge case or rarely used options should be accessed through the overflow menu to avoid overwhelming users with options.
+Table action buttons will be very visible to the user, so only include actions here that will apply to most use cases. Edge case or rarely used options should be accessed through the overflow menu to avoid overwhelming users with options.
 
 ---
 
 ### Row actions
 
-![](../images/datatable-row-actions.png)
+![](../images/data-table/row-actions.png)
 
 ##### What are row actions?
 
-Actions that can be applied to a single row in a data table.
+Actions that apply to a single row in a data table.
 
 ##### How are row actions used?
 
-Row actions are always displayed as the last column in a row. Main row actions are displayed as text links in the row. A maximum of 2 main row actions can be shown in a table row. Other actions are available through the 'three-dots' overflow menu.
+Row actions are usually displayed as the last column in a row. Main row actions can be displayed as text links in the row. A maximum of 2 main row actions can be shown in a table row. Other actions are made available through the 'three-dots' overflow menu.
 
 A click action can be also be set for all rows that will be activated by clicking on that row. For example, clicking on a row may activate 'View' action and navigate to that row on a new page.
 
 ##### When to use row actions?
 
-Primary row actions add a lot of potential action points to a page, so use them with care. Only use primary actions where that action needs to be available for all rows at all times. Secondary actions available through the overflow menu can be included anytime it is useful for users to take action when viewing the data table.
+ Row actions add a lot of potential action points to a page, so use them with care. Only use text link row actions where that action needs to be available for all rows at all times. Secondary, less important, actions available through the overflow menu can be included anytime it is useful for users to take action when viewing the data table.
 
 ---
 
 ### Sorting/Ordering
 
-![](../images/datatable-sorting.png)
+![](../images/data-table/sorting.png)
 
 ##### What is sorting/ordering?
 
-Sorting/ordering allows the user to reorder the rows in a data table based on a single column. The column can be sorted ascending or descending.
+Sorting/ordering allows the user to reorder the rows in a data table based on column contents. The column can be sorted ascending or descending.
 
 ##### How is sorting/ordering used?
 
-Column headings can be clicked to enable sorting by that column. The direction of sorting is indicated by a highlighted icon. Clicking a column heading multiple times toggles ascending/descending order.
+Column headings can be clicked to enable sorting by that column. The direction of sorting is indicated by a highlighted icon. Clicking a column heading multiple times toggles ascending/descending/off.
 
 ##### When to use sorting/ordering?
 
-Sorting is enabled by default. Only disable sorting if the order of the displayed data is intentional/meaningful and therefore should not be changed by a user.
+Sorting is often useful and should be enabled for most data tables. Only disable sorting if the order of the displayed data is intentional or meaningful and therefore should not be changed by a user.
 
 ---
 
@@ -167,7 +175,7 @@ Sorting is enabled by default. Only disable sorting if the order of the displaye
 
 ##### What is a fixed header?
 
-A table header that remains in view when vertically scrolling a data table. If a table includes a title, filters or main actions these will also be fixed.
+A table header that remains in view when vertically scrolling a data table. If displayed, a table toolbar will also be fixed.
 
 ##### When to use a fixed header?
 
@@ -191,21 +199,38 @@ Use fixed columns where space is limited and a user may need to scroll the table
 
 ### Inline editing
 
-![](../images/datatable-inline-edit.png)
-
 ##### What is inline editing?
 
-If enabled, cells in table rows can be edited directly in the data table without navigating to another page.
+Cells or rows can be edited directly in the data table without navigating to another page.
 
 ##### How is inline editing used?
 
-If a cell is editable it will display an edit icon inside the cell, after the value.
+###### Cells
+
+![](../images/data-table/cell-edit.png)
+
+If a single cell is editable it will display an edit icon inside the cell, after the value.
 
 Clicking an editable cell opens a popover where editing controls can be presented. No default controls are present here, so use the relevant inputs for the type of data being editing. Always make it clear to the user how they save their data: is their data saved automatically or do they have to click a 'Save' button. Providing a 'Save' button is a straightforward and easily understandable pattern to follow.
 
+Clicking an editable cell triggers the edit process. The interface for editing needs to match the use case:
+
+- editing a single, focused value: display a popover with inputs and buttons,
+  ![](../images/data-table/cell-edit-active.png)
+- editing a complex value: display a modal with all the required inputs.
+
+###### Rows
+
+![](../images/data-table/row-edit.png)
+
+Edit control for an entire row should be displayed as a row action. Like cells, the interface for editing should match the use case:
+- editing simple values in a row: each cell in the row can display an input control with save and cancel buttons in the last cell. When a row is in edit mode the other actions in the table should be disabled,
+![](../images/data-table/row-edit-active.png)
+- editing complex values in a row: open a modal view that displays all the relevant controls.
+
 ##### When to use inline editing?
 
-Inline editing should be used with restraint. It can be useful for power users, they can quickly edit values without leaving the data table. However, it can be overwhelming for some users and can be particularly difficult when working with large data sets. Consider network conditions, an unreliable network can make inline editing less clear, as the distinction between saved/failed is not always clear to a user.
+Inline editing should be used with restraint. It can be useful for power users, they can quickly edit values without leaving the data table. However, it can be overwhelming for some users and can be particularly difficult when working with large data sets. Consider network conditions, an unreliable network can make inline editing difficult as the distinction between saved, synced or failed is not always clear to a user.
 
 ---
 
@@ -219,7 +244,7 @@ Expandable rows are table rows that can be expanded inline, without leaving the 
 
 ##### How are expandable rows used?
 
-The user can expand a row by clicking on the arrow in the left-most area of the row. Alternatively, the default click action on a row could be overridden to expand the row.
+The user can expand a row by clicking on the arrow in the left-most area of the row. Alternatively, the default click action could expand the row.
 
 ##### When to use expandable rows?
 
@@ -229,7 +254,7 @@ Expandable rows are useful when there is a lot of useful information to display,
 
 ### Selectable rows
 
-![](../images/datatable-selectable-rows.png)
+![](../images/data-table/selectable.png)
 
 ##### What are selectable rows?
 
@@ -261,7 +286,7 @@ Row reordering allows a user to drag and drop data table rows to change their or
 
 ##### How is row reordering used?
 
-When row reordering is enabled the primary action (e.g. clicking the row) will always activate the drag and drop functionality. If the row requires more actions they must be included as Main Actions or in the overflow menu.
+When row reordering is enabled the primary action (e.g. clicking the row) will always activate the drag and drop functionality. If the row requires more actions they must be included as inline [row actions](#row-actions).
 
 ##### When to use row reordering?
 
