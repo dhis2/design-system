@@ -121,7 +121,7 @@ Actions that can be applied to the entire data table or the currently selected d
 
 ##### How are table actions used?
 
-Table actions are presented as buttons in the toolbar area. Important, often used table actions can be displayed as individual buttons: 'Export' and 'Print' in the example above. Other secondary options can be accessed via the 'three-dot' overflow menu.
+Table actions are presented as buttons in the toolbar area. Important, often used table actions can be displayed as individual buttons: 'Export' and 'Print' in the example above. Other secondary options contained within a dropdown button. Use a button label like 'Actions', 'More' or the three-dot icon.
 
 ##### When to use table actions?
 
