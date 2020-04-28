@@ -1,10 +1,10 @@
-| |  |
-|-------------|------------------|
-| **Component** | Menu |
-| **Type** | Molecule ([?](http://atomicdesign.bradfrost.com/chapter-2/))|
-| **Design Spec** | [Link](https://sketch.cloud/s/DwkDk/a/EpllLR) |
+|                      |                                                                    |
+| -------------------- | ------------------------------------------------------------------ |
+| **Component**        | Menu                                                               |
+| **Type**             | Molecule ([?](http://atomicdesign.bradfrost.com/chapter-2/))       |
+| **Design Spec**      | [Link](https://www.sketch.com/s/0nGd0/a/DQAppk)                    |
 | **Working Examples** | [Link](https://d2-ci.github.io/ui-core/?path=/story/menu--default) |
-| **Status** | `Ready to use`/`Waiting for update` |
+| **Status**           | `Ready to use`/`Waiting for update`                                |
 
 ---
 
@@ -31,6 +31,7 @@ Use menus to provide access to options and actions where space is limited and di
 The menu component is flexible in where it can be used and its contents can be flexible too. However, the most common use case is a menu containing menu items.
 
 Make sure the menu item labels are short and easy to understand. One word is often enough to describe an action or option. Do not use sentences as labels. Some examples of good menu item labels:
+
 - "Save"
 - "Open as map"
 - "Export PDF"
@@ -94,4 +95,4 @@ Menu items should be disabled when they are not available, but could be availabl
 
 ![](../images/menu-example.png)
 
-*Complex actions and options for this embedded analytical object are availble in a menu. If all of these options were available and visible all the time, for multiple objects, it would take up a lot of space and be very difficult to understand and use.*
+_Complex actions and options for this embedded analytical object are availble in a menu. If all of these options were available and visible all the time, for multiple objects, it would take up a lot of space and be very difficult to understand and use._
