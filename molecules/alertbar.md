@@ -3,7 +3,7 @@
 | **Component** | Alert bar |
 | **Type** | Molecule ([?](http://atomicdesign.bradfrost.com/chapter-2/))|
 | **Design Spec** | [Link](https://sketch.cloud/s/DwkDk/a/eO0DKP) |
-| **Working Examples** | [Link](https://d2-ci.github.io/ui-core/?path=/story/alertbar--default) |
+| **Working Examples** | [Link](https://ui-core.dhis2.nu/demo/?path=/story/alertbar--default) |
 | **Status** | `Ready to use` |
 
 ---

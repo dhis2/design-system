@@ -3,7 +3,7 @@
 | **Component** | Switch |
 | **Type** | Atom ([?](http://atomicdesign.bradfrost.com/chapter-2/))|
 | **Design Spec** | *pending* |
-| **Working Examples** | [Link](https://d2-ci.github.io/ui-core/?path=/story/switch--default) |
+| **Working Examples** | [Link](https://ui-core.dhis2.nu/demo/?path=/story/switch--default) |
 | **Status** | `Ready to use` |
 
 ---

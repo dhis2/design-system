@@ -3,8 +3,8 @@
 | **Component** | Select |
 | **Type** | Molecule ([?](http://atomicdesign.bradfrost.com/chapter-2/))|
 | **Design Spec** | [Link](https://sketch.cloud/s/DwkDk/a/Q5EqdY) |
-| **Working Examples** | *pending* |
-| **Status** | `Waiting for build` |
+| **Working Examples** | [Link](https://ui-core.dhis2.nu/demo/?path=/story/singleselect--default) |
+| **Status** | `Ready to use` |
 
 ---
 

@@ -3,7 +3,7 @@
 | **Component** | Radio |
 | **Type** | Atom ([?](http://atomicdesign.bradfrost.com/chapter-2/))|
 | **Design Spec** | *pending* |
-| **Working Examples** | [Link](https://d2-ci.github.io/ui-core/?path=/story/radio--default) |
+| **Working Examples** | [Link](https://ui-core.dhis2.nu/demo/?path=/story/radio--default) |
 | **Status** | `Ready to use` |
 
 ---

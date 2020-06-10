@@ -3,8 +3,8 @@
 | **Component** | Input |
 | **Type** | Molecule ([?](http://atomicdesign.bradfrost.com/chapter-2/))|
 | **Design Spec** | *pending* |
-| **Working Examples** | *pending* |
-| **Status** | `Work in progress` |
+| **Working Examples** | [Link](https://ui-core.dhis2.nu/demo/?path=/story/inputfield--default) |
+| **Status** | `Ready to use` |
 
 ---
 
