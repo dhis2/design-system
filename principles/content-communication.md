@@ -95,7 +95,7 @@ DHIS2 applications should communicate in a clear, honest and friendly tone of vo
 
 ##### Letting the user know there was an error
 
-![communication example](../images/communication/ex-comms-6.png)
+![communication example](../images/communication/ex-comms-7.png)
 <br><br>
 
 ## Referring to the user
