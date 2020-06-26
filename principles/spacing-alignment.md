@@ -14,11 +14,11 @@ Consistent layouts of applications means users only need to learn a few differen
 
 Not all applications need to look the same, but there should be common elements when dealing with similar tasks. If an application has separate sections it should have a sidebar to move between them. An single-task application should not use a sidebar unecessarily. The header bar is always placed at the top of the screen. These consistent layout principles help users understand DHIS2 applications.
 
-### Choose the right layout
+### Choosing the right layout
 
-An applications layout should match it's purpose. The layout should support the user in acheiving their goals. An application that is not using an appropriate layout will constantly get in the way of a user. The right layout will step back and let the user work quickly and efficiently.
+An application layout should match it's purpose. The layout should support the user in acheiving their goals. An application that is not using an appropriate layout will constantly get in the way of a user. The right layout will step back and let the user work quickly and efficiently.
 
-Knowing which layout to use means understanding the goals of the user. Understanding the purpose of an application is covered in the [Design For Use](design-for-use.md) section.
+Knowing which layout to use means understanding the goals of the user. Finding and understanding the purpose of an application is covered in the [Design For Use](design-for-use.md) section.
 
 ### Example layouts
 
@@ -26,9 +26,9 @@ It is not possible to define strict rules for when to use different layout types
 
 #### Single-purpose applications
 
-If an application serves a single purpose it should have a simple, focussed layout. The main content comes first so the user can get on with their task.
+If an application serves a single purpose it should have a simple, focused layout. The main content comes first so the user can get on with their task.
 
-//todo: single column settings app. options and preview or something.
+![example of a single purpose layout](../images/layout-single-purpose.png)
 
 The example above uses a single column to display the content, in this case some options. There is no need for a secondary navigation or toolbar in this case.
 
@@ -38,7 +38,7 @@ Only use this type of layout when an application has a single purpose. If an app
 
 An application with different sections needs a clear way to navigate between those sections. Most often a sidebar will work well for this purpose. A sidebar can be collapsed when a user doesn't need to use it.
 
-//todo: sidebar application. like maintenance.
+![example of an application with a sidebar](../images/layout-sidebar.png)
 
 The example above uses a left-aligned sidebar to provide navigation for the different sections of the application. Each section has it's own content. The user can clearly understand where they are in the application. The titles of each section in the sidebar navigation help the user understand what tasks can be acheived there.
 
@@ -48,7 +48,7 @@ Sidebar navigation can display multiple sub-levels of navigation to help the use
 
 Sometime applications do not have separate sections to navigate between, but they do need to provide tools or options on all screens. A toolbar can work here. A toolbar, aligned to the top of the screen (under the header bar), provides quick access at all times.
 
-//todo: example app with toolbar, like capture or dashboards
+![example of an application with a toolbar](../images/layout-toolbar.png)
 
 The example layout above demonstrates a toolbar with some global options. The content below the toolbar changes and can respond to actions taken in the toolbar.
 
