@@ -1,48 +1,137 @@
-# Spacing, Alignment, Stacking
+# Layout, spacing, stacking
 
-## Spacing between elements
+A visual architecture of an application is made up of layout, spacing and stacking. The visual architecture of DHIS2 applications should follow some basic rules to provide a consistent user experience across different types of apps.
 
-Similar to the typographic scale, it is useful to have a spacing scale. This serves a similar purpose of building consistency and giving reasonable defaults that fit most situations.
+##### Contents
 
-The spacing scale is:  4, 8, 12, 16, 24, 32, 48, 64, 96, 128, 192, 256, 384, 512, 640
+- [Layout](#layout)
+- [Spacing](#spacing)
+- [Stacking](#stacking)
 
-![example of spacing scale](../images/spacing-scale.jpg)
+## Layout
 
-The spacing scale can be used for spacing between elements, padding inside an element or pretty much anywhere where an amount of space is needed for division. Having these set values, like font sizes, removes some of the confusion when trying to decide if something looks better 1px up or down, simply choose a unit from the scale, if that is too little or too much then go to the next value on the scale. There is, of course, a small trade-off in flexibility using this system, but the payoffs in time saved and simplicity are worth it.
+Consistent layouts of applications means users only need to learn a few different patterns to understand many different applications. It is important that DHIS2 applications approach layout consistently.
 
-It is important to note that the spacing system is a set of guidelines, it should be used wherever possible. There will be situations where the perfect value is not on the scale, if that is the case then use a custom value. But more often than not, a value from the scale will be sufficient.
+Not all applications need to look the same, but there should be common elements when dealing with similar tasks. If an application has separate sections it should have a sidebar to move between them. An single-task application should not use a sidebar unecessarily. The header bar is always placed at the top of the screen. These consistent layout principles help users understand DHIS2 applications.
 
-## Using spacing
+### Choose the right layout
 
-A good way to think of spacing is to see it as just another user interface element that fulfills a purpose. Spacing should be intentional, not just the leftover emptiness that wasn't used by elements.
+An applications layout should match it's purpose. The layout should support the user in acheiving their goals. An application that is not using an appropriate layout will constantly get in the way of a user. The right layout will step back and let the user work quickly and efficiently.
 
-Thinking about a regular form, spacing can be used effectively to help the user understand the relationship between elements of the form. See the example below. Elements of the same section use 8px spacing. To indicate the end of a section and the start of another we can use 32px spacing. Without even reading the section headers the user is aware of the information architecture. Now the user can understand that the label belongs to the form field that it is closest to. Here we can see how we are actively using spacing to define relationships, we don't solely rely on vertical order to communicate which header belongs to which content.
+Knowing which layout to use means understanding the goals of the user. Understanding the purpose of an application is covered in the [Design For Use](design-for-use.md) section.
 
-![example of how spacing affects elements](../images/spacing-example.jpg)
-*Adding more spacing in between separate elements than within the elements themselves is an easy way of communicating relationships*
+### Example layouts
 
-## How much space to use?
+It is not possible to define strict rules for when to use different layout types. There are, however, some guidelines that can be followed as a starting point:
 
- How much space to use, how much white space is enough, what if the user wants to see everything at once? You can probably guess what I'm going to say...there is no strict rule or formula!
+#### Single-purpose applications
 
-The density of information, how much we show at once and how it is spaced out, does depend on the intended use of the application. Dashboards usually need high information density because the user wants to see a lot of information in a snapshot view. Forms are harder, a form that is filled out occasionally benefits from a loose information density, new questions and inputs won't overwhelm the user the first time they see them. A form that is used many times a day could benefit from dense inputs, the user knows what they are doing and wants to see as much of their work on screen as possible.
+If an application serves a single purpose it should have a simple, focussed layout. The main content comes first so the user can get on with their task.
 
-So it is important to understand the intended usage of the interface when deciding how much spacing is enough, or whether to stack things or put them in columns. DHIS2 is especially difficult because it can be used for so many different use cases and they all have different requirements. In this case, we have to do our best to cater to the majority of intended use cases. Speak with the project owner and see if they can offer guidance.
+//todo: single column settings app. options and preview or something.
 
-If in doubt, try to strike a balance between compact and 'spaced out'. Don't artificially make the page run longer than it needs to, but also don't be afraid to let the elements breathe. I realize I've now entered the realm of cliched personifications of user interfaces, so I'll stop. Don't hesitate to reach out to me with a screenshot and simple "too much or not enough space?".
+The example above uses a single column to display the content, in this case some options. There is no need for a secondary navigation or toolbar in this case.
+
+Only use this type of layout when an application has a single purpose. If an application with different sections used this layout it would be very difficult for the user to explore and navigate the different areas.
+
+#### Applications with secondary navigation
+
+An application with different sections needs a clear way to navigate between those sections. Most often a sidebar will work well for this purpose. A sidebar can be collapsed when a user doesn't need to use it.
+
+//todo: sidebar application. like maintenance.
+
+The example above uses a left-aligned sidebar to provide navigation for the different sections of the application. Each section has it's own content. The user can clearly understand where they are in the application. The titles of each section in the sidebar navigation help the user understand what tasks can be acheived there.
+
+Sidebar navigation can display multiple sub-levels of navigation to help the user navigate complex structures. Make sure the titles of each sections are easy to understand. A user should not have to click inside a section to find out what it does.
+
+#### Toolbar vs. Navigation
+
+Sometime applications do not have separate sections to navigate between, but they do need to provide tools or options on all screens. A toolbar can work here. A toolbar, aligned to the top of the screen (under the header bar), provides quick access at all times.
+
+//todo: example app with toolbar, like capture or dashboards
+
+The example layout above demonstrates a toolbar with some global options. The content below the toolbar changes and can respond to actions taken in the toolbar.
+
+A toolbar is more suited to this case than a sidebar. A sidebar takes up a lot of screen space and should be used where the sidebar content is consistently useful or can be hidden (by collapsing the sidebar). A toolbar takes less screen space and should not be hidden.
+
+#### Complexity
+
+//todo: all layout types
+
+Complex applications can make use of multiple different layout elements. Secondary navigation inside a sidebar, quick options in a toolbar, a third sidebar with auxillary content to support the main content. Panels that open at the bottom of the screen can provide extra content to a user and be hidden when they are not needed.
+
+The most important guideline to keep in mind: the layout should match the purpose of the application.
+
+### Layouts on all screens
+
+An application should work on many different screen sizes. Some users have very wide screens, some have narrow screens. Make sure your application works on the screen that your users use the most. (Most laptops produced today have a 1366 x 768 resolution, for example. This can change between regions.) Do not rely on users having a wide screen to use an application efficiently.
+
+---
+
+## Spacing
+
+Spacing of page elements is important. The space between and around elements tells the user about the relationship of those elements. Where elements are placed on a page and how they are spaced should be carefully considered. Remember that a user will infer and understand an application from these visual cues, so it is important to consider it thoroughly.
+
+### Grouping
+
+One of the most important examples of communciating with space is grouping elements. Following [spacing law](todo), the relationship of elements can be understood by their proximity to one another.
+
+//todo: basic circles grouping
+
+For a DHIS2 application, that means placing related elements in proper proximity helps to communicate their relationships to one another. Related settings or options should be grouped together, rather than spaced out evenly.
+
+//todo: options grouping inputs etc.
+
+A user looking at the interface in the example above doesn't see any relationships without proper spacing. They have to read each item to understand how it relates to another. The example with spacing that reflects the relationship between items helps the user build a mental model of the structure and work more efficiently.
+
+#### Example: titles
+
+Another example of proximity spacing and grouping is page and section titles. A user can often be confused by which title applies to which content.
+
+Page titles should have enough spacing to help the user understand that they are not part of the page content itself. Section titles should be place close to the section content.
+
+Consider the following example of a page and section title:
+
+//todo: page and section title.
+
+The incorrect example on the left is difficult to understand at a glance. Which title applies to the page and which to the content? They are all in similar proximity to one another. Only the vertical rhythm of the page supports the underlying structure. The correct example on the right makes it clear that the page title is separate from the content displayed on the page. The section title is grouped together with it's content. Without even reading the words a user can understand the underlying structure.
+
+### The spacing scale and 8-point-grid
+
+//todo: 8point grid
+
+Working on an [8 point grid](todo) helps to keep spacing and layout consistent throughout an application. The DHIS2 Design System also defines a spacing scale of values that fit most situations. Instead of deciding between single pixel values, use values from the spacing scale. Consistent use of the spacing system creates vertical rhythm on a screen. The spacing scale is available as part of the [DHIS2 ui library](todo).
+
+//todo: spacing scale
+
+### Information dense layouts
+
+Some applications should be compact and information dense, some applications should have generous spacing. Like a layout, the amount of spacing generally used in an application depends on it's purpose.
+
+As a guideline, applications to be used by high-tech-literate users can afford to be more compact and information dense. Applications aimed at low-tech-literate users should have more space between elements to help users navigate and work effectively. High-tech-literate users are generally more comfortable with dense layouts.
+
+Consider how much content or controls should be placed on a single page. Low-tech-literate users might benefit from an application that presents a low number of simple options split over several pages. Advanced users may prefer to have all of these options available on a single page. The right amount of spacing depends on the users that will be using the application.
+
+---
 
 ## Stacking
-It's important to maintain an understandable and consistent stacking system across all DHIS2 apps. "Stacking" refers to the concept of layering components on top of one another. For example, a modal window is stacked on top of regular application content. This communicates that a modal window interrupts the app flow for a different type of content.  The DHIS2 Design System defines 5 layers in the stack:
+
+_Stacking_ refers to the concept of layering interface elements on top of one another. A modal dialog _stacks_ on top of the main application view. It is important to maintain a consistent approach to the stacking of elements throughout an application.
+
+The higher the layer in the stacking the more important it will be understood to be. Alerts and critical messages appear on the highest layer because they are the most important information on screen.
+
+The consistent usage of stacking creates applications that work in similar ways, meaning they can be understood quickly and easily by users.
+
+The DHIS2 design system defines fives stack layers:
 
 ![example of stacking layers](../images/stacking.png)
 
-Layer | Description
------------- | -------------
-Base Application Layer (0–1999) | Contains all components, controls and data for the main application. The application can define its own layering from 0 to 1999.
-Application Top Layer (2000) | Protected components that always layer over the top of the base application layer. This layer is reserved for controls such as dropdowns and popovers that functionally must always display above the application content.
-Blocking Layer (3000) | Blocks the application and its controls. Only use for actions that are intentionally interrupting. This layer contains a screen cover that blocks the layers beneath. Child elements, such as [modals](../molecules/modal.md) or loaders, can be added to this layer.
-Reserved (4000–9998) | Reserved for future development.
-Alert Layer (9999) | The top layer is reserved for displaying [alert bars](../molecules/alertbar.md). Alert bars can contain critical information and so must always be displayed above all other content.
+| Layer                           | Description                                                                                                                                                                                                                                                           |
+| ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Base Application Layer (0–1999) | Contains all components, controls and data for the main application. The application can define its own layering from 0 to 1999.                                                                                                                                      |
+| Application Top Layer (2000)    | Protected components that always layer over the top of the base application layer. This layer is reserved for controls such as dropdowns and popovers that functionally must always display above the application content.                                            |
+| Blocking Layer (3000)           | Blocks the application and its controls. Only use for actions that are intentionally interrupting. This layer contains a screen cover that blocks the layers beneath. Child elements, such as [modals](../molecules/modal.md) or loaders, can be added to this layer. |
+| Reserved (4000–9998)            | Reserved for future development.                                                                                                                                                                                                                                      |
+| Alert Layer (9999)              | The top layer is reserved for displaying [alert bars](../molecules/alertbar.md). Alert bars can contain critical information and so must always be displayed above all other content.                                                                                 |
 
-### Using stacking
-All layers above 1999 are protected and should not be used for application components and controls. When building your application it may be necessary to define a system between 0–1999. Keep in mind how users perceive different layers. Layers at the 'top' of a stack will always seem most important. Placing content on different layers may obscure information in some cases, always be aware of the consequences of stacking. If in doubt it is safer to place content on the same layer than risk overlapping, unclear layouts.
+Note: the stacking system is not a technical implementation of `z-index` values. See the DHIS2 ui library for implementation details.
