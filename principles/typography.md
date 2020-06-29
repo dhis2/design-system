@@ -1,6 +1,6 @@
 # Typography
 
-Typography, the selectiona and use of fonts, colors and sizes, is an effective way to communicate information to users.
+Typography, the selection and use of fonts, colors and sizes, is an effective way to communicate information to users.
 
 ## DHIS2 application typeface
 
@@ -12,7 +12,7 @@ The Roboto typeface provides a reasonable set of glyphs, but there are some lang
 
 ## Communicating with typography
 
-An application can communciate information to a user using various techniques. Using typography to communicate is a useful way of keeping an interface uncluttered, while still clear and easyily understood. Not all information can be communicated with type alone, but it is a useful supporting tool.
+An application can communicate information to a user using various techniques. Using typography to communicate is a useful way of keeping an interface uncluttered, while still clear and easily understood. Not all information can be communicated with type alone, but it is a useful supporting tool.
 
 ### Hierarchy
 

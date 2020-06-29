@@ -12,11 +12,11 @@ A visual architecture of an application is made up of layout, spacing and stacki
 
 Consistent layouts of applications means users only need to learn a few different patterns to understand many different applications. It is important that DHIS2 applications approach layout consistently.
 
-Not all applications need to look the same, but there should be common elements when dealing with similar tasks. If an application has separate sections it should have a sidebar to move between them. An single-task application should not use a sidebar unecessarily. The header bar is always placed at the top of the screen. These consistent layout principles help users understand DHIS2 applications.
+Not all applications need to look the same, but there should be common elements when dealing with similar tasks. If an application has separate sections it should have a sidebar to move between them. An single-task application should not use a sidebar unnecessarily. The header bar is always placed at the top of the screen. These consistent layout principles help users understand DHIS2 applications.
 
 ### Choosing the right layout
 
-An application layout should match it's purpose. The layout should support the user in acheiving their goals. An application that is not using an appropriate layout will constantly get in the way of a user. The right layout will step back and let the user work quickly and efficiently.
+An application layout should match it's purpose. The layout should support the user in achieving their goals. An application that is not using an appropriate layout will constantly get in the way of a user. The right layout will step back and let the user work quickly and efficiently.
 
 Knowing which layout to use means understanding the goals of the user. Finding and understanding the purpose of an application is covered in the [Design For Use](design-for-use.md) section.
 
@@ -40,7 +40,7 @@ An application with different sections needs a clear way to navigate between tho
 
 ![example of an application with a sidebar](../images/layout-sidebar.png)
 
-The example above uses a left-aligned sidebar to provide navigation for the different sections of the application. Each section has it's own content. The user can clearly understand where they are in the application. The titles of each section in the sidebar navigation help the user understand what tasks can be acheived there.
+The example above uses a left-aligned sidebar to provide navigation for the different sections of the application. Each section has it's own content. The user can clearly understand where they are in the application. The titles of each section in the sidebar navigation help the user understand what tasks can be achieved there.
 
 Sidebar navigation can display multiple sub-levels of navigation to help the user navigate complex structures. Make sure the titles of each sections are easy to understand. A user should not have to click inside a section to find out what it does.
 
@@ -58,7 +58,7 @@ A toolbar is more suited to this case than a sidebar. A sidebar takes up a lot o
 
 ![example of an application with a complex layout](../images/layout-complex.png)
 
-Complex applications can make use of multiple different layout elements. Secondary navigation inside a sidebar, quick options in a toolbar, a third sidebar with auxillary content to support the main content. Panels that open at the bottom of the screen can provide extra content to a user and be hidden when they are not needed. The example above, Data Visualizer, uses a left sidebar, right sidebar and multiple toolbars to provide the right functionality when the user needs it.
+Complex applications can make use of multiple different layout elements. Secondary navigation inside a sidebar, quick options in a toolbar, a third sidebar with auxiliary content to support the main content. Panels that open at the bottom of the screen can provide extra content to a user and be hidden when they are not needed. The example above, Data Visualizer, uses a left sidebar, right sidebar and multiple toolbars to provide the right functionality when the user needs it.
 
 The most important guideline to keep in mind: the layout should match the purpose of the application.
 
@@ -66,7 +66,7 @@ The most important guideline to keep in mind: the layout should match the purpos
 
 An application should work on many different screen sizes. Some users have very wide screens, some have narrow screens. Make sure your application works on the screen that your users use the most. (Most laptops produced today have a 1366 x 768 resolution, for example. This can change between regions.) Do not rely on users having a wide screen to use an application efficiently.
 
-When appropriate, take advtange of users using wide screens to provide them with extra functionality without scrolling.
+When appropriate, take advantage of users using wide screens to provide them with extra functionality without scrolling.
 
 ---
 
@@ -76,7 +76,7 @@ Spacing of page elements is important. The space between and around elements tel
 
 ### Grouping
 
-One of the most important examples of communciating with space is grouping elements. Following [the laws of proximity](https://en.wikipedia.org/wiki/Principles_of_grouping), the relationship of elements can be understood by their proximity to one another.
+One of the most important examples of communicating with space is grouping elements. Following [the laws of proximity](https://en.wikipedia.org/wiki/Principles_of_grouping), the relationship of elements can be understood by their proximity to one another.
 
 ![example of grouping elements by proximity](../images/grouping.png)
 
