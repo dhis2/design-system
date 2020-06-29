@@ -56,15 +56,17 @@ A toolbar is more suited to this case than a sidebar. A sidebar takes up a lot o
 
 #### Complexity
 
-//todo: all layout types
+![example of an application with a complex layout](../images/layout-complex.png)
 
-Complex applications can make use of multiple different layout elements. Secondary navigation inside a sidebar, quick options in a toolbar, a third sidebar with auxillary content to support the main content. Panels that open at the bottom of the screen can provide extra content to a user and be hidden when they are not needed.
+Complex applications can make use of multiple different layout elements. Secondary navigation inside a sidebar, quick options in a toolbar, a third sidebar with auxillary content to support the main content. Panels that open at the bottom of the screen can provide extra content to a user and be hidden when they are not needed. The example above, Data Visualizer, uses a left sidebar, right sidebar and multiple toolbars to provide the right functionality when the user needs it.
 
 The most important guideline to keep in mind: the layout should match the purpose of the application.
 
 ### Layouts on all screens
 
 An application should work on many different screen sizes. Some users have very wide screens, some have narrow screens. Make sure your application works on the screen that your users use the most. (Most laptops produced today have a 1366 x 768 resolution, for example. This can change between regions.) Do not rely on users having a wide screen to use an application efficiently.
+
+When appropriate, take advtange of users using wide screens to provide them with extra functionality without scrolling.
 
 ---
 
@@ -74,13 +76,13 @@ Spacing of page elements is important. The space between and around elements tel
 
 ### Grouping
 
-One of the most important examples of communciating with space is grouping elements. Following [spacing law](todo), the relationship of elements can be understood by their proximity to one another.
+One of the most important examples of communciating with space is grouping elements. Following [the laws of proximity](https://en.wikipedia.org/wiki/Principles_of_grouping), the relationship of elements can be understood by their proximity to one another.
 
-//todo: basic circles grouping
+![example of grouping elements by proximity](../images/grouping.png)
 
 For a DHIS2 application, that means placing related elements in proper proximity helps to communicate their relationships to one another. Related settings or options should be grouped together, rather than spaced out evenly.
 
-//todo: options grouping inputs etc.
+![example of grouping form elements](../images/ex-group-inputs.png)
 
 A user looking at the interface in the example above doesn't see any relationships without proper spacing. They have to read each item to understand how it relates to another. The example with spacing that reflects the relationship between items helps the user build a mental model of the structure and work more efficiently.
 
@@ -92,15 +94,15 @@ Page titles should have enough spacing to help the user understand that they are
 
 Consider the following example of a page and section title:
 
-//todo: page and section title.
+![example of spacing page and section titles](../images/ex-layout-titles.png)
 
-The incorrect example on the left is difficult to understand at a glance. Which title applies to the page and which to the content? They are all in similar proximity to one another. Only the vertical rhythm of the page supports the underlying structure. The correct example on the right makes it clear that the page title is separate from the content displayed on the page. The section title is grouped together with it's content. Without even reading the words a user can understand the underlying structure.
+The incorrect example on the right is difficult to understand at a glance. Which title applies to the page and which to the content? They are all in similar proximity to one another. The correct example on the left makes it clear that the page title is separate from the content displayed on the page. The section title is grouped together with it's content. Without even reading the words a user can understand the underlying structure.
 
 ### The spacing scale and 8-point-grid
 
-//todo: 8point grid
+![example of 8 point grid spacing](../images/layout-8grid.png)
 
-Working on an [8 point grid](todo) helps to keep spacing and layout consistent throughout an application. The DHIS2 Design System also defines a spacing scale of values that fit most situations. Instead of deciding between single pixel values, use values from the spacing scale. Consistent use of the spacing system creates vertical rhythm on a screen. The spacing scale is available as part of the [DHIS2 ui library](todo).
+Working on an [8 point grid](https://spec.fm/specifics/8-pt-grid) helps to keep spacing and layout consistent throughout an application. In the example above each element is spaced according to the 8 point grid - 8, 16, 32 and so on. [Learn more about the 8 point grid here](https://spec.fm/specifics/8-pt-grid). The DHIS2 Design System also defines a spacing scale of values based on this grid that fit most situations. Instead of deciding between single pixel values, use values from the spacing scale. Consistent use of the spacing system creates vertical rhythm on a screen. The spacing scale is available as part of the [DHIS2 ui library](https://ui.dhis2.nu/#/api) as ready-to-use 'spacers'.
 
 //todo: spacing scale
 
