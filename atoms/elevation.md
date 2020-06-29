@@ -1,10 +1,10 @@
-| |  |
-|-------------|------------------|
-| **Component** | Elevation |
-| **Type** | Utility ([?](http://atomicdesign.bradfrost.com/chapter-2/))|
-| **Design Spec** | [Link](https://codepen.io/j_cpr/pen/oOBLMp)|
-| **Working Examples** | *pending* |
-| **Status** | `Waiting for build` |
+|                      |                                                             |
+| -------------------- | ----------------------------------------------------------- |
+| **Component**        | Elevation                                                   |
+| **Type**             | Utility ([?](http://atomicdesign.bradfrost.com/chapter-2/)) |
+| **Design Spec**      | [Link](https://codepen.io/j_cpr/pen/oOBLMp)                 |
+| **Working Examples** | _pending_                                                   |
+| **Status**           | `Waiting for build`                                         |
 
 ---
 
@@ -31,7 +31,9 @@ Layering elements upon one another can communicate hierarchies and distinguish d
 There are four levels of elevation available, e100 is the lowest, e400 is the highest. So, any element given e400 elevation will appear above e100, e200 or e300 elements.
 
 ### Communicating with elevation
+
 An example of how applying elevation can communicate differently:
+
 - setting e100 on an element will make it feel more connected to the content below because it is closer
 - setting e400 will create a perceived distance between the elements behind and the e400 element. This is useful when needing to create a divide, but keep it mind that is can easily distract a user from their flow.
 
@@ -40,7 +42,8 @@ An example of how applying elevation can communicate differently:
 In the above example, notice how the raised element on the left, using e100, seems to relate more closely to the table below. The element on the right uses e400 and seems to be disconnected from the table because it is further away from it.
 
 ### Elevation vs. Stacking
-Keep in mind that elevation only applies to elements in the base application layer. Modals, popovers and other elements can appear above an e400 element because they occupy their own layer. This behaviour defined by the Stacking system. Read more about the stacking of layers [here](../principles/spacing-alignment.md).
+
+Keep in mind that elevation only applies to elements in the base application layer. Modals, popovers and other elements can appear above an e400 element because they occupy their own layer. This behaviour defined by the Stacking system. Read more about the stacking of layers [here](../principles/layout.md).
 
 ---
 
@@ -56,4 +59,4 @@ There are four levels of elevation available: e100, e200, e300 and e400.
 
 ![](../images/elevation-example.png)
 
-*The [popover](../molecules/popover.md) component uses an elevation to draw the users attention, it sits on top of the page content. e200 is used, which is a good compromise between grabbing the users attention and still keeping the popover related to the content. Using e400 would make the popover appear too distant from the content it applies to below.*
+_The [popover](../molecules/popover.md) component uses an elevation to draw the users attention, it sits on top of the page content. e200 is used, which is a good compromise between grabbing the users attention and still keeping the popover related to the content. Using e400 would make the popover appear too distant from the content it applies to below._
