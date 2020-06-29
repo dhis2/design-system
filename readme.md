@@ -27,7 +27,7 @@ The design system consists of two sections:
 <!-- - Design for use -->
 
 - [Content & Communication](principles/content-communication.md)
-- [Spacing, Alignment, Stacking](principles/spacing-alignment.md)
+- [Layout, Spacing, Stacking](principles/layout.md)
 - [Color](principles/color.md)
 - [Typography](principles/typography.md)
 - [Icons](principles/icons.md)
