@@ -23,7 +23,7 @@ Loaders are used to inform the user that an element is in a loading state. This 
 
 ## Usage
 
-Use loading indicators whenever a component or application takes longer than 7000ms to load. After this time a loader should be displayed so that the user can understand what is happening: loading is in progress. Consider that without a loading indicator a user would be unsure of their current status, so they are important UI elements.
+Use loading indicators whenever a component or application takes longer than 700ms to load. After this time a loader should be displayed so that the user can understand what is happening: loading is in progress. Consider that without a loading indicator a user would be unsure of their current status, so they are important UI elements.
 
 ---
 
