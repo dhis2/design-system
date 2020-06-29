@@ -4,7 +4,7 @@ Typography, the selection and use of fonts, colors and sizes, is an effective wa
 
 ## DHIS2 application typeface
 
-All DHIS2 applications should use the open-source [Roboto typeface](todo). As always, consistency is important for users to understand that all DHIS2 applications are part of the same ecosystem.
+All DHIS2 applications should use the open-source [Roboto typeface](https://fonts.google.com/specimen/Roboto). As always, consistency is important for users to understand that all DHIS2 applications are part of the same ecosystem.
 
 ### Internationalization
 
