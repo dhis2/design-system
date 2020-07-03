@@ -42,6 +42,7 @@ Each component has guidelines for use, explanations of the different options and
 - [Button](atoms/button.md)
 - [Chip](atoms/chip.md)
 - [Menu](molecules/menu.md)
+- [Segmented Control](molecules/segmented-control.md)
 
 #### Data display
 
