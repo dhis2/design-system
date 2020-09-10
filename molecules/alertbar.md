@@ -28,7 +28,7 @@ A floating alert that informs the user about temporary information in the contex
 
 Alert bars notify a user of some information. There are different types of alert bar for displaying different types of content. Use the alert bar type that matches your content type and importance. Note that alert bar can be ignored by the user, so they shouldn't be used for content that needs to block an app flow, use a [modal](modal.md) instead.
 
-Alert bars are always displayed at centered at the bottom of the screen. Some types of alert bar dismiss after a set time, others must be dismissed by the user.
+Alert bars are always displayed at centered and fixed at the bottom of the screen. Some types of alert bar dismiss after a set time, others must be dismissed by the user.
 
 ---
 
