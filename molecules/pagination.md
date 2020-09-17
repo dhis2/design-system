@@ -1,10 +1,10 @@
-| |  |
-|-------------|------------------|
-| **Component** | Pagination |
-| **Type** | Molecule ([?](http://atomicdesign.bradfrost.com/chapter-2/))|
-| **Design Spec** | [Link](https://sketch.cloud/s/DwkDk/a/pmVrZo) |
-| **Working Examples** | *pending* |
-| **Status** |  `Waiting for build`  |
+|                      |                                                                                |
+| -------------------- | ------------------------------------------------------------------------------ |
+| **Component**        | Pagination                                                                     |
+| **Type**             | Molecule ([?](http://atomicdesign.bradfrost.com/chapter-2/))                   |
+| **Design Spec**      | [Link](https://www.sketch.com/s/3b3cacfc-bde2-4f89-ab9f-3ffc05cfd34d/a/AlV1YR) |
+| **Working Examples** | _pending_                                                                      |
+| **Status**           | `Waiting for build`                                                            |
 
 ---
 
@@ -57,7 +57,7 @@ Context information helps the user understand where they are in within a large d
 
 ### Result count selector
 
-The result count selector allows a user to adjust the number of data items displayed in the component that the pagination relates to. Use a result count selector wherever a user might want to customise their view of the data. Remember that allowing large counts may negatively affect users on slow connections.
+The result count selector allows a user to adjust the number of data items displayed in the component that the pagination relates to. Use a result count selector wherever a user might want to customize their view of the data. Remember that allowing large counts may negatively affect users on slow connections.
 
 ---
 
@@ -73,7 +73,7 @@ Smaller datasets might not need full pagination controls. Only including the pre
 
 ### Full pagination
 
-![](../images/pagination-full.png)
+![](../images/pagination.png)
 
 Including all of the pagination elements results in a full-featured pagination control, useful to managing large datasets.
 
@@ -83,4 +83,4 @@ Including all of the pagination elements results in a full-featured pagination c
 
 ![](../images/pagination-example.png)
 
-*Full pagination is used to view and navigate search results in Capture app.*
+_Full pagination is used to view and navigate search results in Capture app._
