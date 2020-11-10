@@ -13,4 +13,4 @@ Feature: List of all selections in tree, <list>
   Scenario: Clear selection from <list>
     Given that a selection is made in an org unit tree
     When a user clicks the 'Clear selection' control in <list>
-    Then all org units in the tree are deselected 
+    Then all org units in the tree are deselected
