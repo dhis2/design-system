@@ -4,6 +4,7 @@ Feature: Search the organisation unit matching the search term
     Given the user searches the organisation unit tree
     When the result is not empty
     Then all found units will be shown
+    And the found units will highlight the searched term inside the result name
 
   Scenario: Search without results
     Given the user searches the organisation unit tree
