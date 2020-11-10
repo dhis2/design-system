@@ -1,10 +1,10 @@
-| |  |
-|-------------|------------------|
-| **Component** | Tooltip |
-| **Type** | Atom ([?](http://atomicdesign.bradfrost.com/chapter-2/))|
-| **Design Spec** | [Link](https://sketch.cloud/s/DwkDk/a/zY21gy) |
-| **Working Examples** | [Link](https://ui-core.dhis2.nu/demo/?path=/story/tooltip--default-placement-top) |
-| **Status** |  `Ready to use`  |
+|                      |                                                                              |
+| -------------------- | ---------------------------------------------------------------------------- |
+| **Component**        | Tooltip                                                                      |
+| **Type**             | Atom ([?](http://atomicdesign.bradfrost.com/chapter-2/))                     |
+| **Design Spec**      | [Link](https://sketch.cloud/s/DwkDk/a/zY21gy)                                |
+| **Working Examples** | [Link](https://ui.dhis2.nu/demo/?path=/story/tooltip--default-placement-top) |
+| **Status**           | `Ready to use`                                                               |
 
 ---
 
@@ -26,11 +26,11 @@ A tooltip is a container for displaying information about an element, it is disp
 
 Tooltips only display when a user hovers over an element. Do not use tooltips for critical or important information, users may not find the information or it may completely unavailable to mobile users. Information provided in tooltips should be supplementary or provide helpful context. Icon buttons can use tooltips to inform the user of their action. Never put important information or actions inside a tooltip.
 
-* Common usage of a tooltip is to expand on the displayed information when the user hovers over the element.
-* Do not place actions inside a tooltip, they would be hidden from the user and difficult to click.
-* Only text can be displayed in a tooltip. A [popover](../molecules/popover.md) can be used for rich information.
-* Limit the text inside a tooltip to a single, short sentence.
-* Do not repeat information in a tooltip, provide extra relevant, useful information.
+- Common usage of a tooltip is to expand on the displayed information when the user hovers over the element.
+- Do not place actions inside a tooltip, they would be hidden from the user and difficult to click.
+- Only text can be displayed in a tooltip. A [popover](../molecules/popover.md) can be used for rich information.
+- Limit the text inside a tooltip to a single, short sentence.
+- Do not repeat information in a tooltip, provide extra relevant, useful information.
 
 ---
 
@@ -46,16 +46,16 @@ By default the tooltip should display above the hovered element. Alternatively, 
 
 ![](../images/tooltip-example-1.png)
 
-*This tooltip gives the user some more context for the upwards arrow inside the cell: the percentage positive growth and the previous value.*
+_This tooltip gives the user some more context for the upwards arrow inside the cell: the percentage positive growth and the previous value._
 
 ---
 
 ![](../images/tooltip-example-2.png)
 
-*This tooltip gives extra information for new users about the action attributed to this icon used in an information dense environment.*
+_This tooltip gives extra information for new users about the action attributed to this icon used in an information dense environment._
 
 ---
 
 ![](../images/tooltip-example-3.png)
 
-*Hovering over the selected period elements displays extra information, which period is selected. The tooltip is positioned down to avoid overlapping the information above.*
+_Hovering over the selected period elements displays extra information, which period is selected. The tooltip is positioned down to avoid overlapping the information above._

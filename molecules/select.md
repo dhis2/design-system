@@ -1,10 +1,10 @@
-| |  |
-|-------------|------------------|
-| **Component** | Select |
-| **Type** | Molecule ([?](http://atomicdesign.bradfrost.com/chapter-2/))|
-| **Design Spec** | [Link](https://sketch.cloud/s/DwkDk/a/Q5EqdY) |
-| **Working Examples** | [Link](https://ui-core.dhis2.nu/demo/?path=/story/singleselect--default) |
-| **Status** | `Ready to use` |
+|                      |                                                                          |
+| -------------------- | ------------------------------------------------------------------------ |
+| **Component**        | Select                                                                   |
+| **Type**             | Molecule ([?](http://atomicdesign.bradfrost.com/chapter-2/))             |
+| **Design Spec**      | [Link](https://sketch.cloud/s/DwkDk/a/Q5EqdY)                            |
+| **Working Examples** | [Link](https://ui.dhis2.nu/demo/?path=/story/singleselect--with-options) |
+| **Status**           | `Ready to use`                                                           |
 
 ---
 
@@ -46,6 +46,7 @@ Multiple selection allows the user to select more than one option from the list.
 Use multiple selection wherever the user needs to make more than one selection. If the multiple selection is complex, requires a defined order or needs to made from different groups, consider using a transfer(WIP) component instead.
 
 ### Filtering
+
 ![](../images/select-filter.png)
 
 Filtering allows the user to search in the available options. The filter input appears above the options and remains fixed on top when scrolling a long list of options.

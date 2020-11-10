@@ -1,10 +1,10 @@
-| |  |
-|-------------|------------------|
-| **Component** | Checkbox |
-| **Type** | Atom ([?](http://atomicdesign.bradfrost.com/chapter-2/))|
-| **Design Spec** | *pending* |
-| **Working Examples** | [Link](https://ui-core.dhis2.nu/demo/?path=/story/checkbox--default) |
-| **Status** | `Ready to use` |
+|                      |                                                                 |
+| -------------------- | --------------------------------------------------------------- |
+| **Component**        | Checkbox                                                        |
+| **Type**             | Atom ([?](http://atomicdesign.bradfrost.com/chapter-2/))        |
+| **Design Spec**      | _pending_                                                       |
+| **Working Examples** | [Link](https://ui.dhis2.nu/demo/?path=/story/checkbox--default) |
+| **Status**           | `Ready to use`                                                  |
 
 ---
 
@@ -59,4 +59,4 @@ An indeterminate state is used when some, but not all, of the child elements are
 
 ![](../images/checkbox-example.png)
 
-*Checkboxes are used for toggling on/off the display of certain elements. Checkbox status True/On indicates that this element will display, an example of using a checked state for a positive action (displaying that type of element).*
+_Checkboxes are used for toggling on/off the display of certain elements. Checkbox status True/On indicates that this element will display, an example of using a checked state for a positive action (displaying that type of element)._

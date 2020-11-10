@@ -1,10 +1,10 @@
-|                      |                                                                          |
-| -------------------- | ------------------------------------------------------------------------ |
-| **Component**        | Button                                                                   |
-| **Type**             | Atom ([?](http://atomicdesign.bradfrost.com/chapter-2/))                 |
-| **Design Spec**      | [Link](https://sketch.cloud/s/DwkDk/a/ll8Arx)                            |
-| **Working Examples** | [Link](https://ui-core.dhis2.nu/demo/?path=/story/button-basic--default) |
-| **Status**           | `Ready to use`                                                           |
+|                      |                                                             |
+| -------------------- | ----------------------------------------------------------- |
+| **Component**        | Button                                                      |
+| **Type**             | Atom ([?](http://atomicdesign.bradfrost.com/chapter-2/))    |
+| **Design Spec**      | [Link](https://sketch.cloud/s/DwkDk/a/ll8Arx)               |
+| **Working Examples** | [Link](https://ui.dhis2.nu/demo/?path=/story/button--basic) |
+| **Status**           | `Ready to use`                                              |
 
 ---
 
@@ -41,7 +41,7 @@ Each type of button has a specific usage:
 
 Make sure the button's action is a clear verb. "Save" is clear, it could be even clearer if what is being saved is specified, "Save data", for example. Remember that some languages can be 3x longer than english, so specifying a fixed width will not work.
 
-Avoid ambiguious labels like 'Ok', using an action verb will make it clearer to the user what action will come from clicking the button.
+Avoid ambiguous labels like 'Ok', using an action verb will make it clearer to the user what action will come from clicking the button.
 
 ---
 

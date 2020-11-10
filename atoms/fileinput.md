@@ -1,10 +1,10 @@
-| |  |
-|-------------|------------------|
-| **Component** | File Input|
-| **Type** | Atom ([?](http://atomicdesign.bradfrost.com/chapter-2/))|
-| **Design Spec** | [Link](https://sketch.cloud/s/DwkDk/a/jWp5Oz) |
-| **Working Examples** | [Link](https://ui-core.dhis2.nu/demo/?path=/story/fileinput--default) |
-| **Status** | `Waiting for build` |
+|                      |                                                                  |
+| -------------------- | ---------------------------------------------------------------- |
+| **Component**        | File Input                                                       |
+| **Type**             | Atom ([?](http://atomicdesign.bradfrost.com/chapter-2/))         |
+| **Design Spec**      | [Link](https://sketch.cloud/s/DwkDk/a/jWp5Oz)                    |
+| **Working Examples** | [Link](https://ui.dhis2.nu/demo/?path=/story/fileinput--default) |
+| **Status**           | `Waiting for build`                                              |
 
 ---
 
@@ -78,6 +78,7 @@ The button text and icon can be customised. Ensure the text makes sense and is a
 ## Types
 
 ### Single vs. Multiple file upload
+
 ![](../images/file-upload-multi.png)
 
 Where multiple files can be uploaded by a single file input component, those file names are stacked in the file list in the order they were selected (newest last). All files in the file list have their own remove control and loading indicators.
@@ -87,6 +88,7 @@ If a file input is set to accept one file only, the button will be disabled when
 ---
 
 ## States
+
 ~If this component has states, why?~
 
 ### Error

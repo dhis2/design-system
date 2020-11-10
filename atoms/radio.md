@@ -1,10 +1,10 @@
-| |  |
-|-------------|------------------|
-| **Component** | Radio |
-| **Type** | Atom ([?](http://atomicdesign.bradfrost.com/chapter-2/))|
-| **Design Spec** | *pending* |
-| **Working Examples** | [Link](https://ui-core.dhis2.nu/demo/?path=/story/radio--default) |
-| **Status** | `Ready to use` |
+|                      |                                                              |
+| -------------------- | ------------------------------------------------------------ |
+| **Component**        | Radio                                                        |
+| **Type**             | Atom ([?](http://atomicdesign.bradfrost.com/chapter-2/))     |
+| **Design Spec**      | _pending_                                                    |
+| **Working Examples** | [Link](https://ui.dhis2.nu/demo/?path=/story/radio--default) |
+| **Status**           | `Ready to use`                                               |
 
 ---
 
@@ -46,4 +46,4 @@ Radio buttons are available in Regular and Dense sizes. Regular size is usually 
 
 ![](../images/radio-example.jpg)
 
-*Only a single style can be chosen from the options and there are fewer than 5 options, so radio buttons suit this usage.*
+_Only a single style can be chosen from the options and there are fewer than 5 options, so radio buttons suit this usage._

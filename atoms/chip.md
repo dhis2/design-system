@@ -1,10 +1,10 @@
-| |  |
-|-------------|------------------|
-| **Component** | Chip |
-| **Type** | Atom ([?](http://atomicdesign.bradfrost.com/chapter-2/))|
-| **Design Spec** | *pending* |
-| **Working Examples** | [Link](https://ui-core.dhis2.nu/demo/?path=/story/chip--default) |
-| **Status** | `Ready to use` |
+|                      |                                                             |
+| -------------------- | ----------------------------------------------------------- |
+| **Component**        | Chip                                                        |
+| **Type**             | Atom ([?](http://atomicdesign.bradfrost.com/chapter-2/))    |
+| **Design Spec**      | _pending_                                                   |
+| **Working Examples** | [Link](https://ui.dhis2.nu/demo/?path=/story/chip--default) |
+| **Status**           | `Ready to use`                                              |
 
 ---
 
@@ -28,13 +28,13 @@ Chips are used to display a list of defined options, filters or views for a rela
 
 ![example of a chips being displayed with a data table](../images/chip-table@2x.png)
 
-*In this example the group of chips above represent 'Saved Filters' for the user to choose from. These filters will apply to the data table below*
+_In this example the group of chips above represent 'Saved Filters' for the user to choose from. These filters will apply to the data table below_
 
 The chips displayed above the table act as defined filters for the table. In the example above, selecting "Overdue Patients" chip will select that chip and display only that data in the table below. **To deselect the chip the user can click again, or a 'Clear filters' control could be provided.**
 
 ![example of a selected chip and data table](../images/chip-table-selected.jpg)
 
-*"Overdue patients" is selected/active, so the data in the table below changes to reflect this. The 'Overdue Patients' chip is displayed in 'Selected' style to highlight this.*
+_"Overdue patients" is selected/active, so the data in the table below changes to reflect this. The 'Overdue Patients' chip is displayed in 'Selected' style to highlight this._
 
 ### Chip vs. Button
 
@@ -42,9 +42,9 @@ Chips should only be used for filtering or selecting an option. Do not use filte
 
 ### Displaying chips
 
-* Chips should be displayed in a horizontal list, where space permits.
-* Do not stack single chips on top of one another if there is space to display them inline.
-* Do not use horizontal scrolling to display a large number of chips. Always wrap chips onto a new line below.
+- Chips should be displayed in a horizontal list, where space permits.
+- Do not stack single chips on top of one another if there is space to display them inline.
+- Do not use horizontal scrolling to display a large number of chips. Always wrap chips onto a new line below.
 
 ---
 
@@ -66,4 +66,4 @@ A group of chips can be set up for single or multiple selection, it depends on t
 
 ![](../images/chip-example-1.png)
 
-*A users dashboards are represented by chips. Favorite dashboards use chips with a star icon.*
+_A users dashboards are represented by chips. Favorite dashboards use chips with a star icon._

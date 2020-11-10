@@ -1,10 +1,10 @@
-| |  |
-|-------------|------------------|
-| **Component** | Tabs |
-| **Type** | Molecule ([?](http://atomicdesign.bradfrost.com/chapter-2/))|
-| **Design Spec** | [Link](https://sketch.cloud/s/DwkDk/GmKbAL5) |
-| **Working Examples** | [Link](https://ui-core.dhis2.nu/demo/?path=/story/tabbar--default-fluid)|
-| **Status** | `Ready to use` |
+|                      |                                                                     |
+| -------------------- | ------------------------------------------------------------------- |
+| **Component**        | Tabs                                                                |
+| **Type**             | Molecule ([?](http://atomicdesign.bradfrost.com/chapter-2/))        |
+| **Design Spec**      | [Link](https://sketch.cloud/s/DwkDk/GmKbAL5)                        |
+| **Working Examples** | [Link](https://ui.dhis2.nu/demo/?path=/story/tabbar--default-fluid) |
+| **Status**           | `Ready to use`                                                      |
 
 ---
 
@@ -33,6 +33,7 @@ Tabs act as containers for content. Tabs are used to divide content into categor
 - The number of tabs is less important than splitting content into understandable, predictable groups. Do not group together unrelated content in order to reduce tab count. Users struggle more with unpredictable tabs than too many tabs.
 
 ### Naming
+
 Give tabs short, understandable names. Try to find a word or very short phrase that summarises the content. If you cannot find a suitable word this may mean you are trying to fit too much content under a single tab. The content of a tab should be obvious from its name.
 
 For example:
@@ -46,6 +47,7 @@ Do not repeat a term across tabs. If tabs are used inside a 'Options' modal, it 
 ## Types
 
 ### Fluid vs. Fixed
+
 The default tab style is fluid, where each tab width is defined by its name:
 ![](../images/tabs-fluid.png)
 
@@ -60,4 +62,4 @@ Fluid tabs should be used in most situations. Fixed tabs are useful when there i
 
 ![](../images/tabs-example.png)
 
-*Tabs are used inside the 'Options' modal in Pivot Tables. Different categories of option are split into logical categories. Attempting to list all these options in a single screen would be overwhelming for a user.*
+_Tabs are used inside the 'Options' modal in Pivot Tables. Different categories of option are split into logical categories. Attempting to list all these options in a single screen would be overwhelming for a user._

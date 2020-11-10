@@ -1,10 +1,10 @@
-| |  |
-|-------------|------------------|
-| **Component** | Transfer |
-| **Type** | Organism ([?](http://atomicdesign.bradfrost.com/chapter-2/))|
-| **Design Spec** | [Pixel spec](https://sketch.cloud/s/DwkDk/a/jvobL7), [HTML&CSS spec](https://codesandbox.io/s/transfer-t9ybu) |
-| **Working Examples** | [Link](https://ui-core.dhis2.nu/demo/?path=/story/transfer--single-selection) |
-| **Status** | `Ready to use` |
+|                      |                                                                                                               |
+| -------------------- | ------------------------------------------------------------------------------------------------------------- |
+| **Component**        | Transfer                                                                                                      |
+| **Type**             | Organism ([?](http://atomicdesign.bradfrost.com/chapter-2/))                                                  |
+| **Design Spec**      | [Pixel spec](https://sketch.cloud/s/DwkDk/a/jvobL7), [HTML&CSS spec](https://codesandbox.io/s/transfer-t9ybu) |
+| **Working Examples** | [Link](https://ui.dhis2.nu/demo/?path=/story/transfer--single-selection)                                      |
+| **Status**           | `Ready to use`                                                                                                |
 
 ---
 
@@ -139,4 +139,4 @@ Make sure to write clear, concise and actionable error messages. Check out the [
 
 ![](../images/transfer-example.png) -->
 
-*A transfer helps make complex data selection simpler in Data Visualizer. In this example the user could select from many different types of option, so additional filter controls are used in the header of the options list. Custom items are used to match the usage in the rest of the app.*
+_A transfer helps make complex data selection simpler in Data Visualizer. In this example the user could select from many different types of option, so additional filter controls are used in the header of the options list. Custom items are used to match the usage in the rest of the app._

@@ -1,10 +1,10 @@
-| |  |
-|-------------|------------------|
-| **Component** | Input |
-| **Type** | Molecule ([?](http://atomicdesign.bradfrost.com/chapter-2/))|
-| **Design Spec** | *pending* |
-| **Working Examples** | [Link](https://ui-core.dhis2.nu/demo/?path=/story/inputfield--default) |
-| **Status** | `Ready to use` |
+|                      |                                                                   |
+| -------------------- | ----------------------------------------------------------------- |
+| **Component**        | Input                                                             |
+| **Type**             | Molecule ([?](http://atomicdesign.bradfrost.com/chapter-2/))      |
+| **Design Spec**      | _pending_                                                         |
+| **Working Examples** | [Link](https://ui.dhis2.nu/demo/?path=/story/inputfield--default) |
+| **Status**           | `Ready to use`                                                    |
 
 ---
 
@@ -45,12 +45,15 @@ An input is made up of multiple elements, some of which are optional:
 ---
 
 ## Options
+
 Inputs have several options, each detailed below. All of the options listed below are available for all types of input. Specific options for each type of input are listed in the Types section.
 
 ### Labels
+
 Make sure to provide useful label text that is short, concise and describes the intended input.
 
 ### Help text
+
 Input fields can include helper text below. This helper text provides guidance to the user. Do not use helper text on every form field, this will be overwhelming to the user. Only include help text for difficult to learn, or one-off inputs.
 
 ### Placeholder text
@@ -60,6 +63,7 @@ Input fields can include helper text below. This helper text provides guidance t
 Placeholder text can give the user some guidance on how the field should be used or what kind of information is expected. Do not include critical information in placeholder text, it will not be visible once a user inputs text.
 
 ### Width
+
 All input fields are set to 100% width by default, so they will fill the width of their parent container. Alternatively, a custom width can be defined.
 
 It is important that the width of an input reflects the expected content. If an input will be used to enter numbers between 1-1000, the width of the input can be relatively narrow. If an input will be used to enter a long dashboard description, allow for a wider input. The width of an input is a subtle hint to a user that "this input expects this type of content", so use the width to aid the user to enter the right type of content.
@@ -96,9 +100,9 @@ A textarea allows multiple lines of text input. Use a textarea wherever a user n
 
 Options for textarea inputs are:
 
-* **Rows**: the height of the input, defined by the number of rows of text
-* **Resizable**: whether the textarea can be resized by the user or not. Can be set for both width and height.
-* **Autoheight**: if enabled, the texarea will grow in height to adapt to the content.
+- **Rows**: the height of the input, defined by the number of rows of text
+- **Resizable**: whether the textarea can be resized by the user or not. Can be set for both width and height.
+- **Autoheight**: if enabled, the texarea will grow in height to adapt to the content.
 
 ### Number
 
@@ -108,9 +112,9 @@ A number input accepts number inputs only. A number input should only be used if
 
 Options for number inputs are:
 
-* **Maximum value**: the maximum numerical value that is valid.
-* **Minimum value**: the minimum numerical value that is valid.
-* **Step**: a step value that the inputted number must be divisible by. For example, a step value of 5 means that 10 or 15 is valid, but not 22.
+- **Maximum value**: the maximum numerical value that is valid.
+- **Minimum value**: the minimum numerical value that is valid.
+- **Step**: a step value that the inputted number must be divisible by. For example, a step value of 5 means that 10 or 15 is valid, but not 22.
 
 ### Password
 
@@ -126,7 +130,7 @@ An email input that provides validation, only accepting valid email addresses. O
 
 Options for email inputs are:
 
-* **Multiple**: if enabled, the input will accept multiple email addresses.
+- **Multiple**: if enabled, the input will accept multiple email addresses.
 
 ### URL
 
@@ -145,6 +149,7 @@ Telephone number formats vary around the world. It can be difficult to set defin
 ---
 
 ## States
+
 An input can display a state to communicate some information to the user about it's current status. There are several different types of state:
 
 ### Error
@@ -170,5 +175,6 @@ The loading state is useful for communcating to the user that the application is
 ## Examples in use
 
 WIP
+
 <!-- ![](../images/checkbox-example.png)
 *Checkboxes are used for toggling on/off the display of certain elements. Checkbox status True/On indicates that this element will display* -->

@@ -1,10 +1,10 @@
-|                      |                                                          |
-| -------------------- | -------------------------------------------------------- |
-| **Component**        | Tag                                                      |
-| **Type**             | Atom ([?](http://atomicdesign.bradfrost.com/chapter-2/)) |
-| **Design Spec**      | [CSS Spec](https://sleepy-yalow-3c0c76.netlify.com/)     |
-| **Working Examples** | [Link](https://ui-core.dhis2.nu/demo/?path=/story/tag--default)                                               |
-| **Status**           | `Ready to use`                                      |
+|                      |                                                            |
+| -------------------- | ---------------------------------------------------------- |
+| **Component**        | Tag                                                        |
+| **Type**             | Atom ([?](http://atomicdesign.bradfrost.com/chapter-2/))   |
+| **Design Spec**      | [CSS Spec](https://sleepy-yalow-3c0c76.netlify.com/)       |
+| **Working Examples** | [Link](https://ui.dhis2.nu/demo/?path=/story/tag--default) |
+| **Status**           | `Ready to use`                                             |
 
 ---
 

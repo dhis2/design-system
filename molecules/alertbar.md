@@ -1,10 +1,10 @@
-| |  |
-|-------------|------------------|
-| **Component** | Alert bar |
-| **Type** | Molecule ([?](http://atomicdesign.bradfrost.com/chapter-2/))|
-| **Design Spec** | [Link](https://sketch.cloud/s/DwkDk/a/eO0DKP) |
-| **Working Examples** | [Link](https://ui-core.dhis2.nu/demo/?path=/story/alertbar--default) |
-| **Status** | `Ready to use` |
+|                      |                                                                 |
+| -------------------- | --------------------------------------------------------------- |
+| **Component**        | Alert bar                                                       |
+| **Type**             | Molecule ([?](http://atomicdesign.bradfrost.com/chapter-2/))    |
+| **Design Spec**      | [Link](https://sketch.cloud/s/DwkDk/a/eO0DKP)                   |
+| **Working Examples** | [Link](https://ui.dhis2.nu/demo/?path=/story/alertbar--default) |
+| **Status**           | `Ready to use`                                                  |
 
 ---
 
@@ -70,12 +70,12 @@ Alert bar icons support the content and give the user a way of quickly understan
 
 There are several different types of alert bar:
 
-Type | Usage
----- | ----
-Info | Default. Inform the user of neutral content.
-Success | Confirm a successful action.
-Warning | Warn of a potential problem or obstruction, usually before it has happened.
-Critical | Inform of a catastrophic error or problem, after it has occured.
+| Type     | Usage                                                                       |
+| -------- | --------------------------------------------------------------------------- |
+| Info     | Default. Inform the user of neutral content.                                |
+| Success  | Confirm a successful action.                                                |
+| Warning  | Warn of a potential problem or obstruction, usually before it has happened. |
+| Critical | Inform of a catastrophic error or problem, after it has occured.            |
 
 It is important to use the correct type of alert bar. Users should not be overloaded with warnings that are not actually important, nor should they miss out on important information.
 
@@ -134,4 +134,4 @@ Critical alerts do not dismiss automatically. A user can dismiss them.
 
 ![](../images/alertbar-example.png)
 
-*An alert bar confirms to the user that their dashboard was saved after they carried out changes. The changes might not be immediately visible, so it is useful to inform the user with an alert bar.*
+_An alert bar confirms to the user that their dashboard was saved after they carried out changes. The changes might not be immediately visible, so it is useful to inform the user with an alert bar._
