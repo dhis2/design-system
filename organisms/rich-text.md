@@ -1,10 +1,10 @@
-| |  |
-|-------------|------------------|
-| **Component** | Rich Text Editing |
-| **Type** | Organism ([?](http://atomicdesign.bradfrost.com/chapter-2/))|
-| **Design Spec** | [Live Spec](https://sleepy-yalow-3c0c76.netlify.com/) |
-| **Working Examples** | *pending* |
-| **Status** | `Waiting for build` |
+|                      |                                                              |
+| -------------------- | ------------------------------------------------------------ |
+| **Component**        | Rich Text Editing                                            |
+| **Type**             | Organism ([?](http://atomicdesign.bradfrost.com/chapter-2/)) |
+| **Design Spec**      | [Live Spec](https://sleepy-yalow-3c0c76.netlify.com/)        |
+| **Working Examples** | _pending_                                                    |
+| **Status**           | `Waiting for build`                                          |
 
 ---
 
@@ -55,7 +55,7 @@ The default tools available in the toolbar are: bold, italic, headers, lists and
 
 ![](../images/rt-mentions.png)
 
-The user mentions tool should only be included if it would be useful to mention other DHIS2 users in the text. The mentiions tool will open a popup for searching for a user. The user mentions tool is not part of the default toolset.
+The user mentions tool should only be included if it would be useful to mention other DHIS2 users in the text. The mentions tool will open a popup for searching for a user. The user mentions tool is not part of the default toolset.
 
 ---
 

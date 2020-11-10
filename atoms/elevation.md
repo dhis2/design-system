@@ -24,7 +24,7 @@ Elevation is used to create depth in a user interface.
 
 ## Usage
 
-Use elevation to seperate interface elements from one another. This is useful for creating hierarchies or showing extra information without breaking a layout.
+Use elevation to separate interface elements from one another. This is useful for creating hierarchies or showing extra information without breaking a layout.
 
 Layering elements upon one another can communicate hierarchies and distinguish different elements apart.
 
@@ -43,7 +43,7 @@ In the above example, notice how the raised element on the left, using e100, see
 
 ### Elevation vs. Stacking
 
-Keep in mind that elevation only applies to elements in the base application layer. Modals, popovers and other elements can appear above an e400 element because they occupy their own layer. This behaviour defined by the Stacking system. Read more about the stacking of layers [here](../principles/layout.md).
+Keep in mind that elevation only applies to elements in the base application layer. Modals, popovers and other elements can appear above an e400 element because they occupy their own layer. This behavior defined by the Stacking system. Read more about the stacking of layers [here](../principles/layout.md).
 
 ---
 

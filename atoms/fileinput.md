@@ -67,11 +67,11 @@ The filename of successfully uploaded files, or files queued for upload, are dis
 
 ![](../images/file-upload-placeholder.png)
 
-Placeholder text can also be included in place of the file list, before a file has been uploaded. This text can be customised. In the above example 'No files uploaded yet.' is included as placeholder text. This text is useful for making the current component state completely obvious to the user. Placeholder text is optional, but highly recommended.
+Placeholder text can also be included in place of the file list, before a file has been uploaded. This text can be customized. In the above example 'No files uploaded yet.' is included as placeholder text. This text is useful for making the current component state completely obvious to the user. Placeholder text is optional, but highly recommended.
 
 ### Button text
 
-The button text and icon can be customised. Ensure the text makes sense and is an action verb. For example 'Upload a file', 'Add patient records', 'Upload a photo' and so on.
+The button text and icon can be customized. Ensure the text makes sense and is an action verb. For example 'Upload a file', 'Add patient records', 'Upload a photo' and so on.
 
 ---
 

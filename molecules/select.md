@@ -57,9 +57,9 @@ Use filtering if there are many options to choose from. There is no minimum amou
 
 ![](../images/select-custom.png)
 
-By default a select component uses a simple menu to display options, however options can be customised to display in any way. In the example above the options include an icon, title and description. The 'selected' state of an option can also be customised, the example above uses a custom color background and check icon.
+By default a select component uses a simple menu to display options, however options can be customized to display in any way. In the example above the options include an icon, title and description. The 'selected' state of an option can also be customized, the example above uses a custom color background and check icon.
 
-The selected state of the input can also be customised. An option title must always be provided, this title will be displayed in the input when selected. Optional graphics or icons can also be included. Do not use large graphics and make sure any icons used communicate clearly with the user.
+The selected state of the input can also be customized. An option title must always be provided, this title will be displayed in the input when selected. Optional graphics or icons can also be included. Do not use large graphics and make sure any icons used communicate clearly with the user.
 
 Use custom content whenever a short text option would be insufficient or not communicate clearly enough. However, keep in mind that if the content is very complex it should not be contained within a menu as this may be difficult to navigate and view. In this case, use a custom component instead of a select.
 

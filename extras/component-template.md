@@ -1,10 +1,10 @@
-| |  |
-|-------------|------------------|
-| **Component** | ~componentName~ |
-| **Type** | ~type~ ([?](http://atomicdesign.bradfrost.com/chapter-2/))|
-| **Design Spec** | *pending* |
-| **Working Examples** | *pending* |
-| **Status** | `Work in progress`, `Waiting for build`, `Ready to use` |
+|                      |                                                            |
+| -------------------- | ---------------------------------------------------------- |
+| **Component**        | ~componentName~                                            |
+| **Type**             | ~type~ ([?](http://atomicdesign.bradfrost.com/chapter-2/)) |
+| **Design Spec**      | _pending_                                                  |
+| **Working Examples** | _pending_                                                  |
+| **Status**           | `Work in progress`, `Waiting for build`, `Ready to use`    |
 
 ---
 
@@ -65,18 +65,19 @@ There are several different types of ~componentName~.
 
 Options for ~type~ are:
 
-* **~typeOption~**: ~describe what this option does.~
+- **~typeOption~**: ~describe what this option does.~
 
 ---
 
 ## States
+
 ~If this component has states, why?~
 
 ### ~state~
 
 ![](../images/.png)
 
-~desribe the state. when should it be used? is it triggered automatically? when should it not be used? any caveats?~
+~describe the state. when should it be used? is it triggered automatically? when should it not be used? any caveats?~
 
 ---
 
@@ -84,4 +85,4 @@ Options for ~type~ are:
 
 ![](../images/-example.png)
 
-*~explain why this was the right component to use in this use case~*
+_~explain why this was the right component to use in this use case~_

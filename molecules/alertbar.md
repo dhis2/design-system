@@ -42,7 +42,7 @@ An alert bar is made up of multiple elements, some of which are optional:
 2. **Icon, optional:** an icon to help the user quickly understand the context of the alert.
 3. **Text, required:** concise, informative text. Should give the user a quick, understandable snapshot of the content in a few words.
 4. **Actions, optional:** actions can be local (on the current page), or link elsewhere. An alert bar can have up to two actions.
-5. **Dimiss control, required:** A control to manually dismiss the alert bar.
+5. **Dismiss control, required:** A control to manually dismiss the alert bar.
 
 ---
 
@@ -62,7 +62,7 @@ Alert bar icons support the content and give the user a way of quickly understan
 
 - Wifi/Network icon when informing the user about their network connection.
 - Tick/checkmark when successfully adding a user.
-- ! icon when an error has occured.
+- ! icon when an error has occurred.
 
 ---
 
@@ -75,7 +75,7 @@ There are several different types of alert bar:
 | Info     | Default. Inform the user of neutral content.                                |
 | Success  | Confirm a successful action.                                                |
 | Warning  | Warn of a potential problem or obstruction, usually before it has happened. |
-| Critical | Inform of a catastrophic error or problem, after it has occured.            |
+| Critical | Inform of a catastrophic error or problem, after it has occurred.           |
 
 It is important to use the correct type of alert bar. Users should not be overloaded with warnings that are not actually important, nor should they miss out on important information.
 
@@ -108,7 +108,7 @@ Success alerts dismiss automatically after 5 seconds, like info alert bars they 
 
 ![info alert bar](../images/alertbar-warning.png)
 
-Warning alert bars warn users of potential problems. Ideally warnings should be shown before a problem occurs. If a problem has already occured, a critical type is probably a better choice. Example content for warning alert bars:
+Warning alert bars warn users of potential problems. Ideally warnings should be shown before a problem occurs. If a problem has already occurred, a critical type is probably a better choice. Example content for warning alert bars:
 
 - "Some data is taking a long time to sync."
 - "A form on this page is hidden."
@@ -120,7 +120,7 @@ Warning alerts do not dismiss automatically. They disappear if the warning condi
 
 ![info alert bar](../images/alertbar-critical.png)
 
-Critical alerts are used to highlight a severe problem. They should only be used to inform the user of broken functionality after it has occured. Critical alerts should be used where the user can still interact with the application even though there is an error. If there is a catastrophic error that requires blocking the application, use a [modal](modal.md) instead. Critical alert text should inform the user what happened and why. Sample critical alert bars:
+Critical alerts are used to highlight a severe problem. They should only be used to inform the user of broken functionality after it has occurred. Critical alerts should be used where the user can still interact with the application even though there is an error. If there is a catastrophic error that requires blocking the application, use a [modal](modal.md) instead. Critical alert text should inform the user what happened and why. Sample critical alert bars:
 
 - "Dashboard failed to load."
 - "Relationship not created, invalid relationship type."

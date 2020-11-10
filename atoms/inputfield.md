@@ -162,13 +162,13 @@ An error is indicated with a change of color and inclusion of an ! icon and an o
 
 ![example of text input validity](../images/input-valid.png)
 
-A valid value can be communcated using the 'valid' input field state. This state shows a check icon and adjusts the element color to communicate to the user that the inputted value is value. Only use this field if there are rules/criteria the input must fulfill. Do not use valid inputs for all inputs, and never use a valid input without actually checking for validity.
+A valid value can be communicated using the 'valid' input field state. This state shows a check icon and adjusts the element color to communicate to the user that the inputted value is value. Only use this field if there are rules/criteria the input must fulfill. Do not use valid inputs for all inputs, and never use a valid input without actually checking for validity.
 
 ### Loading
 
 ![example of text input loading](../images/input-loading.png)
 
-The loading state is useful for communcating to the user that the application is checking the user entered value and another state will follow, either valid or error. Only use loading states where loading is actually taking place.
+The loading state is useful for communicating to the user that the application is checking the user entered value and another state will follow, either valid or error. Only use loading states where loading is actually taking place.
 
 ---
 

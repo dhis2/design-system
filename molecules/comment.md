@@ -1,10 +1,10 @@
-| |  |
-|-------------|------------------|
-| **Component** | Comment |
-| **Type** | Molecule ([?](http://atomicdesign.bradfrost.com/chapter-2/))|
-| **Design Spec** | *pending* |
-| **Working Examples** | *pending* |
-| **Status** | `Waiting for build` |
+|                      |                                                              |
+| -------------------- | ------------------------------------------------------------ |
+| **Component**        | Comment                                                      |
+| **Type**             | Molecule ([?](http://atomicdesign.bradfrost.com/chapter-2/)) |
+| **Design Spec**      | _pending_                                                    |
+| **Working Examples** | _pending_                                                    |
+| **Status**           | `Waiting for build`                                          |
 
 ---
 
@@ -38,7 +38,7 @@ Comments can be displayed together in a Conversation, allowing users to communic
 
 The composition of a comment depends on its [state](#states).
 
-### Empty 
+### Empty
 
 ![](../images/comment-composition-empty.png)
 
@@ -83,13 +83,13 @@ A comment has three states: empty, active and display. The empty and active stat
 
 ![](../images/comment-empty.png)
 
-The empty state is used when the user has not entered any information or interacted with the comment. The empty state invites the user to add their comment, providing a reminder from the user avatar that this comment belongs to them. 
+The empty state is used when the user has not entered any information or interacted with the comment. The empty state invites the user to add their comment, providing a reminder from the user avatar that this comment belongs to them.
 
 Empty is the default state of a comment input.
 
 #### Placeholder text
 
-The placeholder text of an empty comment can, and should be, customised to the context. "Write a comment" is a generic way of inviting the user to add their comment. In a more specific context: a patient journal, the placeholder "Add a comment to this journal" could be used.
+The placeholder text of an empty comment can, and should be, customized to the context. "Write a comment" is a generic way of inviting the user to add their comment. In a more specific context: a patient journal, the placeholder "Add a comment to this journal" could be used.
 
 ### Active
 
@@ -100,7 +100,8 @@ The active state is used when the user is interacting with the comment input. Th
 When a user interacts with a comment input by entering information, the comment remains in active state until cancelled or saved.
 
 #### Extras
-The active state can display extra information specific to an app or context. For example, if a user can manage who can see their comment (sharing settings), these sharing settings may be available from the extras area. 
+
+The active state can display extra information specific to an app or context. For example, if a user can manage who can see their comment (sharing settings), these sharing settings may be available from the extras area.
 
 The extras area should be used for information that the user should read before they save the comment. Extras are displayed between the comment input and the action buttons to support this.
 
@@ -108,9 +109,10 @@ The extras area should be used for information that the user should read before 
 
 ![](../images/comment-display.png)
 
-The display state is used to display a saved comment. Display comments display metadata about the comment, the comment content and additional actions. 
+The display state is used to display a saved comment. Display comments display metadata about the comment, the comment content and additional actions.
 
 #### Actions
+
 Default actions are provided, such as like, reply, edit and delete. Some actions are only available to the owner of the comment: edit and delete.
 
 Custom actions can be included in display comments. Ensure that actions relate directly to the comment. Do not place actions inside a display comment that relate to the whole page or another component.
@@ -119,4 +121,4 @@ Custom actions can be included in display comments. Ensure that actions relate d
 
 ## Examples in use
 
-*Coming soon*
+_Coming soon_

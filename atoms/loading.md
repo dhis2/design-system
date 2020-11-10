@@ -34,7 +34,7 @@ There are different types of loader, circular and linear, and both can be used i
 | Loader   | Usage                                                                                                       |
 | -------- | ----------------------------------------------------------------------------------------------------------- |
 | Circular | Indeterminate loading, e.g. when the loading time is uncertain and cannot be communicated with a percentage |
-| Linear   | Determinate loading, e.g. when the loading process can be communcated from 0–100%.                          |
+| Linear   | Determinate loading, e.g. when the loading process can be communicated from 0–100%.                         |
 
 ### Circular
 
@@ -50,7 +50,7 @@ _This page loader covers the whole screen while the application loads._
 
 #### Circular Component Loader
 
-Component loaders are used to indicate a loading state for an individual component, for example a dashboard item. Components loaders are useful to inform the user that while the application/page has loaded, not all the elements are ready yet. Without a component loader a user can mistakenly think that data is missing or an error has occured. Circular component loaders should always be centered in the component and include a ComponentCover element to block the content beneath. Use 'Small' size loader for Component Loaders.
+Component loaders are used to indicate a loading state for an individual component, for example a dashboard item. Components loaders are useful to inform the user that while the application/page has loaded, not all the elements are ready yet. Without a component loader a user can mistakenly think that data is missing or an error has occurred. Circular component loaders should always be centered in the component and include a ComponentCover element to block the content beneath. Use 'Small' size loader for Component Loaders.
 
 ![Component loader example](../images/componentloader.png)
 
@@ -62,4 +62,4 @@ Linear loaders are used when the percentage loaded is known and be shown to the 
 
 ![Component Linear loader example](../images/componentloaderlinear.png)
 
-_A dashboard item with a linear loader, which shows the user the approxmiate progress of the loading._
+_A dashboard item with a linear loader, which shows the user the approximate progress of the loading._

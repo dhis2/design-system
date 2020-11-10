@@ -84,7 +84,7 @@ A modal can be aligned **top**, **middle** or **bottom**. The default alignment 
 
 ![modal example](../images/modal-example-1.png)
 
-_This modal in Data Visualizer app is used to set up the data included in a chart. This is a relatively complex task, so it's contained in a modal for focus. Using a modal means the user doesn't need to navigate away from the current page, an important aspect when they are working on data visualisations. Having these controls on a seperate page would feel very disconnected. Including them right on the page itself would be too messy. A modal is very useful here._
+_This modal in Data Visualizer app is used to set up the data included in a chart. This is a relatively complex task, so it's contained in a modal for focus. Using a modal means the user doesn't need to navigate away from the current page, an important aspect when they are working on data visualizations. Having these controls on a separate page would feel very disconnected. Including them right on the page itself would be too messy. A modal is very useful here._
 
 ![modal example 2](../images/modal-example-2.png)
 

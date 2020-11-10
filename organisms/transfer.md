@@ -97,7 +97,7 @@ Use filtering if there are many options in the list, or if the options are compl
 
 ![](../images/transfer-custom.png)
 
-Although by default the options displayed in the list are displayed as text strings, options can be customised to be displayed in any way. Custom options must have idle, selected, hover and active states.
+Although by default the options displayed in the list are displayed as text strings, options can be customized to be displayed in any way. Custom options must have idle, selected, hover and active states.
 
 Use custom list options only when it is meaningful to do so. Icons can help a user to understand the available options, for example. Do not use custom list options for purely aesthetic changes.
 
@@ -105,9 +105,9 @@ Use custom list options only when it is meaningful to do so. Icons can help a us
 
 ![](../images/transfer-buttons.png)
 
-The transfer buttons text can be customised.
+The transfer buttons text can be customized.
 
-Use custom button text where a user needs more guideance to use the transfer control. In most cases the arrow buttons are intuitive to use, but text can be added if the use case is for users with low tech literacy.
+Use custom button text where a user needs more guidance to use the transfer control. In most cases the arrow buttons are intuitive to use, but text can be added if the use case is for users with low tech literacy.
 
 ---
 
@@ -123,7 +123,7 @@ The empty state for the available options list should inform the user why there 
 
 The selection list empty state informs the user that they have not yet selected any options.
 
-Both empty states can be cutomised. The available options empty state is more useful to the user, so focus efforts on making this an informative and useful empty message.
+Both empty states can be customized. The available options empty state is more useful to the user, so focus efforts on making this an informative and useful empty message.
 
 ### Error
 

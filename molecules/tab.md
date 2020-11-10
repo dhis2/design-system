@@ -34,7 +34,7 @@ Tabs act as containers for content. Tabs are used to divide content into categor
 
 ### Naming
 
-Give tabs short, understandable names. Try to find a word or very short phrase that summarises the content. If you cannot find a suitable word this may mean you are trying to fit too much content under a single tab. The content of a tab should be obvious from its name.
+Give tabs short, understandable names. Try to find a word or very short phrase that summarizes the content. If you cannot find a suitable word this may mean you are trying to fit too much content under a single tab. The content of a tab should be obvious from its name.
 
 For example:
 Do use "Legends" instead of "Set up legends",
