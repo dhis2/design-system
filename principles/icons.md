@@ -6,7 +6,7 @@ The DHIS2 Design System provides a library of icons for use in DHIS2 application
 
 #### Quick links
 
-Browse the DHIS2 Icon Library `TODO: add link to live library`.
+`ui` implementation of the DHIS2 Icon Library. (To be updated after v1 of ui-icons is released).
 
 [Request or suggest an icon](https://github.com/dhis2/design-system/issues/new?assignees=cooper-joe&labels=icons&template=icon-request.md&title=%5BIcon+request%5D).
 
