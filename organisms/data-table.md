@@ -42,8 +42,8 @@ There are several different types of functionality and options available in the 
 A data table is made up of multiple elements, some of which are optional:
 
 1. **Toolbar, optional**
-3. **Data rows and header, required**
-5. **Footer, optional**
+2. **Data rows and header, required**
+3. **Footer, optional**
 
 ---
 
@@ -104,9 +104,11 @@ Standalone filters are useful when filtering is one of the main actions availabl
 Inline filter controls are a compact way to filter data in the data table.
 
 ##### How are inline filters used?
+
 The filter input for a column is displayed by clicking the filter icon in the column header. Multiple columns can be filtered at the same time.
 
 ##### When to use inline filters?
+
 Use inline filters in data-heavy, compact tables where standalone filters would take too much space. Inline filters are useful when filtering is not one of the main actions on a page, but is a tool that will be used occasionally.
 
 ---
@@ -147,7 +149,7 @@ A click action can be also be set for all rows that will be activated by clickin
 
 ##### When to use row actions?
 
- Row actions add a lot of potential action points to a page, so use them with care. Only use text link row actions where that action needs to be available for all rows at all times. Secondary, less important, actions available through the overflow menu can be included anytime it is useful for users to take action when viewing the data table.
+Row actions add a lot of potential action points to a page, so use them with care. Only use text link row actions where that action needs to be available for all rows at all times. Secondary, less important, actions available through the overflow menu can be included anytime it is useful for users to take action when viewing the data table.
 
 ---
 
@@ -224,8 +226,9 @@ Clicking an editable cell triggers the edit process. The interface for editing n
 ![](../images/data-table/row-edit.png)
 
 Edit control for an entire row should be displayed as a row action. Like cells, the interface for editing should match the use case:
+
 - editing simple values in a row: each cell in the row can display an input control with save and cancel buttons in the last cell. When a row is in edit mode the other actions in the table should be disabled,
-![](../images/data-table/row-edit-active.png)
+  ![](../images/data-table/row-edit-active.png)
 - editing complex values in a row: open a modal view that displays all the relevant controls.
 
 ##### When to use inline editing?
@@ -364,8 +367,8 @@ Column headers can be displayed in an empty state if they are available, this ca
 
 ---
 
-<!-- ## Examples in use -->
+## Examples in use
 
-<!-- ![](../images/-example.png)
+![](../images/data-table/data-table-example-1.png)
 
-_~explain why this was the right component to use in this use case~_ -->
+_A list of technical data is displayed as a data table in the SMS configuration app. There might be many rows of this data, so a data table is used to display it in a way that a user can filter and scan the data._
