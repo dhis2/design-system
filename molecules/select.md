@@ -95,8 +95,14 @@ Use the empty state to provide useful information to the user and, where possibl
 
 ## Examples in use
 
-WIP
+![Example of a select in use](../images/select-example-1.png)
 
-<!-- ![](../images/-example.png)
+_Selects are used for program and stage selection in Import/Export app. Selects work well here because the total number of options is not known and will differ greatly between different implementations._
 
-*~explain why this was the right component to use in this use case~* -->
+![Example of multiple selects in use](../images/select-example-2.png)
+
+_Multiple selects are used to choose data for map layers in Maps app. Again, the number of options is not known so a select is the safe choice. Dense selects are used as these controls are displayed alongside others in a modal._
+
+![Example of selects using prefix and dense options](../images/select-example-3.png)
+
+_Size and position options are provided using dense selects with a prefix label. The dense size and the prefixed labels use minimal space and allow for an information dense set of controls. These controls are used alongside others inside a modal view in Data Visualizer app, so it is important they do not use a lot of space._
