@@ -10,57 +10,71 @@
 
 # Modal
 
-A modal is used for displaying information to the user in a focused environment. Modals are well suited when an application requires user input for high-intensity, contained actions.
-
-![](../images/)
+A modal focuses user attention on a single task or piece of information inside a container. A modal blocks the rest of the application until it is dismissed.
 
 ##### Contents
 
 - [Usage](#usage)
-- [Composition](#composition)
 - [Options](#options)
+- [States](#states)
 - [Examples in use](#examples-in-use)
 
 ---
 
 ## Usage
 
-A modal takes over the whole screen and presents the user with a focused window. Modals are useful:
+A modal should be used to focus user attention on a single task or piece of information. Modals take over the entire screen and should be used sparingly to avoid interrupting a user's flow too often.
 
-- when the application requires a user response to continue.
-- if there is critical information that requires that the user take action, else something negative will occur
-- if the application wants to allow for user input without leaving the current page
+Use a modal in the following cases:
 
-A modal is powerful, taking over the entire screen will break the user's flow. As described above, this can be useful. However, do not overuse modal windows, a user should not feel trapped in modal windows unless they are really required or useful. Never use modal windows just to display information, unless it is absolutely critical. Use an [alert bar](alertbar.md) for displaying information.
+- to collect short, focussed user input that is blocking progress
+- to present critical information that a user needs to acknowledge before continuing
+- to ask the user to confirm a destructive action that cannot be undone
+
+Do not use a modal in the following cases:
+
+- to display unrelated or non-critical information; use an [alert bar](./alertbar.md) or a [notice box](./notice-box.md) instead
+- to display complex, workflows that span multiple screens; navigate to a new, full page in the app instead
+
+There are three different ways modals should be used:
+
+#### 1. **Task-based**
+
+![](../images/modal-task.png)
+
+A modal with inputs and controls to perform a short, focused task. Task-based modals should always be user-initiated and should not interrupt user flow without specific user intention.
+
+#### 2. **Confirmation**
+
+![](../images/modal-confirmation.png)
+
+A modal that asks the user to confirm a destructive action. Confirmation modals should clearly outline the action and it's consequences and provide clear choices to confirm or cancel the action.
+
+#### 3. **Acknowledgement**
+
+![](../images/modal-acknowledge.png)
+
+A modal presenting information that a user must acknowledge before progressing. No user input is required, apart from a confirmation that the user has read the information. These types of modals should be used very sparingly and only where it is absolutely critical that a user is presented with the information before continuing. Note that presenting the information in a modal does not guarantee that it will be read.
 
 ### Actions
 
-Modals must always contain one or more actions. Multiple actions can be contained in an Action bar, displayed at the bottom of the modal. Alternatively an action can be inside the modal content, but make sure the action/button is obvious and easy to find. For guidance on writing clear, concise actions, see [Content and Communication guidelines](../principles/content-communication.md).
+A modal must contain one or more actions. Modal actions are always presented as buttons at the bottom of a modal. For acknowledgement modals, a single action, such as "Continue", can be used. Make sure the modal actions clearly communicate what will happen when triggering them. For guidance on writing clear, concise actions, see the [Content and Communication guidelines](../principles/content-communication.md).
 
----
+### Title
 
-## Composition
-
-![](../images/modal-composition.png)
-
-A modal is made up of multiple elements, some of which are optional:
-
-1. **Background card, required:** makes up the physical background of the modal itself
-2. **Screen cover, required:** covers the screen behind the modal view
-3. **Title, optional:** concise, informative title. Should give the user a quick, understandable snapshot of the content in a few words.
-4. **Content, required:** the modal content itself. This can be anything, but it must be present. Empty modals are not valid.
-5. **Action bar, optional:** An action bar can have a primary action or a destructive action and multiple secondary actions.
-   1. **Primary action, optional:** A primary action is an affirmative button that confirms or performs an action. Examples “Confirm”, “Send email”, “Add to chart”. Primary actions always use a ‘Primary Button’
-   2. **Destructive action, optional:** Similar to a primary action, but negative in nature. Destructive actions always use a ‘Destructive Button’. Examples include ‘Delete data’, ‘Remove from database’.
-   3. **Secondary action, optional:** An example of a modal that includes only a ‘Secondary Button’ is a simple, informative modal that requires only an ‘Dismiss’ action.
+A modal should present a clear, concise title that summarizes the content or task presented to the user. Avoid long titles that may span several lines, use an introductory paragraph inside the modal instead.
 
 ---
 
 ## Options
 
+### Alignment
+
+A modal can be aligned to the **top**, **middle** or **bottom** of a window. The default alignment is top. Top aligned modals are useful where the content may change inside because the modal will remain anchored to the same position on the screen. Middle alignment is useful for acknowledgement or confirmation modals that do not contain dynamic content.
+
 ### Size
 
-Modals can be set to different sizes. Choose the appropriate modal size for your content. Mismatched sizes can make the user feel that something is missing, or that something is wrong, so choose carefully. If no size is defined, a medium modal will be used.
+A modal can be **small**, **medium** or **large** size. The size of the modal should match the content inside. Short, focused content should use a small modal. More complex, detailed content should use a large modal.
 
 #### Small, 400px wide
 
@@ -74,9 +88,23 @@ Modals can be set to different sizes. Choose the appropriate modal size for your
 
 ![](../images/modal-large.jpg)
 
-### Alignment
+---
 
-A modal can be aligned **top**, **middle** or **bottom**. The default alignment is top. Top aligned modals are useful when a modal may change height. A top alignment presents a consistent appearance, even if the height changes the modal is still anchored to the same point. Middle alignment is useful for single modal dialogs that do not contain dynamic content.
+## States
+
+Besides the default state, a modal can also be in a **loading** or **error** state.
+
+### Loading
+
+![](../images/modal-loading.png)
+
+A modal that is loading it's content should display an empty container, ideally with a title, and a progress spinner to indicate the loading. A modal can still be dismissed while it is loading, so a button to hide or cancel the modal should not be disabled.
+
+### Error
+
+![](../images/modal-error.png)
+
+An error state is used whenever there is an error with the content in a modal that is preventing progress. An error state displays a notice box below the modal content. With scrollable modals, make sure to automatically scroll the modal to display the notice box to ensure the user is aware of the error. If possible, the component causing the error should also display it's error state.
 
 ---
 
@@ -84,8 +112,8 @@ A modal can be aligned **top**, **middle** or **bottom**. The default alignment 
 
 ![modal example](../images/modal-example-1.png)
 
-_This modal in Data Visualizer app is used to set up the data included in a chart. This is a relatively complex task, so it's contained in a modal for focus. Using a modal means the user doesn't need to navigate away from the current page, an important aspect when they are working on data visualizations. Having these controls on a separate page would feel very disconnected. Including them right on the page itself would be too messy. A modal is very useful here._
+_A modal is used to select period items in Data Visualizer app. Presenting the task in a modal focuses the user attention. Using a modal means the user doesn't need to navigate away from the current page, having these controls on a separate page would feel disconnected and an excessive amount of navigation to set up a visualization. Including the controls on the page itself would present an overly complex, cluttered interface. A modal is an acceptable compromise._
 
 ![modal example 2](../images/modal-example-2.png)
 
-_Deleting a dashboard displays a confirmation modal. To delete a dashboard is a critical action that could have very serious consequences. The delete confirmation is presented in a modal to focus the users attention on the question: do you really want to delete this dashboard? Notice that the message text is concise and the actions are clear, there is no space for uncertainty with actions like this._
+_Deleting a dashboard displays a confirmation modal. Deleting a dashboard is a critical action that could have serious consequences. The confirmation is presented in a modal to focus the users attention on the question: do you really want to delete this dashboard? Notice that the message text is concise and the actions are clear, there is no space for uncertainty with critical actions._
