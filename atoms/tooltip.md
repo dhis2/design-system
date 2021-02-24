@@ -40,6 +40,16 @@ Tooltips only display when a user hovers over an element. Do not use tooltips fo
 
 By default the tooltip should display above the hovered element. Alternatively, a tooltip may be displayed underneath or to the side of an element if there is limited space.
 
+### Delay
+Tooltips allow customization of two delay durations:
+1. `Open`: the delay between the user hovering or focusing the trigger element and the tooltip displaying
+2. `Close`: the delay between the user hover or focus leaving the trigger element and the tooltip hiding
+
+The default delay values cover generic tooltip use cases. Use the default values unless there is a specific reason, backed by a use case, not to. Where a custom duration is used, consider the following guidelines:
+- the default `open` and `close` delay are suited to tooltips that provide guidance and hints for all users
+- a longer `open` delay may be suitable if a tooltip is used to expose more details about an element for advanced users.
+- a shorter `close` delay might be suitable if there are many tooltip triggers in a single interface, for example, a list where every element triggers a tooltip.
+
 ---
 
 ## Examples in use
