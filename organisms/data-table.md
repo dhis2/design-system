@@ -353,6 +353,15 @@ Large cells use a larger font-size and cell height. Use large cells where users 
 
 ---
 
+### Combining options
+
+Combining the options listed above allows for flexible, powerful data tables. However, there are some combinations of options that may create confusing or difficult to use interfaces. Try to keep data tables focused on the relevant task. Consider the following guidelines:
+
+- Avoid using `expandable` and `reordering` together. The drag and drop interaction relies on static heights, and expandable rows allow for dynamic heights which blur the drag and drop interaction.
+- Avoid using `expandable` and `bordered` together. The cell borders will confuse the relationship between the table row and it's expanded content. 
+
+For all data tables, only include options that address a user need. Using unnecessary table options will create confusing interfaces.
+
 ## States
 
 ### Empty state
