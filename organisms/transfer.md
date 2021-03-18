@@ -3,7 +3,7 @@
 | **Component**        | Transfer                                                                                                      |
 | **Type**             | Organism ([?](http://atomicdesign.bradfrost.com/chapter-2/))                                                  |
 | **Design Spec**      | [Pixel spec](https://sketch.cloud/s/DwkDk/a/jvobL7), [HTML&CSS spec](https://codesandbox.io/s/transfer-t9ybu) |
-| **Working Examples** | [Link](https://ui.dhis2.nu/demo/?path=/story/transfer--single-selection)                                      |
+| **Working Examples** | [Link](https://ui.dhis2.nu/demo/?path=/story/forms-transfer--single-selection)                                      |
 | **Status**           | `Ready to use`                                                                                                |
 
 ---

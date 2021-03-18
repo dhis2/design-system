@@ -3,7 +3,7 @@
 | **Component**        | Select                                                                   |
 | **Type**             | Molecule ([?](http://atomicdesign.bradfrost.com/chapter-2/))             |
 | **Design Spec**      | [Link](https://sketch.cloud/s/DwkDk/a/Q5EqdY)                            |
-| **Working Examples** | [Link](https://ui.dhis2.nu/demo/?path=/story/singleselect--with-options) |
+| **Working Examples** | [Link](https://ui.dhis2.nu/demo/?path=/story/forms-single-select-single-select--with-options-and-on-change) |
 | **Status**           | `Ready to use`                                                           |
 
 ---

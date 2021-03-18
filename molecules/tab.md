@@ -3,7 +3,7 @@
 | **Component**        | Tabs                                                                |
 | **Type**             | Molecule ([?](http://atomicdesign.bradfrost.com/chapter-2/))        |
 | **Design Spec**      | [Link](https://sketch.cloud/s/DwkDk/GmKbAL5)                        |
-| **Working Examples** | [Link](https://ui.dhis2.nu/demo/?path=/story/tabbar--default-fluid) |
+| **Working Examples** | [Link](https://ui.dhis2.nu/demo/?path=/story/navigation-tab-bar--default-fluid) |
 | **Status**           | `Ready to use`                                                      |
 
 ---

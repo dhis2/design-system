@@ -3,7 +3,7 @@
 | **Component**        | Modal                                                                |
 | **Type**             | Molecule ([?](http://atomicdesign.bradfrost.com/chapter-2/))         |
 | **Design Spec**      | [Link](https://sketch.cloud/s/DwkDk/a/PbWMjx)                        |
-| **Working Examples** | [Link](https://ui.dhis2.nu/demo/?path=/story/modal--default-content) |
+| **Working Examples** | [Link](https://ui.dhis2.nu/demo/?path=/story/layout-modal--default-content) |
 | **Status**           | `Ready to use`                                                       |
 
 ---

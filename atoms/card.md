@@ -3,7 +3,7 @@
 | **Component**        | Card                                                        |
 | **Type**             | Atom ([?](http://atomicdesign.bradfrost.com/chapter-2/))    |
 | **Design Spec**      | _pending_                                                   |
-| **Working Examples** | [Link](https://ui.dhis2.nu/demo/?path=/story/card--default) |
+| **Working Examples** | [Link](https://ui.dhis2.nu/demo/?path=/story/layout-card--default) |
 | **Status**           | `Ready to use`                                              |
 
 ---

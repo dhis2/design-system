@@ -3,7 +3,7 @@
 | **Component**        | Chip                                                        |
 | **Type**             | Atom ([?](http://atomicdesign.bradfrost.com/chapter-2/))    |
 | **Design Spec**      | _pending_                                                   |
-| **Working Examples** | [Link](https://ui.dhis2.nu/demo/?path=/story/chip--default) |
+| **Working Examples** | [Link](https://ui.dhis2.nu/demo/?path=/story/actions-chip--default) |
 | **Status**           | `Ready to use`                                              |
 
 ---
