@@ -3,7 +3,7 @@
 | **Component**        | Menu                                                         |
 | **Type**             | Molecule ([?](http://atomicdesign.bradfrost.com/chapter-2/)) |
 | **Design Spec**      | [Link](https://www.sketch.com/s/0nGd0/a/DQAppk)              |
-| **Working Examples** | [Link](https://ui.dhis2.nu/demo/?path=/story/menu--dense)    |
+| **Working Examples** | [Link](https://ui.dhis2.nu/demo/?path=/story/actions-menu-flyout-menu--default)    |
 | **Status**           | `Ready to use`/`Waiting for update`                          |
 
 ---

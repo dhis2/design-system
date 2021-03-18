@@ -3,8 +3,8 @@
 | **Component**        | Pagination                                                                     |
 | **Type**             | Molecule ([?](http://atomicdesign.bradfrost.com/chapter-2/))                   |
 | **Design Spec**      | [Link](https://www.sketch.com/s/3b3cacfc-bde2-4f89-ab9f-3ffc05cfd34d/a/AlV1YR) |
-| **Working Examples** | _pending_                                                                      |
-| **Status**           | `Waiting for build`                                                            |
+| **Working Examples** | [Link](https://ui.dhis2.nu/demo/?path=/story/navigation-pagination--default)                                                                      |
+| **Status**           | `Ready to use`                                                            |
 
 ---
 

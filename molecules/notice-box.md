@@ -3,8 +3,8 @@
 | **Component** | Notice Box |
 | **Type** | Molecule ([?](http://atomicdesign.bradfrost.com/chapter-2/))|
 | **Design Spec** | [Link](https://sketch.cloud/s/DwkDk/a/nzvzrk) |
-| **Working Examples** | *pending* |
-| **Status** | `Waiting for build` |
+| **Working Examples** | [Link](https://ui.dhis2.nu/demo/?path=/story/data-display-notice-box--default) |
+| **Status** | `Ready to use` |
 
 ---
 

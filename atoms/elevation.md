@@ -3,8 +3,8 @@
 | **Component**        | Elevation                                                   |
 | **Type**             | Utility ([?](http://atomicdesign.bradfrost.com/chapter-2/)) |
 | **Design Spec**      | [Link](https://codepen.io/j_cpr/pen/oOBLMp)                 |
-| **Working Examples** | _pending_                                                   |
-| **Status**           | `Waiting for build`                                         |
+| **Working Examples** | [Link](https://ui.dhis2.nu/demo/?path=/story/helpers-css-variables--all-variables)                                                  |
+| **Status**           | `Ready to use`                                         |
 
 ---
 

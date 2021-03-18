@@ -3,7 +3,7 @@
 | **Component**        | Button                                                      |
 | **Type**             | Atom ([?](http://atomicdesign.bradfrost.com/chapter-2/))    |
 | **Design Spec**      | [Link](https://sketch.cloud/s/DwkDk/a/ll8Arx)               |
-| **Working Examples** | [Link](https://ui.dhis2.nu/demo/?path=/story/button--basic) |
+| **Working Examples** | [Link](https://ui.dhis2.nu/demo/?path=/story/actions-buttons-button--basic) |
 | **Status**           | `Ready to use`                                              |
 
 ---

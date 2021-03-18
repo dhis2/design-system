@@ -3,7 +3,7 @@
 | **Component** | Header Bar |
 | **Type** | Organism ([?](http://atomicdesign.bradfrost.com/chapter-2/))|
 | **Design Spec** | *pending* |
-| **Working Examples** | *pending* |
+| **Working Examples** | [Link](https://ui.dhis2.nu/demo/?path=/story/utils-header-bar--default) |
 | **Status** | `Ready to use` |
 
 ---

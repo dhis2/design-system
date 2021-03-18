@@ -3,7 +3,7 @@
 | **Component**        | Loader                                                                |
 | **Type**             | Atom ([?](http://atomicdesign.bradfrost.com/chapter-2/))              |
 | **Design Spec**      | _pending_                                                             |
-| **Working Examples** | [Link](https://ui.dhis2.nu/demo/?path=/story/circularloader--default) |
+| **Working Examples** | [Link](https://ui.dhis2.nu/demo/?path=/story/feedback-loading-indicators-circular-loader--default) |
 | **Status**           | `Ready to use`                                                        |
 
 ---
