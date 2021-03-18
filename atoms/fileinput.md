@@ -4,7 +4,7 @@
 | **Type**             | Atom ([?](http://atomicdesign.bradfrost.com/chapter-2/))         |
 | **Design Spec**      | [Link](https://sketch.cloud/s/DwkDk/a/jWp5Oz)                    |
 | **Working Examples** | [Link](https://ui.dhis2.nu/demo/?path=/story/forms-file-input-file-input--default) |
-| **Status**           | `Waiting for build`                                              |
+| **Status**           | `Ready to use`                                              |
 
 ---
 

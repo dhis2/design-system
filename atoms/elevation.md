@@ -4,7 +4,7 @@
 | **Type**             | Utility ([?](http://atomicdesign.bradfrost.com/chapter-2/)) |
 | **Design Spec**      | [Link](https://codepen.io/j_cpr/pen/oOBLMp)                 |
 | **Working Examples** | [Link](https://ui.dhis2.nu/demo/?path=/story/helpers-css-variables--all-variables)                                                  |
-| **Status**           | `Waiting for build`                                         |
+| **Status**           | `Ready to use`                                         |
 
 ---
 
