@@ -32,6 +32,7 @@ The design system consists of two sections:
 - [Color](principles/color.md)
 - [Typography](principles/typography.md)
 - [Icons](principles/icons.md)
+- [Designing for large data volume](principles/large-data.md)
 
 ## Components
 
