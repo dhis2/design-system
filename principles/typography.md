@@ -8,11 +8,11 @@ All DHIS2 applications should use the open-source [Roboto typeface](https://font
 
 ### Internationalization
 
-The Roboto typeface provides a reasonable set of glyphs, but there are some languages that are not supported. The DHIS2 core team is currently exploring other options for a typeface that provides wider language support.
+The Roboto typeface provides a reasonable set of glyphs, but there are some languages that aren't supported. The DHIS2 core team is currently exploring other options for a typeface that provides wider language support.
 
 ## Communicating with typography
 
-An application can communicate information to a user using various techniques. Using typography to communicate is a useful way of keeping an interface uncluttered, while still clear and easily understood. Not all information can be communicated with type alone, but it is a useful supporting tool.
+An application can communicate information to a user using various techniques. Using typography to communicate is a useful way of keeping an interface uncluttered, while still clear and easy to understand. Not all information can be communicated with type alone, but it's a useful supporting tool.
 
 ### Hierarchy
 
@@ -46,14 +46,14 @@ Line height is the space between lines of text. Line height should be set higher
 
 ### Line length
 
-Keep line length to a reasonable size when displaying blocks of text. A block of text with long lines is difficult to scan and read. This means that on wide screens it may be necessary to limit the width of text sections. This also applies to form elements. A reasonable line length depends on the size of the text, so there is no fixed rule to follow, but 45-90 characters per line is a good starting point. [Learn more about line length here.](https://practicaltypography.com/line-length.html)
+Keep line length to a reasonable size when displaying blocks of text. A block of text with long lines is difficult to scan and read. This means that on wide screens it may be necessary to limit the width of text sections. This also applies to form elements. A reasonable line length depends on the size of the text, so there is no fixed rule to follow, but 45–90 characters per line is a good starting point. [Learn more about line length here.](https://practicaltypography.com/line-length.html)
 
 ### Minimum font size
 
-Small font sizes can be difficult for a lot of users to read. Paragraph text should ideally never be smaller than 14px. Labels and metadata in complex, data-dense applications may use sizes as small as 11px, but be aware that some users will not be able to read this text and so these controls should never be application critical. Test applications with browsers set to different zoom levels to check that the application functions when using built-in browser tools for enlarging text.
+Small font sizes can be difficult for a lot of users to read. Paragraph text should ideally never be smaller than 14px. Labels and metadata in complex, data-dense applications can use sizes as small as 11px. Be aware that some users won't be able to read this text this small, so these controls should never be application critical. Test applications with browsers set to different zoom levels to check that the application functions when using built-in browser tools for enlarging text.
 
 ### Color and contrast ratio
 
-Light text on light backgrounds is difficult to read. Make sure that all text colors used pass the WCAG2.0 accessibility standards. ([WCAG2.0 standard accessibility checker](http://accessible-colors.com/)). Some text colors can be more difficult to read than others, so make sure to check all combinations against an accessibility tool. When in doubt, use a standard color combination.
+Light text on light backgrounds is difficult to read. Make sure that all text colors used pass the WCAG2.0 accessibility standards. ([WCAG2.0 standard accessibility checker](http://accessible-colors.com/)). Some text colors can be more difficult to read than others, so make sure to check all combinations with an accessibility tool. When in doubt, use a standard color combination.
 
 [Learn more about an application's use of color here](color.md).

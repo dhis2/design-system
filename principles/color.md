@@ -1,16 +1,16 @@
 # Color
 
-Color is used in DHIS2 to support effective communication. DHIS2 applications use color to help the user understand information, feedback and more. The colors used in an application should not be chosen based primarily on how they look, but how they convey information and aid understanding.
+Use color to support effective communication. DHIS2 applications use color to help the user understand information, feedback and more. The colors used in an application shouldn't be chosen based primarily on how they look, but how they convey information and aid understanding.
 
-It is important to maintain consistent usage of colors throughout the DHIS2 platform. Globally, color meanings are relative. It is not possible to say "red = danger". However, using a consistent color palette we can establish that "red **in DHIS2** = danger".
+It's important to use colors consistently throughout the DHIS2 platform. Globally, color meanings are relative. It's impossible to say "red = danger." However, using a consistent color palette it can be established that "red **in DHIS2** = danger."
 
-Color alone should not be relied upon to communicate effectively. Read more about [color accessibility](#accessibility).
+Color alone shouldn't be relied upon to communicate effectively. Read more about [color accessibility](#accessibility).
 
-## DHIS2 Color Scale
+## DHIS2 color scale
 
 ![DHIS2 color scale](../images/color/color-scale.png)
 
-The DHIS2 color scale contains 7 colors. Each color has 10 shades. This color system provides enough colors for all situations.
+The DHIS2 color scale has 7 colors. Each color has 10 shades. This color system provides enough colors for all situations.
 
 Reference: [Color codes and #hex values for the DHIS2 color scale](#color-scale-reference).
 
@@ -25,7 +25,7 @@ Each color in the DHIS2 color scale has a purpose. Put simply:
 - **Yellow**: warning, non-blocking error
 - **Green**: positive feedback, valid, success
 
-Generally speaking, for all colors, the values also have a purpose:
+The color values also have a purpose:
 
 - **900–700**: text, information, active or highlighted content
 - **600–300**: icons, states (inactive, disabled, etc.)
@@ -46,7 +46,7 @@ Color usage in DHIS2 applications should be subtle. Reserve colors for when they
 
 ## Accessibility
 
-Do not rely on color alone to communicate. Not everyone sees color the same. Relying on color to communicate will restrict access for partially sighted, color blind and users with low-quality display hardware.
+Don't rely on color alone to communicate. Not everyone sees color the same. Relying on color to communicate will restrict access for partially sighted, color blind and users with low-quality display hardware.
 
 **Always use color with another method, such as text formatting or icon usage, to communicate.**
 
@@ -55,7 +55,7 @@ Relying on color alone to signal an error to a user is problematic. For example:
 ![Colorblind simulation](../images/color/ex-color-4.png)
 <br><br>
 
-Pay attention to contrast too. Information dense text needs to satisfy a minimum contrast ratio of 7:1 to be accessible to all users and headers and secondary text should pass a 4.5:1 ratio:
+Pay attention to contrast too. Information dense text needs to satisfy a minimum contrast ratio of 7:1. Headers and secondary text should pass a 4.5:1 ratio:
 
 ![Contrast example](../images/color/ex-color-5.png)
 <br><br>
@@ -68,7 +68,7 @@ A DHIS2 instance can be themed. Adjusting theme colors will overwrite the `blue`
 
 When selecting theme colors, make sure they do not clash with the colors established in the DHIS2 color scale. Using red for the main header bar will confuse: is the header bar in an error state?  -->
 
-## Color Scale Reference
+## Color scale reference
 
 |                                                | Name      | Hex       |
 | ---------------------------------------------- | --------- | --------- |
