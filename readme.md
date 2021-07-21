@@ -119,16 +119,13 @@ Where possible, always use components available from the design system [componen
 
 ---
 
-## Resources
+## Design Resources
 
-All components included in the design system will soon be available as a Sketch library that can be imported and reused across your designs.
+[![design system figma library thumbnail](images/library-thumbnail.png)](https://www.figma.com/community/file/999207206720939258/DHIS2-Design-System)
 
-<!-- The Sketch library will be constantly updated, be sure to check back to grab the latest version. -->
+The DHIS2 Design System is available as a [Figma community library](https://www.figma.com/community/file/999207206720939258/DHIS2-Design-System). The library includes system components, colors and example layouts that you can use in your Figma files. Build realistic, interactive prototypes with all the same components and elements that are available in the DHIS2 Design System and UI.
 
-<!-- TODO Sketch library image -->
-<!-- TODO Sketch library download link -->
-
-`Downloadable library coming soon!`
+[Click here to see the Design System library in the Figma Community](https://www.figma.com/community/file/999207206720939258/DHIS2-Design-System)
 
 ---
 
