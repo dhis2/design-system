@@ -2,7 +2,7 @@
 |-------------|------------------|
 | **Component** | Avatar |
 | **Type** | Atom ([?](http://atomicdesign.bradfrost.com/chapter-2/))|
-| **Design Spec** | [Link](https://sketch.cloud/s/DwkDk/a/OlqYEk)|
+| **Design Spec** | [Link](../images/avatar-spec.png)|
 | **Working Examples** | *pending* |
 | **Status** | `Waiting for build`|
 
