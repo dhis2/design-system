@@ -42,7 +42,7 @@ The design system consists of two sections:
 - [Communicating time](patterns/designing-with-time.md)
 
 #### Writing and communicating
-- [A-Z term glossary](patterns/glosary.md)
+- [A-Z term glossary](patterns/glossary.md)
 - [Writing: grammar, punctuation and style](patterns/writing.md)
 
 
