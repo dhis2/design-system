@@ -4,7 +4,8 @@ The DHIS2 Design System is a collection of design principles and a library of UI
 
 The design system consists of two sections:
 
-- [Principles](#design-principles): these principles are the guidelines that inform how DHIS2 applications should work and look. All designers and developers working on DHIS2 applications should be familiar with these guidelines.
+- [Principles](#design-principles): foundational guidelines that inform how DHIS2 applications should work and look. All designers and developers working on DHIS2 applications should be familiar with these guidelines.
+- [Patterns](#patterns): a collection of common solutions that encourage consistency across the DHIS2 ecosystem. Patterns build upon the foundation set by the design principles.
 - [Components](#components): a collection of UI elements that can be, and should be, reused across all DHIS2 applications. The components are designed with DHIS2 use cases in mind. Using these components means more time spent focusing on building a positive user experience and less time redesigning and rebuilding common components. Each component has its guidelines for use.
 
 ---
@@ -12,6 +13,7 @@ The design system consists of two sections:
 ##### Design System contents
 
 - [Principles](#design-principles)
+- [Patterns](#patterns)
 - [Components](#components)
 
 ##### Using the system
@@ -32,7 +34,17 @@ The design system consists of two sections:
 - [Color](principles/color.md)
 - [Typography](principles/typography.md)
 - [Icons](principles/icons.md)
-- [Designing for large data volume](principles/large-data.md)
+
+## Patterns
+
+#### Solving common interface challenges 
+- [Designing for large data volume](patterns/large-data.md)
+- [Communicating time](patterns/designing-with-time.md)
+
+#### Writing and communicating
+- [A-Z term glossary](patterns/glossary.md)
+- [Writing: grammar, punctuation and style](patterns/writing.md)
+
 
 ## Components
 
