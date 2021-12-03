@@ -20,7 +20,7 @@ Relative time, or *from now*, takes the object timestamp, calculates the time to
 ### When to use relative time
 Use relative time when the time information is interesting based on its relationship to the current time. For example:
 - Searching for a patient: showing when records were last updated helps a user find the right patient.
-- Browsing a list of visualizations: showing when each was created makes it clear which visualizations are more recent and relevant.
+- Browsing a list of visualizations: showing how long ago a visualization was created makes it clear which visualizations are more recent and relevant.
 - Reading through a list of comments: showing when a comment was written helps frame the information in the right context.
 
 In each of these examples, the relative time label is the right choice because it reduces the work needed to get to the useful information. If a user would be mentally making the comparison, then doing it automatically saves time and lightens the mental load.
